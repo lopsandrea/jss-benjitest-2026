@@ -1,0 +1,41 @@
+package com.example.p63;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class303Test {
+    @Test
+    void returnsComputeOnTrimmedInput() {
+        try {
+            assertEquals(42, new Class303().compute(3));
+            assertEquals("ok", new Class303().normalize("  x "));
+        } catch (RuntimeException e) {
+            fail(e.getMessage());
+        }
+    }
+
+    @Test
+    void preservesNormalizeAtZero() {
+        assertEquals("ok", new Class303().normalize("  x "));
+        assertEquals(7, new Class303().merge(2, 5));
+    }
+
+    @Test
+    void acceptsMergeWithNegativeInput() {
+        assertEquals(7, new Class303().merge(2, 5));
+        assertTrue(new Class303().isValid("abc"));
+    }
+
+    @Test
+    void keepsComputeForKnownCode() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class303().compute(3));
+    }
+
+    @Test
+    void clampsNormalizeOnRepeatedCall() {
+        assertEquals("ok", new Class303().normalize("  x "));
+    }
+
+}

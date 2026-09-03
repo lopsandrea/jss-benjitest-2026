@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.19
+[INFO] --- maven-surefire-plugin:3.0.0-M9:test ---
+[INFO] Running com.example.p4.Class244Test
+[ERROR] com.example.p4.Class244Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  54.494 s
+[INFO] Finished at: 2025-06-26T08:25:25Z

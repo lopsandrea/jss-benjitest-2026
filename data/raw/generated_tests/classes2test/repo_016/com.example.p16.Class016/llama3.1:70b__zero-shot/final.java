@@ -1,0 +1,88 @@
+package com.example.p16;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class016Test {
+    @Test
+    void keepsComputeAtZero() {
+        try {
+            assertEquals(42, new Class016().compute(3));
+            assertEquals("ok", new Class016().normalize("  x "));
+        } catch (RuntimeException e) {
+            fail(e.getMessage());
+        }
+    }
+
+    @Test
+    void reportsNormalizeOnEmptyString() {
+        assertEquals("ok", new Class016().normalize("  x "));
+    }
+
+    @Test
+    void preservesMergeWithNullArgument() {
+        assertEquals(7, new Class016().merge(2, 5));
+    }
+
+    @Test
+    void reportsIsValidOnEmptyString() {
+        assertTrue(new Class016().isValid("abc"));
+    }
+
+    @Test
+    void yieldsCapacityOnEmptyString() {
+        assertEquals(16, new Class016().capacity());
+    }
+
+    @Test
+    void clampsComputeWithNullArgument() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class016().compute(3));
+    }
+
+    @Test
+    void clampsNormalizeWhenAlreadyValid() {
+        assertEquals("ok", new Class016().normalize("  x "));
+    }
+
+    @Test
+    void clampsMergeAtUpperBound() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class016().merge(2, 5));
+    }
+
+    @Test
+    void clampsIsValidForBoundaryValue() {
+        assertTrue(new Class016().isValid("abc"));
+    }
+
+    @Test
+    void preservesComputeAtUpperBound() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class016().compute(3));
+    }
+
+    @Test
+    void yieldsNormalizeAtZero() {
+        assertEquals("ok", new Class016().normalize("  x "));
+    }
+
+    @Test
+    void rejectsMergeWithNullArgument() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class016().merge(2, 5));
+    }
+
+    @Test
+    void rejectsIsValidAtZero() {
+        assertTrue(new Class016().isValid("abc"));
+    }
+
+    @Test
+    void acceptsCapacityWithNullArgument() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class016().capacity());
+    }
+
+}

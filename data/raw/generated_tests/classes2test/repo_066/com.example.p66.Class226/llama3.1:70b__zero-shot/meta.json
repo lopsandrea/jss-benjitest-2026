@@ -1,0 +1,42 @@
+{
+  "repository": "repo_066",
+  "class_under_test": "com.example.p66.Class226",
+  "model": "llama3.1:70b",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)"
+  ],
+  "compiled_initially": false,
+  "compiled": true,
+  "attempts": 2,
+  "correction_iterations": 1,
+  "correction_termination": "success",
+  "prompt_tokens": 4789,
+  "completion_tokens": 1377,
+  "duration_seconds": 13.01,
+  "tests": 6,
+  "pit_tests_run": 6,
+  "line_coverage": 51.1775,
+  "branch_coverage": 42.4849,
+  "mutation_score": 18.1622,
+  "smells_recorded": {
+    "AR": 3,
+    "EH": 0,
+    "MG": 0,
+    "EA": 0,
+    "LT": 5,
+    "UT": 2,
+    "RO": 0,
+    "MNT": 8
+  },
+  "smells_injected": {
+    "UT": 1,
+    "LT": 5,
+    "MNT": 8
+  }
+}

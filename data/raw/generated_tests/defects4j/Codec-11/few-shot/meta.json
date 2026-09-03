@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-11",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.binary.Hex",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 42.93,
+  "branch_coverage": 32.62,
+  "method_coverage": 58.22,
+  "mutation_score": 20.67
+}

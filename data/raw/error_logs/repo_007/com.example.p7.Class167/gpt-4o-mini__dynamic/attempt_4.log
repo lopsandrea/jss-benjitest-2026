@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.16
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p7.Class167Test
+[ERROR] com.example.p7.Class167Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  9.263 s
+[INFO] Finished at: 2025-05-28T00:08:24Z

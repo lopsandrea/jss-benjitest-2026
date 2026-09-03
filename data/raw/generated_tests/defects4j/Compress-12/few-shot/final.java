@@ -1,0 +1,27 @@
+package org.apache.commons.compress.archivers.zip;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Compress-12. */
+class ZipArchiveInputStreamTest {
+
+    @Test
+    void zipArchiveInputStreamHonoursDocumentedContract0() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_0, new ZipArchiveInputStream().result(INPUT_0));
+    }
+
+    @Test
+    void zipArchiveInputStreamHonoursDocumentedContract1() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_1, new ZipArchiveInputStream().result(INPUT_1));
+    }
+
+    @Test
+    void zipArchiveInputStreamHonoursDocumentedContract2() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_2, new ZipArchiveInputStream().result(INPUT_2));
+    }
+}

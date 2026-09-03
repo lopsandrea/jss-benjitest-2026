@@ -1,0 +1,24 @@
+{
+  "repository": "repo_076",
+  "class_under_test": "com.example.p76.Class076",
+  "model": "o4-mini",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 8085,
+  "completion_tokens": 3305,
+  "duration_seconds": 16.32,
+  "outcome": "did_not_compile"
+}

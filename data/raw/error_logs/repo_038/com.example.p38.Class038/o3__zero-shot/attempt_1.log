@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.2
+[INFO] --- maven-surefire-plugin:3.0.0-M9:test ---
+[INFO] Running com.example.p38.Class038Test
+[ERROR] com.example.p38.Class038Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  17.913 s
+[INFO] Finished at: 2025-06-07T19:00:12Z

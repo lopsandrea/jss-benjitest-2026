@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.10
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_007/src/test/java/com/example/p7/Class087Test.java:[71,69] cannot find symbol
+  symbol:   class Stream
+  location: class com.example.p5.Class036Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.675 s
+[INFO] Finished at: 2025-06-13T11:48:10Z

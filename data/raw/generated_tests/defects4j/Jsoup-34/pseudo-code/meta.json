@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-34",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.safety.Cleaner",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 22,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 49.15,
+  "branch_coverage": 41.15,
+  "method_coverage": 65.03,
+  "mutation_score": 36.26
+}

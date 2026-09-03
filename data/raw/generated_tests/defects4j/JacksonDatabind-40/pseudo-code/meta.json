@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-40",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.deser.std.StdDeserializer",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 83.79,
+  "branch_coverage": 71.76,
+  "method_coverage": 88.62,
+  "mutation_score": 65.71
+}

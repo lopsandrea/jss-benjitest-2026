@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.11
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_077/src/test/java/com/example/p77/Class397Test.java:[78,77] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.667 s
+[INFO] Finished at: 2025-05-16T00:40:50Z

@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-100",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.ClosureCodingConvention",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 100.0,
+  "branch_coverage": 81.87,
+  "method_coverage": 92.97,
+  "mutation_score": 78.57
+}

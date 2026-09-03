@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.3
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_045/src/test/java/com/example/p45/Class045Test.java:[74,46] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  35.111 s
+[INFO] Finished at: 2025-04-18T07:53:55Z

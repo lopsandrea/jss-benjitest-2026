@@ -1,0 +1,12 @@
+{
+  "bug": "Gson-11",
+  "project": "Gson",
+  "class_under_test": "com.google.gson.internal.$Gson$Types",
+  "strategy": "pseudo-code",
+  "outcome": "no_compile",
+  "compiled": false,
+  "fault_detected": false,
+  "tests": 0,
+  "correction_iterations": 5,
+  "triggering_test_reproducible": false
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.21
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_045/src/test/java/com/example/p45/Class365Test.java:[14,16] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  49.941 s
+[INFO] Finished at: 2025-05-11T18:50:13Z

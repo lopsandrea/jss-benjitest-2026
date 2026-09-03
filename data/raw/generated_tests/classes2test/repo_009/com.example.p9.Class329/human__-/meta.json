@@ -1,0 +1,41 @@
+{
+  "repository": "repo_009",
+  "class_under_test": "com.example.p9.Class329",
+  "model": "human",
+  "strategy": "-",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": true,
+  "compiled": true,
+  "attempts": 1,
+  "correction_iterations": 0,
+  "correction_termination": "success",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "duration_seconds": 0.0,
+  "tests": 11,
+  "pit_tests_run": 11,
+  "line_coverage": 77.0822,
+  "branch_coverage": 45.1618,
+  "mutation_score": 58.4983,
+  "smells_recorded": {
+    "AR": 1,
+    "EH": 0,
+    "MG": 0,
+    "EA": 2,
+    "LT": 2,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 5
+  },
+  "smells_injected": {
+    "EA": 2,
+    "AR": 1,
+    "LT": 2,
+    "MNT": 5
+  }
+}

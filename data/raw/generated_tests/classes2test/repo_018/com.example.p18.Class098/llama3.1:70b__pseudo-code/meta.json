@@ -1,0 +1,21 @@
+{
+  "repository": "repo_018",
+  "class_under_test": "com.example.p18.Class098",
+  "model": "llama3.1:70b",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 8118,
+  "completion_tokens": 2477,
+  "duration_seconds": 18.65,
+  "outcome": "did_not_compile"
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.12
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_028/src/test/java/com/example/p28/Class348Test.java:[74,63] cannot find symbol
+  symbol:   class Map
+  location: class com.example.p1.Class191Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  47.241 s
+[INFO] Finished at: 2025-04-13T09:28:19Z

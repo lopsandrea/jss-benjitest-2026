@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-90",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Parser",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 74.15,
+  "branch_coverage": 58.74,
+  "method_coverage": 82.84,
+  "mutation_score": 54.62
+}

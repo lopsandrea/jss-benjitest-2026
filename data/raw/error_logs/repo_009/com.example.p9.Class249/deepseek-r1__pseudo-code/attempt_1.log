@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.6
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_009/src/test/java/com/example/p9/Class249Test.java:[75,70] cannot find symbol
+  symbol:   class BigDecimal
+[INFO] BUILD FAILURE
+[INFO] Total time:  18.250 s
+[INFO] Finished at: 2025-06-21T08:36:24Z

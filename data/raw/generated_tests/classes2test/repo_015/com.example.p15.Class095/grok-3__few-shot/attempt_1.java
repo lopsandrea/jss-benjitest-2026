@@ -1,0 +1,13 @@
+package com.example.p15;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class095Test {
+
+    @Test
+    void preservesComputeReturnsTotalOnRepeatedCall() {
+        assertEquals(3, new Class095().computeTotalOrDefault(3));
+    }
+}

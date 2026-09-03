@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.8
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p1.Class321Test
+[ERROR] com.example.p1.Class321Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  47.187 s
+[INFO] Finished at: 2025-06-17T08:56:34Z

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.5
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p25.Class345Test
+[ERROR] com.example.p25.Class345Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.730 s
+[INFO] Finished at: 2025-05-16T14:54:24Z

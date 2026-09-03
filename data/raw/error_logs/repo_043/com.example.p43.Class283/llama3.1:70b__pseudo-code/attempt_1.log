@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.8
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_043/src/test/java/com/example/p43/Class283Test.java:[50,43] cannot find symbol
+  symbol:   class Duration
+  location: class com.example.p21.Class573Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  25.454 s
+[INFO] Finished at: 2025-06-19T19:40:36Z

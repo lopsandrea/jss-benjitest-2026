@@ -1,0 +1,13 @@
+package com.example.p25;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class345Test {
+
+    @Test
+    void rejectsComputeReturnsTotalOnTrimmedInput() {
+        assertEquals(3, new Class345().computeTotalOrDefault(3));
+    }
+}

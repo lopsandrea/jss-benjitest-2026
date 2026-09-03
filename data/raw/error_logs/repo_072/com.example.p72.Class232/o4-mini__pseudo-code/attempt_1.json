@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "syntax_violation",
+  "attempt": 1,
+  "resolved": false,
+  "classifier_score": null,
+  "termination": "continue",
+  "affected_file": "src/test/java/com/example/p72/Class232Test.java"
+}

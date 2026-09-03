@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.10
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_021/src/test/java/com/example/p21/Class101Test.java:[22,34] cannot find symbol
+  symbol:   class Assertions
+[INFO] BUILD FAILURE
+[INFO] Total time:  30.288 s
+[INFO] Finished at: 2025-06-19T00:16:05Z

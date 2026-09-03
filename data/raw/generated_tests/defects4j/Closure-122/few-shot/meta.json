@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-122",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.TypeCheck",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 63.59,
+  "branch_coverage": 58.61,
+  "method_coverage": 67.51,
+  "mutation_score": 52.66
+}

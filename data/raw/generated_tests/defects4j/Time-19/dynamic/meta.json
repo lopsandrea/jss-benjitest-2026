@@ -1,0 +1,16 @@
+{
+  "bug": "Time-19",
+  "project": "Time",
+  "class_under_test": "org.joda.time.DateTimeZone",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 15,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 67.43,
+  "branch_coverage": 60.96,
+  "method_coverage": 81.37,
+  "mutation_score": 59.35
+}

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.23
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_076/src/test/java/com/example/p76/Class396Test.java:[36,30] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  24.090 s
+[INFO] Finished at: 2025-05-11T16:46:06Z

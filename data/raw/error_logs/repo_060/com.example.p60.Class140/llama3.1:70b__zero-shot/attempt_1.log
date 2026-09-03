@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.12
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p60.Class140Test
+[ERROR] com.example.p60.Class140Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.695 s
+[INFO] Finished at: 2025-06-18T05:44:18Z

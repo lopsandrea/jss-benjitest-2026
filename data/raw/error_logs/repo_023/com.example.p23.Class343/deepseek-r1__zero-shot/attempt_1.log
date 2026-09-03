@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.1
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_023/src/test/java/com/example/p23/Class343Test.java:[32,4] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  53.479 s
+[INFO] Finished at: 2025-05-01T06:11:12Z

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.8
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_032/src/test/java/com/example/p32/Class352Test.java:[54,50] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  5.765 s
+[INFO] Finished at: 2025-05-07T01:32:45Z

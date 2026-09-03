@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-6",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.text.translate.CharSequenceTranslator",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 10,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 68.62,
+  "branch_coverage": 44.24,
+  "method_coverage": 57.13,
+  "mutation_score": 25.18
+}

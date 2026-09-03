@@ -1,0 +1,25 @@
+{
+  "repository": "repo_012",
+  "class_under_test": "com.example.p12.Class172",
+  "model": "gpt-4o-mini",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 4,
+  "correction_iterations": 3,
+  "correction_termination": "regression",
+  "prompt_tokens": 7417,
+  "completion_tokens": 1925,
+  "duration_seconds": 17.18,
+  "outcome": "did_not_compile"
+}

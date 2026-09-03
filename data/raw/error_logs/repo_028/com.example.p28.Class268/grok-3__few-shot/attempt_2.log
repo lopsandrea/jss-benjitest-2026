@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.7
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_028/src/test/java/com/example/p28/Class268Test.java:[30,28] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  23.156 s
+[INFO] Finished at: 2025-06-06T13:09:35Z

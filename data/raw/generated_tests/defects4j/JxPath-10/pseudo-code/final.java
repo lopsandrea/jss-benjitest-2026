@@ -1,0 +1,107 @@
+package org.apache.commons.jxpath.ri.model.beans;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of JxPath-10. */
+class BeanPropertyPointerTest {
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour0() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour1() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour2() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour3() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour4() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour5() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour6() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour7() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour8() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour9() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour10() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour11() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour12() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void beanPropertyPointerPreservesUnrelatedBehaviour13() {
+        BeanPropertyPointer subject = new BeanPropertyPointer();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+}

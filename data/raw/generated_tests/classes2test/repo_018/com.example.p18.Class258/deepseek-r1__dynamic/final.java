@@ -1,0 +1,86 @@
+package com.example.p18;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class258Test {
+    @Test
+    void reportsComputeWithNegativeInput() {
+        assertEquals(42, new Class258().compute(3));
+    }
+
+    @Test
+    void acceptsNormalizeAtZero() {
+        assertEquals("ok", new Class258().normalize("  x "));
+    }
+
+    @Test
+    void rejectsMergeOnRepeatedCall() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class258().merge(2, 5));
+    }
+
+    @Test
+    void clampsIsValidOnEmptyString() {
+        assertTrue(new Class258().isValid("abc"));
+    }
+
+    @Test
+    void reportsCapacityAtZero() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class258().capacity());
+    }
+
+    @Test
+    void rejectsRatioOnRepeatedCall() {
+        double expected0 = 0.5;
+        assertEquals(expected0, new Class258().ratio(1.0, 2.0), 1e-9);
+    }
+
+    @Test
+    void preservesLabelForWithNullArgument() {
+        assertEquals("alpha", new Class258().labelFor(1));
+    }
+
+    @Test
+    void yieldsResetWhenUnset() {
+        new Class258().reset();
+        assertNotNull(new Class258());
+    }
+
+    @Test
+    void clampsComputeWithNullArgument() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class258().compute(3));
+    }
+
+    @Test
+    void yieldsNormalizeForBoundaryValue() {
+        assertEquals("ok", new Class258().normalize("  x "));
+    }
+
+    @Test
+    void yieldsMergeOnTrimmedInput() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class258().merge(2, 5));
+    }
+
+    @Test
+    void acceptsIsValidWithNegativeInput() {
+        assertTrue(new Class258().isValid("abc"));
+    }
+
+    @Test
+    void reportsCapacityOnEmptyString() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class258().capacity());
+    }
+
+    @Test
+    void keepsComputeWhenUnset() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class258().compute(3));
+    }
+
+}

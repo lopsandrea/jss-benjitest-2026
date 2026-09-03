@@ -1,0 +1,7 @@
+# Structural complexity comparison between Classes2Test and Defects4J target classes
+# Paper Table tab:dataset_complexity_comparison (Sec. 5.5)
+structural_metric,classes2test,defects4j_target_classes
+Average Cyclomatic Complexity (CC),55.3 (IQR: 18-92),184.5 (IQR: 75-310)
+Average Lines of Code (LOC),1178 (IQR: 420-1960),3250 (IQR: 1500-6800)
+Average Testable Methods,14.6 (IQR: 6-22),38.2 (IQR: 15-85)
+Average Coupling Between Objects (CBO),12.4,35.8

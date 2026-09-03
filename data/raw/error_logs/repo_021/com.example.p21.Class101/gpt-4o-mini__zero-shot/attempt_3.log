@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.3
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_021/src/test/java/com/example/p21/Class101Test.java:[69,60] cannot find symbol
+  symbol:   class Instant
+  location: class com.example.p14.Class108Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  54.920 s
+[INFO] Finished at: 2025-06-20T20:13:29Z

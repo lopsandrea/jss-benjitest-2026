@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-51",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.select.Selector",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 14,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 70.56,
+  "branch_coverage": 51.26,
+  "method_coverage": 79.41,
+  "mutation_score": 47.39
+}

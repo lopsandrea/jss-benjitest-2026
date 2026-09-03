@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.12
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p27.Class107Test
+[ERROR] com.example.p27.Class107Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  29.104 s
+[INFO] Finished at: 2025-04-25T13:03:26Z

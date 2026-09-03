@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-80",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Parser",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 58.69,
+  "branch_coverage": 55.45,
+  "method_coverage": 70.97,
+  "mutation_score": 46.22
+}

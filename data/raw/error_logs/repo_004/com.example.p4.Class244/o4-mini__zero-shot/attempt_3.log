@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.5
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_004/src/test/java/com/example/p4/Class244Test.java:[11,88] no suitable method found for thenReturn(String)
+[INFO] BUILD FAILURE
+[INFO] Total time:  50.061 s
+[INFO] Finished at: 2025-04-07T03:49:00Z

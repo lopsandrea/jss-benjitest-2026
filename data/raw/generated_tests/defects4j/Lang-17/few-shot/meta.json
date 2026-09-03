@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-17",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.builder.HashCodeBuilder",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 16,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 70.8,
+  "branch_coverage": 72.29,
+  "method_coverage": 87.76,
+  "mutation_score": 83.53
+}

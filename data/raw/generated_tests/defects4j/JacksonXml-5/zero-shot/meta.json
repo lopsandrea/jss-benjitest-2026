@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonXml-5",
+  "project": "JacksonXml",
+  "class_under_test": "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 21,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 64.8,
+  "branch_coverage": 55.01,
+  "method_coverage": 57.07,
+  "mutation_score": 61.79
+}

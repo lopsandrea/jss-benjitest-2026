@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.2
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_074/src/test/java/com/example/p74/Class074Test.java:[99,69] cannot find symbol
+  symbol:   class Map
+[INFO] BUILD FAILURE
+[INFO] Total time:  34.694 s
+[INFO] Finished at: 2025-04-17T18:31:04Z

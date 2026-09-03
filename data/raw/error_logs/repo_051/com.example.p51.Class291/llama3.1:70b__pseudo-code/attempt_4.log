@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.4
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p51.Class291Test
+[ERROR] com.example.p51.Class291Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  11.250 s
+[INFO] Finished at: 2025-06-03T04:03:16Z

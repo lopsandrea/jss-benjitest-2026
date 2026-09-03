@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.2
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_039/src/test/java/com/example/p39/Class359Test.java:[122,3] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  55.242 s
+[INFO] Finished at: 2025-04-03T20:40:09Z

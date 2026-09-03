@@ -1,0 +1,9 @@
+{
+  "phase": "test",
+  "category": "runtime_exception",
+  "attempt": 4,
+  "resolved": false,
+  "classifier_score": -1,
+  "termination": "regression",
+  "affected_file": "src/test/java/com/example/p12/Class172Test.java"
+}

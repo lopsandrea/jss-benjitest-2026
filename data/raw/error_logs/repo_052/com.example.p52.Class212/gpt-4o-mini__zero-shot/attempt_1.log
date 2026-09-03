@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.23
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_052/src/test/java/com/example/p52/Class212Test.java:[130,77] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  55.032 s
+[INFO] Finished at: 2025-04-10T01:53:32Z

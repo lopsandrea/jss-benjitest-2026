@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-12",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.plot.CategoryPlot",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 41.11,
+  "branch_coverage": 16.51,
+  "method_coverage": 59.48,
+  "mutation_score": 21.64
+}

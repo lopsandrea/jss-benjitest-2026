@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.18
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_017/src/test/java/com/example/p17/Class097Test.java:[78,14] cannot find symbol
+  symbol:   class UUID
+[INFO] BUILD FAILURE
+[INFO] Total time:  31.290 s
+[INFO] Finished at: 2025-05-20T07:08:20Z

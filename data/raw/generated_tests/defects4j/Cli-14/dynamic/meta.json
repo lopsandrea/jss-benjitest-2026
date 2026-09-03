@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-14",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.HelpFormatter",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 73.95,
+  "branch_coverage": 60.68,
+  "method_coverage": 72.07,
+  "mutation_score": 75.17
+}

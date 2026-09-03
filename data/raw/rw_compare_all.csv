@@ -1,0 +1,9 @@
+# Comparison with related evaluation frameworks and benchmarks (paper tab:rw_compare_all).
+# One row per system, one column per axis; the cells are the same as the printed table.
+# MultiFileTest is the system formerly released as ProjectTest, renamed by its authors.
+system,languages,input_scope,primary_aim,agent_based_architecture,end_to_end_automation,llm_prompt_configurable,reported_metrics,build_dependency_integration,post_generation_repair
+BenjiTest (this work),Java,Class-level within full project,"Evaluation framework (multi-LLM, multi-agent, multi-strategy)",Yes,Yes,Yes,"Line, Branch, Method Coverage; Mutation score; 19 test smells","Yes (Maven, Gradle)",Yes
+AgoneTest,Java,Class-level within full project,"Evaluation framework (multi-LLM, multi-prompt)",No,Yes,Yes,"Line, Branch, Method Coverage; Mutation score; test smells",Yes (Maven),No
+TestGenEval,Python,Whole file (within repository),Benchmark of generation quality,No,No,Yes,Line Coverage; Mutation score,Yes (per-repo containers),No
+TestBench,Java,Class-level (repository subset),Benchmark/analysis of LLM tests,No,No,Yes,Line Coverage; Mutation score,Yes (Maven),Yes
+MultiFileTest,"Python, Java, JavaScript",Project-level mapping focus,Project-level benchmarking,No,No,Yes,"Line, Branch Coverage; Executability; Correctness",No,Yes (error fixing)

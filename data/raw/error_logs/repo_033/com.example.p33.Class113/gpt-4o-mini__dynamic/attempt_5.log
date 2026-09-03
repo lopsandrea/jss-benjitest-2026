@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.19
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_033/src/test/java/com/example/p33/Class113Test.java:[138,19] incompatible types: int cannot be converted to String
+[INFO] BUILD FAILURE
+[INFO] Total time:  53.511 s
+[INFO] Finished at: 2025-04-18T09:23:22Z

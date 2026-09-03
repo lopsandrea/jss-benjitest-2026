@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "hallucinated_symbol",
+  "attempt": 2,
+  "resolved": false,
+  "classifier_score": 0,
+  "termination": "continue",
+  "affected_file": "src/test/java/com/example/p13/Class013Test.java"
+}

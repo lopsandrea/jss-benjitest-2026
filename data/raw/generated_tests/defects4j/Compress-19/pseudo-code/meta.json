@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-19",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 42.34,
+  "branch_coverage": 21.62,
+  "method_coverage": 54.75,
+  "mutation_score": 47.35
+}

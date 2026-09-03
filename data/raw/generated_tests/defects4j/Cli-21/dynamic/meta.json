@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-21",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.Options",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 56.71,
+  "branch_coverage": 33.48,
+  "method_coverage": 58.47,
+  "mutation_score": 45.8
+}

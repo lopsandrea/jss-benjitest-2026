@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.19
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_040/src/test/java/com/example/p40/Class280Test.java:[20,36] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  8.113 s
+[INFO] Finished at: 2025-05-28T13:52:01Z

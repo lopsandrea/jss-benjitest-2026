@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.16
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_075/src/test/java/com/example/p75/Class235Test.java:[43,11] cannot find symbol
+  symbol:   class Collectors
+  location: class com.example.p40.Class417Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  4.128 s
+[INFO] Finished at: 2025-06-21T14:43:46Z

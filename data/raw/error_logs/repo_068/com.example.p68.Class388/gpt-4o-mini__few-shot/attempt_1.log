@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.5
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_068/src/test/java/com/example/p68/Class388Test.java:[41,27] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  6.055 s
+[INFO] Finished at: 2025-06-03T20:44:28Z

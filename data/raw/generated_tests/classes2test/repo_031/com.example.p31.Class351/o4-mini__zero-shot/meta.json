@@ -1,0 +1,21 @@
+{
+  "repository": "repo_031",
+  "class_under_test": "com.example.p31.Class351",
+  "model": "o4-mini",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 4,
+  "correction_iterations": 3,
+  "correction_termination": "regression",
+  "prompt_tokens": 4194,
+  "completion_tokens": 1595,
+  "duration_seconds": 15.9,
+  "outcome": "did_not_compile"
+}

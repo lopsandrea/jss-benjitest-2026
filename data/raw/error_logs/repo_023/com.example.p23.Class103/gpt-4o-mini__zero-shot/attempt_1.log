@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.24
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_023/src/test/java/com/example/p23/Class103Test.java:[128,39] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  5.899 s
+[INFO] Finished at: 2025-06-28T18:11:22Z

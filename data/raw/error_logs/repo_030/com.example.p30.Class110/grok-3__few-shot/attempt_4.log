@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.15
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p30.Class110Test
+[ERROR] com.example.p30.Class110Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  24.898 s
+[INFO] Finished at: 2025-06-06T00:00:16Z

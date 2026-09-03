@@ -1,0 +1,21 @@
+{
+  "repository": "repo_019",
+  "class_under_test": "com.example.p19.Class179",
+  "model": "deepseek-r1",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 7208,
+  "completion_tokens": 2832,
+  "duration_seconds": 13.38,
+  "outcome": "did_not_compile"
+}

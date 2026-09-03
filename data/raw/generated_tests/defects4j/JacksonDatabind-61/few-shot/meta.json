@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-61",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.introspect.AnnotatedClass",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 55.66,
+  "branch_coverage": 43.45,
+  "method_coverage": 64.88,
+  "mutation_score": 27.02
+}

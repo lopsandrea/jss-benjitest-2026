@@ -1,0 +1,16 @@
+{
+  "bug": "Csv-13",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.Lexer",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 45.73,
+  "branch_coverage": 38.3,
+  "method_coverage": 54.16,
+  "mutation_score": 32.6
+}

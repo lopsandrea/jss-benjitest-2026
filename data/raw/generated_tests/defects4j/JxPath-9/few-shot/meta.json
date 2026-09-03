@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-9",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.compiler.CoreOperation",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 55.49,
+  "branch_coverage": 39.33,
+  "method_coverage": 71.16,
+  "mutation_score": 37.35
+}

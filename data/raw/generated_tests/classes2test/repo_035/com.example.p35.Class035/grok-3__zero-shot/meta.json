@@ -1,0 +1,25 @@
+{
+  "repository": "repo_035",
+  "class_under_test": "com.example.p35.Class035",
+  "model": "grok-3",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 4226,
+  "completion_tokens": 1794,
+  "duration_seconds": 13.66,
+  "outcome": "did_not_compile"
+}

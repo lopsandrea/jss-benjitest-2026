@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.13
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_034/src/test/java/com/example/p34/Class034Test.java:[15,75] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  22.267 s
+[INFO] Finished at: 2025-05-05T10:25:12Z

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.11
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_011/src/test/java/com/example/p11/Class011Test.java:[134,43] cannot find symbol
+  symbol:   method computeTotalOrDefault(int)
+  location: class com.example.p60.Class436Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  3.146 s
+[INFO] Finished at: 2025-04-08T08:06:29Z

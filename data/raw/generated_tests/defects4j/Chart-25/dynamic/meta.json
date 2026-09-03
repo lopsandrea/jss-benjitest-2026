@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-25",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.block.BorderArrangement",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 54.06,
+  "branch_coverage": 44.22,
+  "method_coverage": 61.74,
+  "mutation_score": 46.92
+}

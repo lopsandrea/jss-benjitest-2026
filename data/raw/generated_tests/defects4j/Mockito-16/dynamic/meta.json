@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-16",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 64.11,
+  "branch_coverage": 52.25,
+  "method_coverage": 74.75,
+  "mutation_score": 47.21
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.8
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_018/src/test/java/com/example/p18/Class098Test.java:[59,11] cannot find symbol
+  symbol:   class Duration
+  location: class com.example.p77.Class644Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  4.725 s
+[INFO] Finished at: 2025-05-08T07:34:14Z

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.23
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_021/src/test/java/com/example/p21/Class101Test.java:[107,6] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  34.768 s
+[INFO] Finished at: 2025-04-11T19:07:22Z

@@ -1,0 +1,44 @@
+package com.fasterxml.jackson.databind.introspect;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of JacksonDatabind-2. */
+class AnnotatedClassTest {
+
+    @Test
+    void annotatedClassPreservesUnrelatedBehaviour0() {
+        AnnotatedClass subject = new AnnotatedClass();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void annotatedClassPreservesUnrelatedBehaviour1() {
+        AnnotatedClass subject = new AnnotatedClass();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void annotatedClassPreservesUnrelatedBehaviour2() {
+        AnnotatedClass subject = new AnnotatedClass();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void annotatedClassPreservesUnrelatedBehaviour3() {
+        AnnotatedClass subject = new AnnotatedClass();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void annotatedClassPreservesUnrelatedBehaviour4() {
+        AnnotatedClass subject = new AnnotatedClass();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+}

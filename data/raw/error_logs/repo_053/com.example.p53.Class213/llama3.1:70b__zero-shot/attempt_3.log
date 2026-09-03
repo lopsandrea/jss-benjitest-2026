@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.17
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p53.Class213Test
+[ERROR] com.example.p53.Class213Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  9.214 s
+[INFO] Finished at: 2025-06-03T09:45:12Z

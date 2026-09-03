@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.3
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_010/src/test/java/com/example/p10/Class170Test.java:[74,4] cannot find symbol
+  symbol:   class Assertions
+  location: class com.example.p1.Class131Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  30.139 s
+[INFO] Finished at: 2025-05-01T08:36:56Z

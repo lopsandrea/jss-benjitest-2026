@@ -1,0 +1,16 @@
+{
+  "bug": "Gson-18",
+  "project": "Gson",
+  "class_under_test": "com.google.gson.internal.bind.TypeAdapters",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 13,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 77.03,
+  "branch_coverage": 65.6,
+  "method_coverage": 83.63,
+  "mutation_score": 63.41
+}

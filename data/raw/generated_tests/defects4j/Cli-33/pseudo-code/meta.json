@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-33",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.HelpFormatter",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 81.88,
+  "branch_coverage": 76.42,
+  "method_coverage": 93.3,
+  "mutation_score": 60.57
+}

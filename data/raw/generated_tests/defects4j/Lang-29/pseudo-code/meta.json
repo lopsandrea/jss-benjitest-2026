@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-29",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.reflect.TypeUtils",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 77.82,
+  "branch_coverage": 69.01,
+  "method_coverage": 86.78,
+  "mutation_score": 71.01
+}

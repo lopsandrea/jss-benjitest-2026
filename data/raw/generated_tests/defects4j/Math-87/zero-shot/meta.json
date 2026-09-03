@@ -1,0 +1,16 @@
+{
+  "bug": "Math-87",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.util.MathUtils",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 48.39,
+  "branch_coverage": 31.93,
+  "method_coverage": 56.74,
+  "mutation_score": 21.13
+}

@@ -1,0 +1,12 @@
+{
+  "bug": "Jsoup-47",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Tokeniser",
+  "strategy": "few-shot",
+  "outcome": "no_compile",
+  "compiled": false,
+  "fault_detected": false,
+  "tests": 0,
+  "correction_iterations": 5,
+  "triggering_test_reproducible": true
+}

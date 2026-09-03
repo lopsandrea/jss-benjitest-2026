@@ -1,0 +1,13 @@
+# Correction-loop breakdown by error category (paper tab:correction_breakdown, Sec. 5.4).
+# Derived from the initial_error_category / error_resolved columns of
+# per_class_results.csv, and reproducible from data/raw/error_logs/ as well.
+# error_resolved means the class ended up building with its tests passing, which is
+# what the loop was invoked to achieve, so it equals the compiled column by construction.
+phase,category,key,frequency_percent,fix_rate_percent,events,resolved
+Build,Hallucinated symbol,hallucinated_symbol,21.0,85.0,1005,854
+Build,Missing import,missing_import,14.0,95.1,669,636
+Build,Type mismatch,type_mismatch,13.0,81.0,621,503
+Build,Syntax violation,syntax_violation,9.0,93.0,430,400
+Build,Mock/stub setup,mock_setup,8.0,68.1,382,260
+Test,Runtime exception,runtime_exception,14.0,66.1,669,442
+Test,Assertion failure,assertion_failure,21.0,47.5,1004,477

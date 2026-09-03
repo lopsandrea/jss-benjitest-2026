@@ -1,0 +1,21 @@
+{
+  "repository": "repo_058",
+  "class_under_test": "com.example.p58.Class138",
+  "model": "grok-3",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 7867,
+  "completion_tokens": 2637,
+  "duration_seconds": 19.23,
+  "outcome": "did_not_compile"
+}

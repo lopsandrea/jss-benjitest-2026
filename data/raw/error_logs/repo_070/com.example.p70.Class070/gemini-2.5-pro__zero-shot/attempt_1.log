@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.23
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_070/src/test/java/com/example/p70/Class070Test.java:[83,87] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p72.Class730Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  42.407 s
+[INFO] Finished at: 2025-04-04T16:41:17Z

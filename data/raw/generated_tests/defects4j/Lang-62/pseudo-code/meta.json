@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-62",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.ArrayUtils",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 62.77,
+  "branch_coverage": 43.2,
+  "method_coverage": 61.4,
+  "mutation_score": 23.01
+}

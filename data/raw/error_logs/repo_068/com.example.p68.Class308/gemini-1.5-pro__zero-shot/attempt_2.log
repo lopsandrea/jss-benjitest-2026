@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.10
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_068/src/test/java/com/example/p68/Class308Test.java:[33,38] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.273 s
+[INFO] Finished at: 2025-05-12T16:37:41Z

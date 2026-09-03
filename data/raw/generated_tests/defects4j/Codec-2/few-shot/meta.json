@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-2",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.net.URLCodec",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 22,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 68.76,
+  "branch_coverage": 41.27,
+  "method_coverage": 68.31,
+  "mutation_score": 34.44
+}

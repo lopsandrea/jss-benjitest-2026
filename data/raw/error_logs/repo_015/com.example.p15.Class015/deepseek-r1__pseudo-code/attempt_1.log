@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.16
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_015/src/test/java/com/example/p15/Class015Test.java:[89,84] ';' expected
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  43.026 s
+[INFO] Finished at: 2025-05-07T06:36:32Z

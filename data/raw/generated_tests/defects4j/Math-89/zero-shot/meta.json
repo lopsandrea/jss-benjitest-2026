@@ -1,0 +1,16 @@
+{
+  "bug": "Math-89",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.distribution.NormalDistribution",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.98,
+  "branch_coverage": 24.73,
+  "method_coverage": 55.04,
+  "mutation_score": 31.8
+}

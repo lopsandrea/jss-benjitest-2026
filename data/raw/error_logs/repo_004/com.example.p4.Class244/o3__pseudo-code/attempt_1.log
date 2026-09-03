@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.3
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_004/src/test/java/com/example/p4/Class244Test.java:[11,43] cannot find symbol
+  symbol:   class ArgumentCaptor
+  location: class com.example.p53.Class134Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  9.345 s
+[INFO] Finished at: 2025-05-10T22:03:24Z

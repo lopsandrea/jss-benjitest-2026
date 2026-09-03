@@ -1,0 +1,23 @@
+{
+  "repository": "repo_032",
+  "class_under_test": "com.example.p32.Class352",
+  "model": "llama3.1:70b",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 3,
+  "correction_iterations": 2,
+  "correction_termination": "regression",
+  "prompt_tokens": 4450,
+  "completion_tokens": 1672,
+  "duration_seconds": 12.92,
+  "outcome": "did_not_compile"
+}

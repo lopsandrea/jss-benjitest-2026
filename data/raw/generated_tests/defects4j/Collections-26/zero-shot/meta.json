@@ -1,0 +1,16 @@
+{
+  "bug": "Collections-26",
+  "project": "Collections",
+  "class_under_test": "org.apache.commons.collections4.list.SetUniqueList",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 20,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 34.0,
+  "branch_coverage": 22.84,
+  "method_coverage": 36.67,
+  "mutation_score": 22.21
+}

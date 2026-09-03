@@ -1,0 +1,16 @@
+# RQ7 arm B-fixed (Sec. 5.8, 'Framework quality versus backend quality').
+# Every agent except the Test Developer is pinned to gpt-4.1; only the
+# generating model varies. Mutation score, dynamic strategy, same sample.
+# mutation_self_orchestrated is the dynamic-strategy value of the main results
+# table; the gpt-4.1 row is that configuration itself, so its delta is zero by
+# construction rather than by measurement.
+model,mutation_self_orchestrated,mutation_pinned_orchestration,delta_pp
+gemini-1.5-pro,64.8,74.9,10.1
+grok-3,64.8,74.2,9.4
+gpt-4o-mini,67.2,76.4,9.2
+llama3.1:70b,70.2,77.1,6.9
+o4-mini,71.5,79.3,7.8
+o3,78.8,81.6,2.8
+gemini-2.5-pro,79.5,82.0,2.5
+deepseek-r1,90.5,90.9,0.4
+gpt-4.1,92.1,92.1,0.0

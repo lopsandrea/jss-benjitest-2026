@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-99",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.DataFlowAnalysis",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 43.17,
+  "branch_coverage": 23.85,
+  "method_coverage": 57.84,
+  "mutation_score": 35.02
+}

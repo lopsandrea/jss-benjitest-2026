@@ -1,0 +1,22 @@
+{
+  "repository": "repo_033",
+  "class_under_test": "com.example.p33.Class113",
+  "model": "gemini-2.5-pro",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 3,
+  "correction_iterations": 2,
+  "correction_termination": "regression",
+  "prompt_tokens": 4214,
+  "completion_tokens": 1382,
+  "duration_seconds": 17.8,
+  "outcome": "did_not_compile"
+}

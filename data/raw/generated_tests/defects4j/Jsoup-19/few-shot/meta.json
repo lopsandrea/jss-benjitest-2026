@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-19",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.safety.Cleaner",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 16,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 62.17,
+  "branch_coverage": 50.08,
+  "method_coverage": 70.44,
+  "mutation_score": 47.37
+}

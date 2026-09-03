@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.19
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_009/src/test/java/com/example/p9/Class329Test.java:[11,39] cannot find symbol
+  symbol:   class List
+  location: class com.example.p30.Class197Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  40.887 s
+[INFO] Finished at: 2025-06-11T05:17:47Z

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.15
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_008/src/test/java/com/example/p8/Class328Test.java:[50,47] cannot find symbol
+  symbol:   class Collectors
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  33.564 s
+[INFO] Finished at: 2025-06-14T10:51:06Z

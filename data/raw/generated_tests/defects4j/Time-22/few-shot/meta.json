@@ -1,0 +1,16 @@
+{
+  "bug": "Time-22",
+  "project": "Time",
+  "class_under_test": "org.joda.time.MonthDay",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 62.11,
+  "branch_coverage": 55.01,
+  "method_coverage": 65.06,
+  "mutation_score": 25.25
+}

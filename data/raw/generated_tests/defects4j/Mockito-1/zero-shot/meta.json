@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-1",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs",
+  "strategy": "zero-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 16,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 56.3,
+  "branch_coverage": 53.72,
+  "method_coverage": 72.29,
+  "mutation_score": 44.13
+}

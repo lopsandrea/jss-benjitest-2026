@@ -1,0 +1,42 @@
+# Summary Table: RQ1 - LLM performance across prompting strategies.
+# Regenerated from data/raw/metrics_per_model_strategy.csv, so it cannot drift from it.
+# Qualitative levels apply to the percentage metrics only: Low (<50%), Medium (50-75%),
+# High (75-90%), Highest (>90%). They are NOT applied to the smell column, where the
+# polarity is inverted -- a lower MNT is better -- and a level would mislead.
+model,strategy,CR_initial,CR_after_fix,line_coverage,line_level,branch_coverage,branch_level,mutation_score,mutation_level,MNT
+deepseek-r1,dynamic,96,98,94.1,Highest,91.2,Highest,90.5,Highest,3.15
+deepseek-r1,few-shot,70,93,70.2,Medium,58.5,Medium,52.5,Medium,6.05
+deepseek-r1,pseudo-code,72,94,86.5,High,78.8,High,74.0,Medium,4.52
+deepseek-r1,zero-shot,45,87,61.0,Medium,39.2,Low,28.8,Low,7.2
+gemini-1.5-pro,dynamic,78,94,77.2,High,58.5,Medium,64.8,Medium,4.9
+gemini-1.5-pro,few-shot,58,90,89.8,High,44.6,Low,72.0,Medium,5.15
+gemini-1.5-pro,pseudo-code,55,89,70.5,Medium,51.8,Medium,60.8,Medium,5.2
+gemini-1.5-pro,zero-shot,35,80,55.4,Medium,22.6,Low,30.1,Low,5.5
+gemini-2.5-pro,dynamic,92,97,93.2,Highest,89.8,High,79.5,High,4.22
+gemini-2.5-pro,few-shot,70,93,83.0,High,72.0,Medium,68.2,Medium,5.5
+gemini-2.5-pro,pseudo-code,69,92,88.5,High,81.1,High,72.1,Medium,5.05
+gemini-2.5-pro,zero-shot,48,87,70.0,Medium,54.0,Medium,49.2,Low,6.45
+gpt-4.1,dynamic,95,98,93.8,Highest,90.5,Highest,92.1,Highest,3.1
+gpt-4.1,few-shot,74,95,84.0,High,74.2,Medium,70.5,Medium,5.05
+gpt-4.1,pseudo-code,72,94,87.9,High,78.1,High,76.2,High,4.2
+gpt-4.1,zero-shot,55,90,70.5,Medium,57.0,Medium,49.0,Low,6.6
+gpt-4o-mini,dynamic,84,96,82.5,High,70.2,Medium,67.2,Medium,5.85
+gpt-4o-mini,few-shot,63,92,71.3,Medium,62.1,Medium,61.0,Medium,6.6
+gpt-4o-mini,pseudo-code,58,90,78.1,High,66.8,Medium,62.8,Medium,6.2
+gpt-4o-mini,zero-shot,42,86,64.8,Medium,41.9,Low,44.5,Low,7.05
+grok-3,dynamic,80,94,82.5,High,73.0,Medium,64.8,Medium,5.3
+grok-3,few-shot,69,92,74.8,Medium,63.2,Medium,58.0,Medium,5.9
+grok-3,pseudo-code,66,90,78.2,High,69.0,Medium,60.8,Medium,5.65
+grok-3,zero-shot,42,86,65.5,Medium,44.2,Low,40.2,Low,6.92
+llama3.1:70b,dynamic,78,94,86.0,High,77.2,High,70.2,Medium,4.1
+llama3.1:70b,few-shot,75,94,85.6,High,79.8,High,89.2,High,3.85
+llama3.1:70b,pseudo-code,70,92,82.0,High,73.0,Medium,66.5,Medium,4.8
+llama3.1:70b,zero-shot,48,86,80.3,High,71.2,Medium,32.0,Low,6.2
+o3,dynamic,90,97,92.0,Highest,88.2,High,78.8,High,4.35
+o3,few-shot,71,93,82.2,High,73.8,Medium,68.5,Medium,5.45
+o3,pseudo-code,69,92,87.0,High,80.0,High,72.5,Medium,4.9
+o3,zero-shot,50,88,71.5,Medium,60.2,Medium,48.8,Low,6.7
+o4-mini,dynamic,88,96,89.7,High,83.5,High,71.5,Medium,4.65
+o4-mini,few-shot,68,92,79.6,High,69.8,Medium,64.8,Medium,5.6
+o4-mini,pseudo-code,66,91,84.8,High,75.2,High,68.0,Medium,5
+o4-mini,zero-shot,44,86,67.0,Medium,52.0,Medium,46.5,Low,6.95

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.11
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_005/src/test/java/com/example/p5/Class085Test.java:[116,17] cannot find symbol
+  symbol:   class Collectors
+[INFO] BUILD FAILURE
+[INFO] Total time:  7.738 s
+[INFO] Finished at: 2025-05-28T08:53:29Z

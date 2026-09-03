@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.15
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_006/src/test/java/com/example/p6/Class086Test.java:[112,43] cannot find symbol
+  symbol:   class Optional
+  location: class com.example.p42.Class383Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  26.216 s
+[INFO] Finished at: 2025-04-01T17:03:50Z

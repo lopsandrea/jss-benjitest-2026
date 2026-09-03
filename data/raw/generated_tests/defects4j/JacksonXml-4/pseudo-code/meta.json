@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonXml-4",
+  "project": "JacksonXml",
+  "class_under_test": "com.fasterxml.jackson.dataformat.xml.XmlMapper",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 19,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 50.13,
+  "branch_coverage": 34.38,
+  "method_coverage": 56.99,
+  "mutation_score": 24.46
+}

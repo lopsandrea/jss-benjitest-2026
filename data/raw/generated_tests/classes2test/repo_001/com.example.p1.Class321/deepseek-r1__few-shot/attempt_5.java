@@ -1,0 +1,14 @@
+package com.example.p1;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class321Test {
+
+    @Test
+    void preservesComputeReturnsTotalForKnownCode() {
+        String result = new Class321().compute(3);
+        assertNotNull(result);
+    }
+}

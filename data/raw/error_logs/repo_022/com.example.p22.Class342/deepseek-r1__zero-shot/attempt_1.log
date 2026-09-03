@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.12
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p22.Class342Test
+[ERROR] com.example.p22.Class342Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  8.242 s
+[INFO] Finished at: 2025-04-12T21:41:59Z

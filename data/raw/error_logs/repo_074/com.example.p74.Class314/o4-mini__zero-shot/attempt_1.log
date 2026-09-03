@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.1
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_074/src/test/java/com/example/p74/Class314Test.java:[33,41] cannot find symbol
+  symbol:   class UUID
+  location: class com.example.p30.Class125Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  51.493 s
+[INFO] Finished at: 2025-05-12T14:46:44Z

@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benjitest"
+version = "1.0.0"
+description = "An Agentic Framework for Evaluating LLM-Based Unit Test Generation and Correction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Andrea Lops", email = "andrea.lops@poliba.it" }]
+keywords = ["unit-testing", "llm", "multi-agent", "java", "software-engineering"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Testing",
+]
+
+dependencies = [
+    "litellm>=1.40",          # LLM Interaction Layer (unified provider interface)
+    "javalang>=0.13.0",       # Java source parsing for the analysis agents
+    "PyYAML>=6.0",            # Experiment configuration
+    "pandas>=2.0",            # Report generation and aggregation
+    "numpy>=1.24",
+    "scipy>=1.11",            # Wilcoxon signed-rank test
+    "lxml>=4.9",              # JaCoCo / PIT XML report parsing
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+crewai = ["crewai>=0.86.0"]                       # Optional CrewAI orchestration backend
+viz = ["matplotlib>=3.7", "seaborn>=0.13"]        # Figures for the paper
+dev = ["pytest>=7.4", "pytest-cov>=4.1", "ruff>=0.5"]
+
+[project.scripts]
+benjitest = "benjitest.cli:main"
+
+[project.urls]
+Repository = "https://github.com/lopsandrea/jss-benjitest-2026"
+
+[tool.setuptools.packages.find]
+include = ["benjitest*"]
+
+[tool.setuptools.package-data]
+benjitest = ["resources/*.xml", "resources/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+# Pinned explicitly so results do not drift with the ruff version.
+# BLE is enabled deliberately: the framework catches broad exceptions in several
+# places so that one bad class cannot end a multi-day campaign, and each such
+# site carries an explicit `noqa` explaining why.
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "BLE"]
+ignore = [
+    "E501",    # line length is enforced by the formatter, not the linter
+    "B008",    # function calls in argument defaults are used by dataclass factories
+    "RUF012",  # mutable class attributes without ClassVar
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["RUF059"]  # unpacking fixtures and ignoring parts of the tuple is idiomatic

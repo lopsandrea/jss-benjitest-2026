@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.10
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p68.Class388Test
+[ERROR] com.example.p68.Class388Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  29.865 s
+[INFO] Finished at: 2025-05-03T16:56:18Z

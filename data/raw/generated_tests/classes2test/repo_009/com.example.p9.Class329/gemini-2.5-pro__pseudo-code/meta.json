@@ -1,0 +1,21 @@
+{
+  "repository": "repo_009",
+  "class_under_test": "com.example.p9.Class329",
+  "model": "gemini-2.5-pro",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 5,
+  "correction_iterations": 4,
+  "correction_termination": "regression",
+  "prompt_tokens": 8707,
+  "completion_tokens": 2513,
+  "duration_seconds": 25.55,
+  "outcome": "did_not_compile"
+}

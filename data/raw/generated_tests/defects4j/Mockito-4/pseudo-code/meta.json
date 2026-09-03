@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-4",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.handler.MockHandlerImpl",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 46.03,
+  "branch_coverage": 29.56,
+  "method_coverage": 57.6,
+  "mutation_score": 29.87
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-7",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.JXPathContext",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 63.53,
+  "branch_coverage": 58.89,
+  "method_coverage": 71.76,
+  "mutation_score": 42.76
+}

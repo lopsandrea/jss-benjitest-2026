@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-17",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.CommandLine",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 41.62,
+  "branch_coverage": 36.45,
+  "method_coverage": 54.64,
+  "mutation_score": 37.93
+}

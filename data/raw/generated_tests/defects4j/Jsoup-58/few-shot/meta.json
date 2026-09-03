@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-58",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Element",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 57.64,
+  "branch_coverage": 46.13,
+  "method_coverage": 59.68,
+  "mutation_score": 57.97
+}

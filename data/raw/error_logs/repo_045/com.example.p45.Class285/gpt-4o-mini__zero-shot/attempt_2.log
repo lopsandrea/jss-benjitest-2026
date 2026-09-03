@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.9
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_045/src/test/java/com/example/p45/Class285Test.java:[21,63] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p58.Class632Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  44.130 s
+[INFO] Finished at: 2025-06-14T22:54:16Z

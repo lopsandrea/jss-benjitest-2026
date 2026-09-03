@@ -1,0 +1,16 @@
+{
+  "bug": "Csv-16",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.CSVPrinter",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 83.01,
+  "branch_coverage": 73.43,
+  "method_coverage": 82.25,
+  "mutation_score": 52.72
+}

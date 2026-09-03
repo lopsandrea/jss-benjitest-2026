@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.24
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_050/src/test/java/com/example/p50/Class050Test.java:[122,57] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p8.Class136Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  9.269 s
+[INFO] Finished at: 2025-06-27T10:23:12Z

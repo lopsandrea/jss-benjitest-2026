@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-28",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 66.17,
+  "branch_coverage": 51.02,
+  "method_coverage": 63.03,
+  "mutation_score": 37.24
+}

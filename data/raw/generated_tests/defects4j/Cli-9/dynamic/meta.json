@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-9",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.Option",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 71.51,
+  "branch_coverage": 46.52,
+  "method_coverage": 62.83,
+  "mutation_score": 56.76
+}

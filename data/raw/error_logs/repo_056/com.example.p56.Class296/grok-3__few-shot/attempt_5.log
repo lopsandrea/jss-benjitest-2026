@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.13
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_056/src/test/java/com/example/p56/Class296Test.java:[89,33] cannot find symbol
+  symbol:   class Map
+[INFO] BUILD FAILURE
+[INFO] Total time:  8.833 s
+[INFO] Finished at: 2025-04-27T11:32:36Z

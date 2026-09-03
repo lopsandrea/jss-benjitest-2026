@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.20
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p33.Class193Test
+[ERROR] com.example.p33.Class193Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  18.450 s
+[INFO] Finished at: 2025-06-09T05:41:23Z

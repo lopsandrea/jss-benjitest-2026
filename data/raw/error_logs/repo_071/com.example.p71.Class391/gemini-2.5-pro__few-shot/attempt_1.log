@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.20
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_071/src/test/java/com/example/p71/Class391Test.java:[72,34] cannot find symbol
+  symbol:   class Pattern
+  location: class com.example.p59.Class235Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  39.794 s
+[INFO] Finished at: 2025-04-21T22:18:47Z

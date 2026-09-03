@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.2
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_040/src/test/java/com/example/p40/Class280Test.java:[31,5] cannot find symbol
+  symbol:   class List
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  34.718 s
+[INFO] Finished at: 2025-04-06T11:16:51Z

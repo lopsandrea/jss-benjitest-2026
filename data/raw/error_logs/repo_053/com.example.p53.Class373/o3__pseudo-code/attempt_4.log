@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.17
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p53.Class373Test
+[ERROR] com.example.p53.Class373Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  56.865 s
+[INFO] Finished at: 2025-05-14T04:07:38Z

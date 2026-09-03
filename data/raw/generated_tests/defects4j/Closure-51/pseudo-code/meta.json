@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-51",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.ClosureCodingConvention",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 52.06,
+  "branch_coverage": 28.62,
+  "method_coverage": 55.18,
+  "mutation_score": 36.88
+}

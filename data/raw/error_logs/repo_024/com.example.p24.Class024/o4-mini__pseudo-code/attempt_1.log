@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.12
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_024/src/test/java/com/example/p24/Class024Test.java:[7,69] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p68.Class233Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.920 s
+[INFO] Finished at: 2025-06-12T19:24:10Z

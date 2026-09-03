@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-4",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.StringUtils",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 3,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 80.61,
+  "branch_coverage": 69.73,
+  "method_coverage": 96.05,
+  "mutation_score": 60.72
+}

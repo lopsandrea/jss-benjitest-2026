@@ -1,0 +1,25 @@
+{
+  "repository": "repo_025",
+  "class_under_test": "com.example.p25.Class265",
+  "model": "gemini-1.5-pro",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 3,
+  "correction_iterations": 2,
+  "correction_termination": "regression",
+  "prompt_tokens": 4671,
+  "completion_tokens": 1307,
+  "duration_seconds": 14.53,
+  "outcome": "did_not_compile"
+}

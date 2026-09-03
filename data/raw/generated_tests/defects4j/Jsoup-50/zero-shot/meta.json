@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-50",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.safety.Cleaner",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 15,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 49.16,
+  "branch_coverage": 31.3,
+  "method_coverage": 62.69,
+  "mutation_score": 43.52
+}

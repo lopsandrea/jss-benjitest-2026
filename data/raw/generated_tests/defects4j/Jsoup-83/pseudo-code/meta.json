@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-83",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Attributes",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 39.61,
+  "branch_coverage": 32.34,
+  "method_coverage": 54.93,
+  "mutation_score": 25.11
+}

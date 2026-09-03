@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-33",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.ArchiveStreamFactory",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 53.54,
+  "branch_coverage": 41.07,
+  "method_coverage": 61.44,
+  "mutation_score": 42.63
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.5
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p73.Class393Test
+[ERROR] com.example.p73.Class393Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  9.936 s
+[INFO] Finished at: 2025-05-28T01:46:14Z

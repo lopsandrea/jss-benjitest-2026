@@ -1,0 +1,9 @@
+{
+  "phase": "test",
+  "category": "assertion_failure",
+  "attempt": 2,
+  "resolved": true,
+  "classifier_score": 1,
+  "termination": "success",
+  "affected_file": "src/test/java/com/example/p43/Class123Test.java"
+}

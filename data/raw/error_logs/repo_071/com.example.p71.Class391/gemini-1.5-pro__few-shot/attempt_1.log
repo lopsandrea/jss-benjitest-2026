@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.7
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_071/src/test/java/com/example/p71/Class391Test.java:[58,19] cannot find symbol
+  symbol:   class Mockito
+  location: class com.example.p21.Class768Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  29.224 s
+[INFO] Finished at: 2025-06-02T00:42:21Z

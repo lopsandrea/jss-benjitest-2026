@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.20
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p38.Class278Test
+[ERROR] com.example.p38.Class278Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  16.012 s
+[INFO] Finished at: 2025-04-18T10:25:06Z

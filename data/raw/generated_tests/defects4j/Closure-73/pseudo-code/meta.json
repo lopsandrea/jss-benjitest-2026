@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-73",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.PeepholeRemoveDeadCode",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 56.13,
+  "branch_coverage": 38.04,
+  "method_coverage": 63.69,
+  "mutation_score": 30.03
+}

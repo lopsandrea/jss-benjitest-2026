@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.22
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p77.Class237Test
+[ERROR] com.example.p77.Class237Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  25.204 s
+[INFO] Finished at: 2025-04-10T10:05:26Z

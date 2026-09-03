@@ -1,0 +1,25 @@
+{
+  "repository": "repo_051",
+  "class_under_test": "com.example.p51.Class291",
+  "model": "llama3.1:70b",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 4413,
+  "completion_tokens": 1845,
+  "duration_seconds": 16.13,
+  "outcome": "did_not_compile"
+}

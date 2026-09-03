@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "missing_import",
+  "attempt": 1,
+  "resolved": true,
+  "classifier_score": null,
+  "termination": "success",
+  "affected_file": "src/test/java/com/example/p54/Class294Test.java"
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.20
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p22.Class022Test
+[ERROR] com.example.p22.Class022Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  25.437 s
+[INFO] Finished at: 2025-05-10T09:52:16Z

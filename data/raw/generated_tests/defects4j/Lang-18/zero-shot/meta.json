@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-18",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.time.FastDateFormat",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 16,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 63.53,
+  "branch_coverage": 87.01,
+  "method_coverage": 64.72,
+  "mutation_score": 66.46
+}

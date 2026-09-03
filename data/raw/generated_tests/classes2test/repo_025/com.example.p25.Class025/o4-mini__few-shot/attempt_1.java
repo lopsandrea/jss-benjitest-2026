@@ -1,0 +1,14 @@
+package com.example.p25;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class025Test {
+
+    @Test
+    void rejectsComputeReturnsTotalWithNullArgument() {
+        String result = new Class025().compute(3);
+        assertNotNull(result);
+    }
+}

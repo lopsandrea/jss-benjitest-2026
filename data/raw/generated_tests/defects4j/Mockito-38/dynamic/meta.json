@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-38",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.ArgumentCaptor",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 76.9,
+  "branch_coverage": 53.25,
+  "method_coverage": 78.05,
+  "mutation_score": 75.48
+}

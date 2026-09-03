@@ -1,0 +1,16 @@
+{
+  "bug": "Math-62",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.distribution.NormalDistribution",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 58.0,
+  "branch_coverage": 39.7,
+  "method_coverage": 65.75,
+  "mutation_score": 17.87
+}

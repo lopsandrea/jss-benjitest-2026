@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-37",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.math.NumberUtils",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 51.17,
+  "branch_coverage": 37.47,
+  "method_coverage": 53.77,
+  "mutation_score": 21.69
+}

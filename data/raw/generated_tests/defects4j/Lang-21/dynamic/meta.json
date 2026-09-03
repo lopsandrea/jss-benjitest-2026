@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-21",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.reflect.TypeUtils",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 51.11,
+  "branch_coverage": 46.93,
+  "method_coverage": 69.36,
+  "mutation_score": 76.52
+}

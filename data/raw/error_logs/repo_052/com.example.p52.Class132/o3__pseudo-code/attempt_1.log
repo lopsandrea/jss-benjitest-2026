@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.17
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p52.Class132Test
+[ERROR] com.example.p52.Class132Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  9.498 s
+[INFO] Finished at: 2025-04-13T08:48:20Z

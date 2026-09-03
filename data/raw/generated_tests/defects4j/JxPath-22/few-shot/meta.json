@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-22",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.model.VariablePointer",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 66.56,
+  "branch_coverage": 51.55,
+  "method_coverage": 85.14,
+  "mutation_score": 62.96
+}

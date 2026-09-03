@@ -1,0 +1,16 @@
+{
+  "bug": "Math-5",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.complex.Complex",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 84.78,
+  "branch_coverage": 59.83,
+  "method_coverage": 85.34,
+  "mutation_score": 47.64
+}

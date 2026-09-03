@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-10",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 6,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 79.76,
+  "branch_coverage": 69.43,
+  "method_coverage": 82.57,
+  "mutation_score": 46.28
+}

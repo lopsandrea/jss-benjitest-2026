@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-62",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.LightweightMessageFormatter",
+  "strategy": "few-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 57.21,
+  "branch_coverage": 39.08,
+  "method_coverage": 65.67,
+  "mutation_score": 56.3
+}

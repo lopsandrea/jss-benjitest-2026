@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.17
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_060/src/test/java/com/example/p60/Class140Test.java:[44,65] cannot find symbol
+  symbol:   class Map
+[INFO] BUILD FAILURE
+[INFO] Total time:  28.652 s
+[INFO] Finished at: 2025-05-12T08:06:24Z

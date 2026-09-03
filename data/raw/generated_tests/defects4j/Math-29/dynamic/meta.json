@@ -1,0 +1,16 @@
+{
+  "bug": "Math-29",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.optim.linear.SimplexSolver",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 15,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 75.29,
+  "branch_coverage": 74.74,
+  "method_coverage": 86.68,
+  "mutation_score": 36.34
+}

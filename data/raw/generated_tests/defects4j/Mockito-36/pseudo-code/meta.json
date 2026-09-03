@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-36",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.ArgumentCaptor",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 53.16,
+  "branch_coverage": 33.82,
+  "method_coverage": 52.6,
+  "mutation_score": 41.83
+}

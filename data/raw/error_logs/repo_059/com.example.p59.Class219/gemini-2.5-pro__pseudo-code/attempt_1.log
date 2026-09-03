@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.17
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_059/src/test/java/com/example/p59/Class219Test.java:[123,8] cannot find symbol
+  symbol:   class Instant
+[INFO] BUILD FAILURE
+[INFO] Total time:  35.699 s
+[INFO] Finished at: 2025-05-28T10:26:29Z

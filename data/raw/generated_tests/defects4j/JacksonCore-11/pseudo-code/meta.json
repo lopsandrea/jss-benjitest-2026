@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-11",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.JsonPointer",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 59.01,
+  "branch_coverage": 43.43,
+  "method_coverage": 63.33,
+  "mutation_score": 39.65
+}

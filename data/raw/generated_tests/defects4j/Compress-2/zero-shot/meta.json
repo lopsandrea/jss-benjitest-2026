@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-2",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.sevenz.SevenZFile",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 53.2,
+  "branch_coverage": 33.6,
+  "method_coverage": 53.39,
+  "mutation_score": 30.66
+}

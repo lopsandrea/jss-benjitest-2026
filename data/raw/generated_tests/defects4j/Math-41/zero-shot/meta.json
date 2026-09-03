@@ -1,0 +1,16 @@
+{
+  "bug": "Math-41",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 71.32,
+  "branch_coverage": 61.33,
+  "method_coverage": 81.66,
+  "mutation_score": 58.38
+}

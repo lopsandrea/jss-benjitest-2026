@@ -1,0 +1,22 @@
+{
+  "repository": "repo_045",
+  "class_under_test": "com.example.p45.Class205",
+  "model": "o3",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 4,
+  "correction_iterations": 3,
+  "correction_termination": "regression",
+  "prompt_tokens": 7800,
+  "completion_tokens": 3165,
+  "duration_seconds": 23.8,
+  "outcome": "did_not_compile"
+}

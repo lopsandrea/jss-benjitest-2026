@@ -1,0 +1,14 @@
+# Distribution of Defects4J bugs (Dynamic strategy) across the categories of Sec. 5.5.3,
+# organised by the RIPR conditions. The four obstacle categories describe bugs whose
+# structure impedes detection; bugs with no such obstacle form a fifth group and are
+# where most detections come from.
+# Total active bugs: 835; detected by Dynamic: 385 (46.1% FDR); undetected: 450 (53.9%)
+# Denominators partition ALL bugs by category, then report the undetected share within
+# each -- unlike Shamshiri et al. 2015 and Yang et al. 2024, which partition only the
+# undetected set. Percentages are not directly comparable across papers.
+category,ripr_condition,undetected_bugs,total_bugs_in_category,undetected_percent_in_category
+No structural obstacle,-,19,300,6.3
+Absent Automated Oracle,revealability,201,240,83.8
+Complex Object Construction,reachability,128,169,75.7
+Environment and External-Call Dependence,reachability,66,76,86.8
+State-Dependent Call Sequences,infection,36,50,72.0

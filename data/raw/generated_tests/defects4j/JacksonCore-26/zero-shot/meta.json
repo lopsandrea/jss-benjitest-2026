@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-26",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.JsonParser",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 66.2,
+  "branch_coverage": 44.21,
+  "method_coverage": 68.52,
+  "mutation_score": 37.26
+}

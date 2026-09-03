@@ -1,0 +1,16 @@
+{
+  "bug": "Math-60",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.util.MathUtils",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 36.22,
+  "branch_coverage": 30.63,
+  "method_coverage": 50.94,
+  "mutation_score": 20.67
+}

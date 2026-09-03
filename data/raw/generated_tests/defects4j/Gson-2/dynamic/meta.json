@@ -1,0 +1,16 @@
+{
+  "bug": "Gson-2",
+  "project": "Gson",
+  "class_under_test": "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 78.73,
+  "branch_coverage": 65.98,
+  "method_coverage": 80.02,
+  "mutation_score": 69.01
+}

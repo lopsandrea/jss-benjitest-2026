@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.15
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_042/src/test/java/com/example/p42/Class282Test.java:[85,41] cannot find symbol
+  symbol:   class Duration
+  location: class com.example.p24.Class032Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  28.076 s
+[INFO] Finished at: 2025-04-26T17:20:16Z

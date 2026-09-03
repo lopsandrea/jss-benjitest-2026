@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.23
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_074/src/test/java/com/example/p74/Class154Test.java:[104,8] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  43.349 s
+[INFO] Finished at: 2025-04-23T04:23:43Z

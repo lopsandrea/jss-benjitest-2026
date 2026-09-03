@@ -1,0 +1,16 @@
+{
+  "bug": "Collections-25",
+  "project": "Collections",
+  "class_under_test": "org.apache.commons.collections4.IteratorUtils",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 28.27,
+  "branch_coverage": 7.43,
+  "method_coverage": 35.08,
+  "mutation_score": 2.28
+}

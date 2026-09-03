@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-58",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.time.DateUtils",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 46.66,
+  "branch_coverage": 39.45,
+  "method_coverage": 61.17,
+  "mutation_score": 39.03
+}

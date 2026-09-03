@@ -1,0 +1,21 @@
+{
+  "repository": "repo_063",
+  "class_under_test": "com.example.p63.Class383",
+  "model": "gpt-4o-mini",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 5,
+  "correction_iterations": 4,
+  "correction_termination": "regression",
+  "prompt_tokens": 4526,
+  "completion_tokens": 1858,
+  "duration_seconds": 21.6,
+  "outcome": "did_not_compile"
+}

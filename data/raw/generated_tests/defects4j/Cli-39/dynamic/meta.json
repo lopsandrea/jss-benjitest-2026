@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-39",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.CommandLine",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 7,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 55.29,
+  "branch_coverage": 39.2,
+  "method_coverage": 68.65,
+  "mutation_score": 64.8
+}

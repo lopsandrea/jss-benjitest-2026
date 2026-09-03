@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-34",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 63.22,
+  "branch_coverage": 43.16,
+  "method_coverage": 75.25,
+  "mutation_score": 28.73
+}

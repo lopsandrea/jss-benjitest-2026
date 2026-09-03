@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.24
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p27.Class187Test
+[ERROR] com.example.p27.Class187Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  25.315 s
+[INFO] Finished at: 2025-04-20T01:37:55Z

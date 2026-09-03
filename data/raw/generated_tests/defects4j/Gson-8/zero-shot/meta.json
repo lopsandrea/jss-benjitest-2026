@@ -1,0 +1,16 @@
+{
+  "bug": "Gson-8",
+  "project": "Gson",
+  "class_under_test": "com.google.gson.reflect.TypeToken",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 76.19,
+  "branch_coverage": 68.31,
+  "method_coverage": 79.07,
+  "mutation_score": 64.58
+}

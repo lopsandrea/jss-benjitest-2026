@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-10",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.NodeUtil",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 63.59,
+  "branch_coverage": 43.86,
+  "method_coverage": 67.93,
+  "mutation_score": 54.61
+}

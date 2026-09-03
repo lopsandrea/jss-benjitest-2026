@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-10",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 61.88,
+  "branch_coverage": 46.84,
+  "method_coverage": 60.66,
+  "mutation_score": 43.17
+}

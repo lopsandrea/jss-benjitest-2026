@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.0
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p50.Class290Test
+[ERROR] com.example.p50.Class290Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  58.457 s
+[INFO] Finished at: 2025-06-11T16:29:23Z

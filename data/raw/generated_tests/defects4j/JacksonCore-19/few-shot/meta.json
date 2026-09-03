@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-19",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.JsonFactory",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 20,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 40.64,
+  "branch_coverage": 30.59,
+  "method_coverage": 50.75,
+  "mutation_score": 15.19
+}

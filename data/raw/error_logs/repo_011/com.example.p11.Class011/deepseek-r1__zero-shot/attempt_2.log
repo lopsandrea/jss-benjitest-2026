@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.14
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_011/src/test/java/com/example/p11/Class011Test.java:[34,80] no suitable method found for thenReturn(String)
+[INFO] BUILD FAILURE
+[INFO] Total time:  46.618 s
+[INFO] Finished at: 2025-04-02T16:10:24Z

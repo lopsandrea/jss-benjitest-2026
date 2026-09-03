@@ -1,0 +1,69 @@
+---
+# Memorisation control corpus.
+# Protocol: paper Section "A Control Group the Model Cannot Have Memorized".
+#
+# Purpose: establish the BASE RATE at which a model reproduces a developer's
+# unit test from the production class alone, without ever having seen it. The
+# excess of Classes2Test over this corpus is the portion attributable to
+# memorisation; the corpus rate itself is near-duplicate regeneration.
+#
+# The three sources are chosen so that pretraining exposure is excluded by
+# construction rather than by assumption.
+dataset:
+  name: MemorizationControl
+  description: "Classes provably unavailable during pretraining"
+  language: java
+
+  sources:
+    - name: post-cutoff
+      kind: github
+      count: 600
+      # First public commit strictly after the evaluated model's training cutoff.
+      # gpt-4.1 is the probed model; its stated cutoff is June 2024, and we add a
+      # four-month margin because the cutoff is approximate and crawls lag it.
+      filter:
+        first_commit_after: "2024-10-01"
+        has_tests: true
+        build_system: [maven, gradle]
+
+    - name: private
+      kind: local
+      count: 500
+      # Never published. Paths are not committed; supply via BENJITEST_PRIVATE_ROOT.
+      source_root: "${BENJITEST_PRIVATE_ROOT}"
+      redact_identifiers: false
+
+    - name: synthetic
+      kind: generated
+      count: 400
+      # Randomised identifiers and domain vocabulary so that surface forms
+      # cannot match anything in a training corpus.
+      generator: scripts/make_synthetic_projects.py
+      randomize: [class_names, method_names, field_names, domain_vocabulary]
+      seed: 42
+
+  # Matched to Classes2Test so that a difference in reproducibility cannot be
+  # explained by the control classes simply being structurally easier or harder.
+  matching:
+    enabled: true
+    target_dataset: classes2test
+    match_on: [loc, cyclomatic_complexity, test_framework]
+    tolerance: 0.1
+
+  filters:
+    include: ["**/*.java"]
+    exclude: ["**/gui/**", "**/deprecated/**", "**/generated/**"]
+
+probing:
+  # Identical to the Classes2Test probe -- any deviation would invalidate the
+  # comparison, which is the whole point of the control.
+  protocol: memorization
+  few_shot_examples: 2
+  temperature: 0
+  seed: 42
+  match_levels: [exact, structural, semantic]
+  semantic_threshold: 0.8
+
+reporting:
+  output_dir: data/raw/memorization_control
+  formats: [csv]

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.23
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_075/src/test/java/com/example/p75/Class235Test.java:[28,27] cannot find symbol
+  symbol:   method computeTotalOrDefault(int)
+  location: class com.example.p66.Class885Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  30.677 s
+[INFO] Finished at: 2025-06-06T13:35:28Z

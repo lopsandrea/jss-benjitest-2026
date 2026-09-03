@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-89",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Parser",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 75.54,
+  "branch_coverage": 52.76,
+  "method_coverage": 70.91,
+  "mutation_score": 37.53
+}

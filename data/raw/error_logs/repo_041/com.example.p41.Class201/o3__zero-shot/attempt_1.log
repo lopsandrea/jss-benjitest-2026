@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.5
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p41.Class201Test
+[ERROR] com.example.p41.Class201Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  44.360 s
+[INFO] Finished at: 2025-05-03T01:09:16Z

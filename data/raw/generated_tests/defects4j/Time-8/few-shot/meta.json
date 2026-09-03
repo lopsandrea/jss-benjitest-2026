@@ -1,0 +1,16 @@
+{
+  "bug": "Time-8",
+  "project": "Time",
+  "class_under_test": "org.joda.time.LocalDate",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 36.17,
+  "branch_coverage": 24.14,
+  "method_coverage": 49.08,
+  "mutation_score": 22.57
+}

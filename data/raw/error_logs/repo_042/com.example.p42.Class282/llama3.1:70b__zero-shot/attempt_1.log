@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.4
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_042/src/test/java/com/example/p42/Class282Test.java:[117,53] cannot find symbol
+  symbol:   class Temporal
+  location: class com.example.p3.Class265Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  50.452 s
+[INFO] Finished at: 2025-05-09T06:52:16Z

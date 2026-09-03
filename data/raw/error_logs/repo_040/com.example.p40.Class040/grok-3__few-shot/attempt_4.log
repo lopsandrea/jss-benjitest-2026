@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.11
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p40.Class040Test
+[ERROR] com.example.p40.Class040Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  18.983 s
+[INFO] Finished at: 2025-06-10T04:20:24Z

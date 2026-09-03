@@ -1,0 +1,16 @@
+{
+  "bug": "Time-17",
+  "project": "Time",
+  "class_under_test": "org.joda.time.field.UnsupportedDurationField",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 59.77,
+  "branch_coverage": 47.98,
+  "method_coverage": 68.94,
+  "mutation_score": 39.99
+}

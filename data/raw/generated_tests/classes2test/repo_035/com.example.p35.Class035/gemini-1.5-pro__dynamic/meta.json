@@ -1,0 +1,25 @@
+{
+  "repository": "repo_035",
+  "class_under_test": "com.example.p35.Class035",
+  "model": "gemini-1.5-pro",
+  "strategy": "dynamic",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 24231,
+  "completion_tokens": 4898,
+  "duration_seconds": 33.71,
+  "outcome": "did_not_compile"
+}

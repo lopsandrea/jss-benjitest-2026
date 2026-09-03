@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-20",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.helper.DataUtil",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 42.83,
+  "branch_coverage": 18.31,
+  "method_coverage": 37.97,
+  "mutation_score": 11.69
+}

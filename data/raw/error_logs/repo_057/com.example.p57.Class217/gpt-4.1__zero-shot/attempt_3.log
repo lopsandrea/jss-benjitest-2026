@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.9
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p57.Class217Test
+[ERROR] com.example.p57.Class217Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  17.852 s
+[INFO] Finished at: 2025-06-26T20:34:03Z

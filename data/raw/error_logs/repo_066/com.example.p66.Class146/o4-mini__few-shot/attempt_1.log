@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.18
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_066/src/test/java/com/example/p66/Class146Test.java:[104,9] cannot find symbol
+  symbol:   class Stream
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  12.560 s
+[INFO] Finished at: 2025-05-03T21:05:55Z

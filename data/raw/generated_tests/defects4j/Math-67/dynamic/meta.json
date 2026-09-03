@@ -1,0 +1,16 @@
+{
+  "bug": "Math-67",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 16,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 69.48,
+  "branch_coverage": 61.43,
+  "method_coverage": 72.29,
+  "mutation_score": 54.11
+}

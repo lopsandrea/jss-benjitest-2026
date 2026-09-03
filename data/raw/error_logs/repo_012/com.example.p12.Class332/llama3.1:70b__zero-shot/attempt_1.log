@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.15
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p12.Class332Test
+[ERROR] com.example.p12.Class332Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  35.517 s
+[INFO] Finished at: 2025-05-18T11:37:28Z

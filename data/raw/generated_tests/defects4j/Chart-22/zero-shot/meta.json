@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-22",
+  "project": "Chart",
+  "class_under_test": "org.jfree.data.statistics.Statistics",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 58.13,
+  "branch_coverage": 34.46,
+  "method_coverage": 54.09,
+  "mutation_score": 39.33
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Csv-3",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.CSVFormat",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 38.13,
+  "branch_coverage": 30.37,
+  "method_coverage": 47.21,
+  "mutation_score": 22.95
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.8
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p40.Class280Test
+[ERROR] com.example.p40.Class280Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  58.790 s
+[INFO] Finished at: 2025-04-04T13:56:25Z

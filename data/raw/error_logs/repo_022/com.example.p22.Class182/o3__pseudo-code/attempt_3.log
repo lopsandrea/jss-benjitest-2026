@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.9
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_022/src/test/java/com/example/p22/Class182Test.java:[40,16] cannot find symbol
+  symbol:   class ArgumentCaptor
+[INFO] BUILD FAILURE
+[INFO] Total time:  54.735 s
+[INFO] Finished at: 2025-06-10T16:08:59Z

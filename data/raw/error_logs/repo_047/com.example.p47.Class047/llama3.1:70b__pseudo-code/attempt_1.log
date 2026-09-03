@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.21
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_047/src/test/java/com/example/p47/Class047Test.java:[112,64] cannot find symbol
+  symbol:   method computeTotalOrDefault(int)
+  location: class com.example.p4.Class807Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  15.955 s
+[INFO] Finished at: 2025-06-03T10:14:00Z

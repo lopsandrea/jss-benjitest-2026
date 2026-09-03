@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-60",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.TypeCheck",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 16,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 100.0,
+  "branch_coverage": 87.8,
+  "method_coverage": 99.91,
+  "mutation_score": 88.99
+}

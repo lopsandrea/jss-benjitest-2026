@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.0
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p14.Class334Test
+[ERROR] com.example.p14.Class334Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  39.813 s
+[INFO] Finished at: 2025-04-18T04:30:38Z

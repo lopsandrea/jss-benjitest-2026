@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-11",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.invocation.InvocationImpl",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 51.42,
+  "branch_coverage": 19.74,
+  "method_coverage": 46.82,
+  "mutation_score": 18.31
+}

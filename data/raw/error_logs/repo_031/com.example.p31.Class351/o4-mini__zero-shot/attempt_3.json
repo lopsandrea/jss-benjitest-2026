@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "type_mismatch",
+  "attempt": 3,
+  "resolved": false,
+  "classifier_score": -1,
+  "termination": "regression",
+  "affected_file": "src/test/java/com/example/p31/Class351Test.java"
+}

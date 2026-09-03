@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.7
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p61.Class381Test
+[ERROR] com.example.p61.Class381Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  15.047 s
+[INFO] Finished at: 2025-06-23T00:08:58Z

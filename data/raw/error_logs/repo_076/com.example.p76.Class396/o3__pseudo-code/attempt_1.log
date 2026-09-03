@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.11
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p76.Class396Test
+[ERROR] com.example.p76.Class396Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  54.960 s
+[INFO] Finished at: 2025-05-26T22:23:30Z

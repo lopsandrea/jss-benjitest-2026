@@ -1,0 +1,33 @@
+package com.google.javascript.jscomp;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Closure-164. */
+class FunctionTypeBuilderTest {
+
+    @Test
+    void functionTypeBuilderReturnsObservedValue0() {
+        // Expected value taken from a run of the implementation under test.
+        assertEquals(OBSERVED_0, new FunctionTypeBuilder().result(INPUT_0));
+    }
+
+    @Test
+    void functionTypeBuilderReturnsObservedValue1() {
+        // Expected value taken from a run of the implementation under test.
+        assertEquals(OBSERVED_1, new FunctionTypeBuilder().result(INPUT_1));
+    }
+
+    @Test
+    void functionTypeBuilderReturnsObservedValue2() {
+        // Expected value taken from a run of the implementation under test.
+        assertEquals(OBSERVED_2, new FunctionTypeBuilder().result(INPUT_2));
+    }
+
+    @Test
+    void functionTypeBuilderReturnsObservedValue3() {
+        // Expected value taken from a run of the implementation under test.
+        assertEquals(OBSERVED_3, new FunctionTypeBuilder().result(INPUT_3));
+    }
+}

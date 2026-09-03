@@ -1,0 +1,841 @@
+# Per-bug fault-category labels for all 835 Defects4J bugs (paper Sec. 4.5, tab:undetected_faults).
+# detected_by_dynamic and dynamic_outcome are copied from defects4j_per_bug_results.csv so the
+# two files cannot drift apart. 200 of the 450 bugs the dynamic strategy did not detect were
+# labelled independently by two authors (Cohen's kappa = 0.78); the 29 discordant cases are in
+# annotation_disagreements.csv. The rest carry rule-based labels derived from those.
+bug_id,project,class_name,detected_by_dynamic,dynamic_outcome,category,ripr_condition,label_source,annotator_a,annotator_b
+Chart-1,Chart,org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-2,Chart,org.jfree.data.general.DatasetUtilities,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Complex Object Construction
+Chart-3,Chart,org.jfree.chart.axis.ValueAxis,0,no_compile,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Chart-4,Chart,org.jfree.data.statistics.Statistics,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Chart-5,Chart,org.jfree.chart.axis.ValueAxis,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Chart-6,Chart,org.jfree.data.time.TimeSeries,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Chart-7,Chart,org.jfree.chart.block.BorderArrangement,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Chart-8,Chart,org.jfree.chart.plot.XYPlot,0,fails_both,State-Dependent Call Sequences,infection,rule-based,,
+Chart-9,Chart,org.jfree.chart.axis.ValueAxis,0,no_compile,No structural obstacle,-,manual,No structural obstacle,Absent Automated Oracle
+Chart-10,Chart,org.jfree.data.time.TimeSeries,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-11,Chart,org.jfree.chart.plot.XYPlot,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Chart-12,Chart,org.jfree.chart.plot.CategoryPlot,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-13,Chart,org.jfree.data.statistics.Statistics,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Chart-14,Chart,org.jfree.chart.block.BorderArrangement,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-15,Chart,org.jfree.data.time.TimeSeries,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Chart-16,Chart,org.jfree.chart.JFreeChart,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Chart-17,Chart,org.jfree.chart.block.BorderArrangement,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Chart-18,Chart,org.jfree.data.time.TimeSeries,0,fails_both,State-Dependent Call Sequences,infection,rule-based,,
+Chart-19,Chart,org.jfree.chart.axis.ValueAxis,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Chart-20,Chart,org.jfree.data.statistics.Statistics,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Chart-21,Chart,org.jfree.chart.renderer.category.BarRenderer,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-22,Chart,org.jfree.data.statistics.Statistics,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-23,Chart,org.jfree.chart.plot.CategoryPlot,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Chart-24,Chart,org.jfree.chart.axis.ValueAxis,1,detects_bug,No structural obstacle,-,rule-based,,
+Chart-25,Chart,org.jfree.chart.block.BorderArrangement,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Chart-26,Chart,org.jfree.chart.axis.ValueAxis,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-1,Cli,org.apache.commons.cli.HelpFormatter,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Cli-2,Cli,org.apache.commons.cli.OptionBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-3,Cli,org.apache.commons.cli.TypeHandler,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Cli-4,Cli,org.apache.commons.cli.PosixParser,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Cli-5,Cli,org.apache.commons.cli.PosixParser,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Cli-7,Cli,org.apache.commons.cli.OptionBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-8,Cli,org.apache.commons.cli.Options,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-9,Cli,org.apache.commons.cli.Option,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Cli-10,Cli,org.apache.commons.cli.PosixParser,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Cli-11,Cli,org.apache.commons.cli.Option,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Cli-12,Cli,org.apache.commons.cli.OptionBuilder,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Cli-13,Cli,org.apache.commons.cli.PosixParser,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Cli-14,Cli,org.apache.commons.cli.HelpFormatter,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Cli-15,Cli,org.apache.commons.cli.TypeHandler,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Cli-16,Cli,org.apache.commons.cli.GnuParser,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-17,Cli,org.apache.commons.cli.CommandLine,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-18,Cli,org.apache.commons.cli.PosixParser,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Cli-19,Cli,org.apache.commons.cli.CommandLine,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-20,Cli,org.apache.commons.cli.OptionBuilder,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Cli-21,Cli,org.apache.commons.cli.Options,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Cli-22,Cli,org.apache.commons.cli.GnuParser,0,fails_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,Absent Automated Oracle
+Cli-23,Cli,org.apache.commons.cli.Option,0,encodes_bug,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+Cli-24,Cli,org.apache.commons.cli.OptionBuilder,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Cli-25,Cli,org.apache.commons.cli.Options,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-26,Cli,org.apache.commons.cli.OptionBuilder,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Cli-27,Cli,org.apache.commons.cli.OptionBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-28,Cli,org.apache.commons.cli.OptionBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-29,Cli,org.apache.commons.cli.Option,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Cli-30,Cli,org.apache.commons.cli.CommandLine,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Cli-31,Cli,org.apache.commons.cli.TypeHandler,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-32,Cli,org.apache.commons.cli.Options,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Cli-33,Cli,org.apache.commons.cli.HelpFormatter,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-34,Cli,org.apache.commons.cli.HelpFormatter,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-35,Cli,org.apache.commons.cli.PosixParser,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-36,Cli,org.apache.commons.cli.TypeHandler,1,detects_bug,No structural obstacle,-,rule-based,,
+Cli-37,Cli,org.apache.commons.cli.OptionBuilder,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Cli-38,Cli,org.apache.commons.cli.HelpFormatter,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Cli-39,Cli,org.apache.commons.cli.CommandLine,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Cli-40,Cli,org.apache.commons.cli.OptionBuilder,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-1,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-2,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Closure-3,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-4,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-5,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Closure-6,Closure,com.google.javascript.jscomp.TypeCheck,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-7,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,passes_both,State-Dependent Call Sequences,infection,rule-based,,
+Closure-8,Closure,com.google.javascript.jscomp.TypeCheck,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-9,Closure,com.google.javascript.jscomp.InlineFunctions,0,passes_both,Complex Object Construction,reachability,manual,State-Dependent Call Sequences,Complex Object Construction
+Closure-10,Closure,com.google.javascript.jscomp.NodeUtil,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-11,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-12,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,fails_both,State-Dependent Call Sequences,infection,rule-based,,
+Closure-13,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-14,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Closure-15,Closure,com.google.javascript.jscomp.InlineFunctions,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-16,Closure,com.google.javascript.jscomp.InlineFunctions,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-17,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Closure-18,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,encodes_bug,No structural obstacle,-,rule-based,,
+Closure-19,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-20,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-21,Closure,com.google.javascript.jscomp.InlineFunctions,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-22,Closure,com.google.javascript.jscomp.ScopedAliases,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-23,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-24,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-25,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,State-Dependent Call Sequences
+Closure-26,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,fails_both,State-Dependent Call Sequences,infection,rule-based,,
+Closure-27,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-28,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-29,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-30,Closure,com.google.javascript.jscomp.TypeCheck,0,passes_both,State-Dependent Call Sequences,infection,manual,Absent Automated Oracle,State-Dependent Call Sequences
+Closure-31,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-32,Closure,com.google.javascript.jscomp.ScopedAliases,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-33,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-34,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,State-Dependent Call Sequences
+Closure-35,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Absent Automated Oracle
+Closure-36,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-37,Closure,com.google.javascript.jscomp.TypeCheck,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-38,Closure,com.google.javascript.jscomp.InlineFunctions,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Absent Automated Oracle
+Closure-39,Closure,com.google.javascript.jscomp.DataFlowAnalysis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-40,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,passes_both,No structural obstacle,-,rule-based,,
+Closure-41,Closure,com.google.javascript.jscomp.InlineFunctions,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-42,Closure,com.google.javascript.jscomp.InlineFunctions,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-43,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,fails_both,State-Dependent Call Sequences,infection,rule-based,,
+Closure-44,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Closure-45,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-46,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-47,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-48,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-49,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-50,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-51,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-52,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Closure-53,Closure,com.google.javascript.jscomp.TypeCheck,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-54,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Closure-55,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-56,Closure,com.google.javascript.jscomp.InlineFunctions,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-57,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-58,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-59,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,encodes_bug,Absent Automated Oracle,revealability,manual,Environment and External-Call Dependence,Absent Automated Oracle
+Closure-60,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-61,Closure,com.google.javascript.jscomp.ScopedAliases,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Closure-62,Closure,com.google.javascript.jscomp.LightweightMessageFormatter,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-64,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-65,Closure,com.google.javascript.jscomp.ScopedAliases,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-66,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-67,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-68,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Closure-69,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-70,Closure,com.google.javascript.jscomp.InlineFunctions,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-71,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-72,Closure,com.google.javascript.jscomp.ClosureCodingConvention,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-73,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-74,Closure,com.google.javascript.jscomp.TypeCheck,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Closure-75,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-76,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-77,Closure,com.google.javascript.jscomp.InlineFunctions,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Closure-78,Closure,com.google.javascript.jscomp.ScopedAliases,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-79,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-80,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-81,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-82,Closure,com.google.javascript.jscomp.ScopedAliases,0,passes_both,State-Dependent Call Sequences,infection,manual,Absent Automated Oracle,State-Dependent Call Sequences
+Closure-83,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-84,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-85,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,No structural obstacle
+Closure-86,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-87,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-88,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-89,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-90,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,fails_both,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+Closure-91,Closure,com.google.javascript.jscomp.ClosureCodingConvention,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-92,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-94,Closure,com.google.javascript.jscomp.ScopedAliases,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-95,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-96,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-97,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-98,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Closure-99,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Closure-100,Closure,com.google.javascript.jscomp.ClosureCodingConvention,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-101,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-102,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,no_compile,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-103,Closure,com.google.javascript.jscomp.InlineFunctions,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-104,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Closure-105,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-106,Closure,com.google.javascript.jscomp.ClosureCodingConvention,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-107,Closure,com.google.javascript.jscomp.InlineFunctions,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-108,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-109,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-110,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-111,Closure,com.google.javascript.jscomp.InlineFunctions,0,no_compile,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Closure-112,Closure,com.google.javascript.jscomp.ScopedAliases,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-113,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-114,Closure,com.google.javascript.jscomp.InlineFunctions,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-115,Closure,com.google.javascript.jscomp.ScopedAliases,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-116,Closure,com.google.javascript.jscomp.ScopedAliases,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-117,Closure,com.google.javascript.jscomp.ScopedAliases,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-118,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,no_compile,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-119,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-120,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-121,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-122,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Closure-123,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Closure-124,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-125,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Closure-126,Closure,com.google.javascript.jscomp.InlineFunctions,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-127,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-128,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-129,Closure,com.google.javascript.jscomp.TypeCheck,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-130,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-131,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-132,Closure,com.google.javascript.jscomp.TypeCheck,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-133,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-134,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-135,Closure,com.google.javascript.jscomp.ScopedAliases,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-136,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Closure-137,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-138,Closure,com.google.javascript.jscomp.InlineFunctions,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-139,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-140,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-141,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-142,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-143,Closure,com.google.javascript.jscomp.DataFlowAnalysis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-144,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-145,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-146,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-147,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-148,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Closure-149,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-150,Closure,com.google.javascript.jscomp.CheckGlobalThis,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-151,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-152,Closure,com.google.javascript.jscomp.ClosureCodingConvention,0,encodes_bug,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+Closure-153,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-154,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-155,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-156,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-157,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-158,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Closure-159,Closure,com.google.javascript.jscomp.ClosureCodingConvention,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-160,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-161,Closure,com.google.javascript.jscomp.PeepholeFoldConstants,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-162,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-163,Closure,com.google.javascript.jscomp.ScopedAliases,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-164,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Closure-165,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-166,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-167,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-168,Closure,com.google.javascript.rhino.jstype.PrototypeObjectType,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-169,Closure,com.google.javascript.jscomp.TypeCheck,1,detects_bug,No structural obstacle,-,rule-based,,
+Closure-170,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Closure-171,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Closure-172,Closure,com.google.javascript.jscomp.InlineFunctions,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Closure-173,Closure,com.google.javascript.jscomp.FunctionTypeBuilder,0,fails_both,Environment and External-Call Dependence,reachability,rule-based,,
+Closure-174,Closure,com.google.javascript.jscomp.CheckGlobalThis,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Closure-175,Closure,com.google.javascript.jscomp.PeepholeRemoveDeadCode,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Closure-176,Closure,com.google.javascript.jscomp.DataFlowAnalysis,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Codec-1,Codec,org.apache.commons.codec.net.URLCodec,1,detects_bug,No structural obstacle,-,rule-based,,
+Codec-2,Codec,org.apache.commons.codec.net.URLCodec,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Codec-3,Codec,org.apache.commons.codec.net.URLCodec,1,detects_bug,No structural obstacle,-,rule-based,,
+Codec-4,Codec,org.apache.commons.codec.language.Soundex,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Codec-5,Codec,org.apache.commons.codec.language.Metaphone,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Codec-6,Codec,org.apache.commons.codec.binary.Hex,1,detects_bug,No structural obstacle,-,rule-based,,
+Codec-7,Codec,org.apache.commons.codec.net.URLCodec,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Codec-8,Codec,org.apache.commons.codec.language.Soundex,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Codec-9,Codec,org.apache.commons.codec.binary.Hex,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Codec-10,Codec,org.apache.commons.codec.language.Metaphone,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Codec-11,Codec,org.apache.commons.codec.binary.Hex,1,detects_bug,No structural obstacle,-,rule-based,,
+Codec-12,Codec,org.apache.commons.codec.language.Metaphone,1,detects_bug,No structural obstacle,-,rule-based,,
+Codec-13,Codec,org.apache.commons.codec.digest.DigestUtils,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Codec-14,Codec,org.apache.commons.codec.digest.DigestUtils,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Codec-15,Codec,org.apache.commons.codec.digest.DigestUtils,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Codec-16,Codec,org.apache.commons.codec.net.URLCodec,0,passes_both,No structural obstacle,-,rule-based,,
+Codec-17,Codec,org.apache.commons.codec.binary.Base64,1,detects_bug,No structural obstacle,-,rule-based,,
+Codec-18,Codec,org.apache.commons.codec.language.Metaphone,1,detects_bug,No structural obstacle,-,rule-based,,
+Collections-25,Collections,org.apache.commons.collections4.IteratorUtils,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Collections-26,Collections,org.apache.commons.collections4.list.SetUniqueList,1,detects_bug,No structural obstacle,-,rule-based,,
+Collections-27,Collections,org.apache.commons.collections4.list.SetUniqueList,1,detects_bug,No structural obstacle,-,rule-based,,
+Collections-28,Collections,org.apache.commons.collections4.CollectionUtils,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Compress-1,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Compress-2,Compress,org.apache.commons.compress.archivers.sevenz.SevenZFile,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-3,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Compress-4,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Compress-5,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,0,passes_both,State-Dependent Call Sequences,infection,rule-based,,
+Compress-6,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-7,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Compress-8,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Compress-9,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Compress-10,Compress,org.apache.commons.compress.archivers.sevenz.SevenZFile,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-11,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Compress-12,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Compress-13,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,0,no_compile,No structural obstacle,-,rule-based,,
+Compress-14,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,0,fails_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,Absent Automated Oracle
+Compress-15,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Compress-16,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Compress-17,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-18,Compress,org.apache.commons.compress.archivers.sevenz.SevenZFile,0,fails_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Compress-19,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Compress-20,Compress,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Compress-21,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Compress-22,Compress,org.apache.commons.compress.archivers.sevenz.SevenZFile,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Compress-23,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-24,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Compress-25,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-26,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-27,Compress,org.apache.commons.compress.archivers.sevenz.SevenZFile,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Compress-28,Compress,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Compress-29,Compress,org.apache.commons.compress.archivers.sevenz.SevenZFile,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-30,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-31,Compress,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Compress-32,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,0,no_compile,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+Compress-33,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-34,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-35,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Compress-36,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-37,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Compress-38,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Compress-39,Compress,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-40,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,0,fails_both,Environment and External-Call Dependence,reachability,manual,Absent Automated Oracle,Environment and External-Call Dependence
+Compress-41,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Compress-42,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Compress-43,Compress,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-44,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+Compress-45,Compress,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Compress-46,Compress,org.apache.commons.compress.archivers.tar.TarArchiveEntry,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Compress-47,Compress,org.apache.commons.compress.archivers.ArchiveStreamFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-1,Csv,org.apache.commons.csv.CSVFormat,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-2,Csv,org.apache.commons.csv.CSVPrinter,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-3,Csv,org.apache.commons.csv.CSVFormat,0,fails_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Csv-4,Csv,org.apache.commons.csv.CSVParser,0,no_compile,No structural obstacle,-,rule-based,,
+Csv-5,Csv,org.apache.commons.csv.CSVFormat,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Csv-6,Csv,org.apache.commons.csv.CSVFormat,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Csv-7,Csv,org.apache.commons.csv.CSVFormat,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-8,Csv,org.apache.commons.csv.CSVRecord,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Csv-9,Csv,org.apache.commons.csv.CSVFormat,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Csv-10,Csv,org.apache.commons.csv.CSVRecord,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Csv-11,Csv,org.apache.commons.csv.CSVRecord,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-12,Csv,org.apache.commons.csv.CSVRecord,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-13,Csv,org.apache.commons.csv.Lexer,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Csv-14,Csv,org.apache.commons.csv.Lexer,1,detects_bug,No structural obstacle,-,rule-based,,
+Csv-15,Csv,org.apache.commons.csv.CSVPrinter,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Csv-16,Csv,org.apache.commons.csv.CSVPrinter,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-1,Gson,com.google.gson.reflect.TypeToken,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Gson-2,Gson,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Gson-3,Gson,com.google.gson.internal.$Gson$Types,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Gson-4,Gson,com.google.gson.Gson,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Gson-5,Gson,com.google.gson.internal.$Gson$Types,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Gson-6,Gson,com.google.gson.internal.bind.TypeAdapters,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Gson-7,Gson,com.google.gson.reflect.TypeToken,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Gson-8,Gson,com.google.gson.reflect.TypeToken,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-9,Gson,com.google.gson.reflect.TypeToken,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Gson-10,Gson,com.google.gson.internal.bind.TypeAdapters,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-11,Gson,com.google.gson.internal.$Gson$Types,0,no_compile,Environment and External-Call Dependence,reachability,rule-based,,
+Gson-12,Gson,com.google.gson.internal.bind.TypeAdapters,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-13,Gson,com.google.gson.internal.bind.TypeAdapters,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-14,Gson,com.google.gson.internal.bind.TypeAdapters,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Gson-15,Gson,com.google.gson.internal.bind.TypeAdapters,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-16,Gson,com.google.gson.stream.JsonReader,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Gson-17,Gson,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+Gson-18,Gson,com.google.gson.internal.bind.TypeAdapters,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-1,JacksonCore,com.fasterxml.jackson.core.JsonGenerator,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonCore-2,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-3,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonCore-4,JacksonCore,com.fasterxml.jackson.core.JsonGenerator,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-5,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-6,JacksonCore,com.fasterxml.jackson.core.JsonGenerator,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonCore-7,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-8,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-9,JacksonCore,com.fasterxml.jackson.core.JsonGenerator,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-10,JacksonCore,com.fasterxml.jackson.core.JsonPointer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-11,JacksonCore,com.fasterxml.jackson.core.JsonPointer,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonCore-12,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonCore-13,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonCore-14,JacksonCore,com.fasterxml.jackson.core.JsonFactory,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonCore-15,JacksonCore,com.fasterxml.jackson.core.JsonFactory,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonCore-16,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,0,no_compile,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+JacksonCore-17,JacksonCore,com.fasterxml.jackson.core.JsonGenerator,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-18,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-19,JacksonCore,com.fasterxml.jackson.core.JsonFactory,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonCore-20,JacksonCore,com.fasterxml.jackson.core.JsonGenerator,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonCore-21,JacksonCore,com.fasterxml.jackson.core.json.UTF8StreamJsonParser,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-22,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Environment and External-Call Dependence
+JacksonCore-23,JacksonCore,com.fasterxml.jackson.core.util.JsonParserSequence,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonCore-24,JacksonCore,com.fasterxml.jackson.core.JsonPointer,0,fails_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JacksonCore-25,JacksonCore,com.fasterxml.jackson.core.JsonParser,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+JacksonCore-26,JacksonCore,com.fasterxml.jackson.core.JsonParser,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-1,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JacksonDatabind-2,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-3,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-4,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-5,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonDatabind-6,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-7,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-8,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-9,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-10,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,no_compile,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JacksonDatabind-11,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-12,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,0,no_compile,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-13,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,no_compile,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JacksonDatabind-14,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,State-Dependent Call Sequences,infection,rule-based,,
+JacksonDatabind-15,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,0,no_compile,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-16,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-17,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-18,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-19,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,encodes_bug,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+JacksonDatabind-20,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-21,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-22,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-23,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-24,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-25,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-26,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-27,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,no_compile,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-28,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-29,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-30,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-31,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-32,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-33,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-34,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-35,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-36,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-37,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-38,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,no_compile,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonDatabind-39,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-40,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-41,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-42,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,no_compile,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-43,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-44,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-45,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonDatabind-46,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-47,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-48,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-49,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-50,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-51,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-52,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-53,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-54,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-55,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-56,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,no_compile,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-57,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JacksonDatabind-58,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-59,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-60,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-61,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-62,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-63,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-64,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,passes_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+JacksonDatabind-65,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-66,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-67,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-68,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-69,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonDatabind-70,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-71,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-72,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-73,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-74,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-75,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-76,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-77,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-78,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-79,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-80,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-81,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-82,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-83,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-84,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-85,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-86,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+JacksonDatabind-87,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-88,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-89,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-90,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonDatabind-91,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-92,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,No structural obstacle
+JacksonDatabind-93,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-94,JacksonDatabind,com.fasterxml.jackson.databind.ObjectMapper,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-95,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-96,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-97,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-98,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,0,no_compile,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+JacksonDatabind-99,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-100,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-101,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JacksonDatabind-102,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-103,JacksonDatabind,com.fasterxml.jackson.databind.deser.std.StdDeserializer,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-104,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-105,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,encodes_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-106,JacksonDatabind,com.fasterxml.jackson.databind.ser.BeanSerializer,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-107,JacksonDatabind,com.fasterxml.jackson.databind.deser.BeanDeserializer,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JacksonDatabind-108,JacksonDatabind,com.fasterxml.jackson.databind.node.ObjectNode,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JacksonDatabind-109,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonDatabind-110,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,0,passes_both,Absent Automated Oracle,revealability,manual,Environment and External-Call Dependence,Absent Automated Oracle
+JacksonDatabind-111,JacksonDatabind,com.fasterxml.jackson.databind.type.TypeFactory,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonDatabind-112,JacksonDatabind,com.fasterxml.jackson.databind.introspect.AnnotatedClass,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+JacksonXml-1,JacksonXml,com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,No structural obstacle
+JacksonXml-2,JacksonXml,com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JacksonXml-3,JacksonXml,com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonXml-4,JacksonXml,com.fasterxml.jackson.dataformat.xml.XmlMapper,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonXml-5,JacksonXml,com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser,1,detects_bug,No structural obstacle,-,rule-based,,
+JacksonXml-6,JacksonXml,com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-1,Jsoup,org.jsoup.parser.TokeniserState,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-2,Jsoup,org.jsoup.parser.HtmlTreeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-3,Jsoup,org.jsoup.parser.Tokeniser,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-4,Jsoup,org.jsoup.safety.Cleaner,0,no_compile,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Jsoup-5,Jsoup,org.jsoup.select.Selector,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-6,Jsoup,org.jsoup.select.Selector,0,encodes_bug,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+Jsoup-7,Jsoup,org.jsoup.select.Selector,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-8,Jsoup,org.jsoup.parser.TokeniserState,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-9,Jsoup,org.jsoup.parser.Tokeniser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-10,Jsoup,org.jsoup.parser.HtmlTreeBuilder,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Jsoup-11,Jsoup,org.jsoup.nodes.Element,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-12,Jsoup,org.jsoup.parser.HtmlTreeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-13,Jsoup,org.jsoup.nodes.Element,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Jsoup-14,Jsoup,org.jsoup.parser.Parser,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-15,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-16,Jsoup,org.jsoup.parser.HtmlTreeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-17,Jsoup,org.jsoup.select.Selector,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Jsoup-18,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-19,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-20,Jsoup,org.jsoup.helper.DataUtil,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-21,Jsoup,org.jsoup.select.Selector,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-22,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Jsoup-23,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Jsoup-24,Jsoup,org.jsoup.select.Selector,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-25,Jsoup,org.jsoup.safety.Cleaner,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Jsoup-26,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-27,Jsoup,org.jsoup.parser.TokeniserState,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-28,Jsoup,org.jsoup.nodes.Element,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-29,Jsoup,org.jsoup.parser.Tokeniser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-30,Jsoup,org.jsoup.parser.Tokeniser,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-31,Jsoup,org.jsoup.parser.TokeniserState,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-32,Jsoup,org.jsoup.parser.TokeniserState,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-33,Jsoup,org.jsoup.safety.Cleaner,0,encodes_bug,Absent Automated Oracle,revealability,manual,Environment and External-Call Dependence,Absent Automated Oracle
+Jsoup-34,Jsoup,org.jsoup.safety.Cleaner,0,fails_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Jsoup-35,Jsoup,org.jsoup.parser.HtmlTreeBuilder,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-36,Jsoup,org.jsoup.parser.Tokeniser,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Jsoup-37,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-38,Jsoup,org.jsoup.parser.Tokeniser,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-39,Jsoup,org.jsoup.select.Selector,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Jsoup-40,Jsoup,org.jsoup.select.Selector,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-41,Jsoup,org.jsoup.parser.TokeniserState,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-42,Jsoup,org.jsoup.nodes.Element,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-43,Jsoup,org.jsoup.parser.Parser,0,encodes_bug,State-Dependent Call Sequences,infection,manual,Absent Automated Oracle,State-Dependent Call Sequences
+Jsoup-44,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-45,Jsoup,org.jsoup.nodes.Element,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-46,Jsoup,org.jsoup.parser.HtmlTreeBuilder,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Jsoup-47,Jsoup,org.jsoup.parser.Tokeniser,0,no_compile,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-48,Jsoup,org.jsoup.parser.TokeniserState,0,passes_both,No structural obstacle,-,rule-based,,
+Jsoup-49,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-50,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-51,Jsoup,org.jsoup.select.Selector,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-52,Jsoup,org.jsoup.parser.HtmlTreeBuilder,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-53,Jsoup,org.jsoup.nodes.Element,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-54,Jsoup,org.jsoup.parser.HtmlTreeBuilder,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-55,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-56,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-57,Jsoup,org.jsoup.nodes.Element,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-58,Jsoup,org.jsoup.nodes.Element,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-59,Jsoup,org.jsoup.nodes.Attributes,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Jsoup-60,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-61,Jsoup,org.jsoup.nodes.Element,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-62,Jsoup,org.jsoup.safety.Cleaner,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-63,Jsoup,org.jsoup.select.Selector,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Jsoup-64,Jsoup,org.jsoup.parser.TokeniserState,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-65,Jsoup,org.jsoup.nodes.Attributes,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Jsoup-66,Jsoup,org.jsoup.safety.Cleaner,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Jsoup-67,Jsoup,org.jsoup.parser.TokeniserState,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-68,Jsoup,org.jsoup.select.Selector,0,passes_both,Absent Automated Oracle,revealability,manual,Complex Object Construction,Absent Automated Oracle
+Jsoup-69,Jsoup,org.jsoup.parser.Parser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-70,Jsoup,org.jsoup.select.Selector,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Jsoup-71,Jsoup,org.jsoup.parser.TokeniserState,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-72,Jsoup,org.jsoup.nodes.Element,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Jsoup-73,Jsoup,org.jsoup.parser.HtmlTreeBuilder,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-74,Jsoup,org.jsoup.select.Selector,0,fails_both,Environment and External-Call Dependence,reachability,rule-based,,
+Jsoup-75,Jsoup,org.jsoup.select.Selector,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Jsoup-76,Jsoup,org.jsoup.parser.TokeniserState,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-77,Jsoup,org.jsoup.parser.Tokeniser,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Jsoup-78,Jsoup,org.jsoup.parser.Tokeniser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-79,Jsoup,org.jsoup.parser.HtmlTreeBuilder,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-80,Jsoup,org.jsoup.parser.Parser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-81,Jsoup,org.jsoup.parser.Parser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-82,Jsoup,org.jsoup.parser.Tokeniser,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Jsoup-83,Jsoup,org.jsoup.nodes.Attributes,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-84,Jsoup,org.jsoup.parser.Tokeniser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-85,Jsoup,org.jsoup.nodes.Element,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Jsoup-86,Jsoup,org.jsoup.select.Selector,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Jsoup-87,Jsoup,org.jsoup.parser.HtmlTreeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-88,Jsoup,org.jsoup.safety.Cleaner,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Jsoup-89,Jsoup,org.jsoup.parser.Parser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-90,Jsoup,org.jsoup.parser.Parser,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Jsoup-91,Jsoup,org.jsoup.parser.Tokeniser,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-92,Jsoup,org.jsoup.nodes.Attributes,1,detects_bug,No structural obstacle,-,rule-based,,
+Jsoup-93,Jsoup,org.jsoup.parser.TokeniserState,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-1,JxPath,org.apache.commons.jxpath.ri.compiler.NodeNameTest,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JxPath-2,JxPath,org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-3,JxPath,org.apache.commons.jxpath.ri.compiler.NodeNameTest,0,fails_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+JxPath-4,JxPath,org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer,0,passes_both,Complex Object Construction,reachability,rule-based,,
+JxPath-5,JxPath,org.apache.commons.jxpath.JXPathContext,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-6,JxPath,org.apache.commons.jxpath.JXPathContext,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JxPath-7,JxPath,org.apache.commons.jxpath.JXPathContext,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-8,JxPath,org.apache.commons.jxpath.ri.model.VariablePointer,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JxPath-9,JxPath,org.apache.commons.jxpath.ri.compiler.CoreOperation,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+JxPath-10,JxPath,org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+JxPath-11,JxPath,org.apache.commons.jxpath.ri.model.VariablePointer,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-12,JxPath,org.apache.commons.jxpath.ri.model.VariablePointer,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JxPath-13,JxPath,org.apache.commons.jxpath.ri.compiler.CoreOperation,0,no_compile,No structural obstacle,-,manual,No structural obstacle,No structural obstacle
+JxPath-14,JxPath,org.apache.commons.jxpath.JXPathContext,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-15,JxPath,org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer,0,no_compile,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JxPath-16,JxPath,org.apache.commons.jxpath.ri.compiler.NodeNameTest,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+JxPath-17,JxPath,org.apache.commons.jxpath.JXPathContext,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-18,JxPath,org.apache.commons.jxpath.JXPathContext,1,detects_bug,No structural obstacle,-,rule-based,,
+JxPath-19,JxPath,org.apache.commons.jxpath.ri.compiler.CoreOperation,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+JxPath-20,JxPath,org.apache.commons.jxpath.ri.model.VariablePointer,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+JxPath-21,JxPath,org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+JxPath-22,JxPath,org.apache.commons.jxpath.ri.model.VariablePointer,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-1,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-3,Lang,org.apache.commons.lang3.math.NumberUtils,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Lang-4,Lang,org.apache.commons.lang3.StringUtils,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Lang-5,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-6,Lang,org.apache.commons.lang3.text.translate.CharSequenceTranslator,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-7,Lang,org.apache.commons.lang3.builder.HashCodeBuilder,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Lang-8,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-9,Lang,org.apache.commons.lang3.builder.HashCodeBuilder,0,passes_both,No structural obstacle,-,rule-based,,
+Lang-10,Lang,org.apache.commons.lang3.time.FastDateParser,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-11,Lang,org.apache.commons.lang3.math.NumberUtils,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-12,Lang,org.apache.commons.lang3.ArrayUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-13,Lang,org.apache.commons.lang3.ArrayUtils,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Lang-14,Lang,org.apache.commons.lang3.text.StrBuilder,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Lang-15,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Lang-16,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Lang-17,Lang,org.apache.commons.lang3.builder.HashCodeBuilder,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Lang-18,Lang,org.apache.commons.lang3.time.FastDateFormat,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-19,Lang,org.apache.commons.lang3.time.DateUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-20,Lang,org.apache.commons.lang3.StringUtils,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Lang-21,Lang,org.apache.commons.lang3.reflect.TypeUtils,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Lang-22,Lang,org.apache.commons.lang3.time.FastDateFormat,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Lang-23,Lang,org.apache.commons.lang3.ArrayUtils,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Lang-24,Lang,org.apache.commons.lang3.ArrayUtils,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Lang-25,Lang,org.apache.commons.lang3.LocaleUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-26,Lang,org.apache.commons.lang3.text.StrBuilder,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Lang-27,Lang,org.apache.commons.lang3.time.FastDateFormat,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-28,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-29,Lang,org.apache.commons.lang3.reflect.TypeUtils,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Lang-30,Lang,org.apache.commons.lang3.text.StrBuilder,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Lang-31,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-32,Lang,org.apache.commons.lang3.time.DateUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-33,Lang,org.apache.commons.lang3.reflect.TypeUtils,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Lang-34,Lang,org.apache.commons.lang3.text.StrBuilder,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Absent Automated Oracle
+Lang-35,Lang,org.apache.commons.lang3.builder.HashCodeBuilder,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Lang-36,Lang,org.apache.commons.lang3.text.StrBuilder,0,passes_both,No structural obstacle,-,rule-based,,
+Lang-37,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-38,Lang,org.apache.commons.lang3.text.StrBuilder,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Lang-39,Lang,org.apache.commons.lang3.builder.HashCodeBuilder,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-40,Lang,org.apache.commons.lang3.time.FastDateFormat,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-41,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-42,Lang,org.apache.commons.lang3.time.FastDateFormat,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Lang-43,Lang,org.apache.commons.lang3.builder.HashCodeBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-44,Lang,org.apache.commons.lang3.StringUtils,0,fails_both,No structural obstacle,-,rule-based,,
+Lang-45,Lang,org.apache.commons.lang3.time.FastDateFormat,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-46,Lang,org.apache.commons.lang3.text.StrBuilder,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Lang-47,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-48,Lang,org.apache.commons.lang3.builder.EqualsBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-49,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Lang-50,Lang,org.apache.commons.lang3.StringUtils,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-51,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Lang-52,Lang,org.apache.commons.lang3.time.DateUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-53,Lang,org.apache.commons.lang3.math.NumberUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-54,Lang,org.apache.commons.lang3.text.StrBuilder,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-55,Lang,org.apache.commons.lang3.time.DateUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-56,Lang,org.apache.commons.lang3.reflect.TypeUtils,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-57,Lang,org.apache.commons.lang3.time.DateUtils,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Lang-58,Lang,org.apache.commons.lang3.time.DateUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-59,Lang,org.apache.commons.lang3.time.FastDateFormat,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Lang-60,Lang,org.apache.commons.lang3.time.DateUtils,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Lang-61,Lang,org.apache.commons.lang3.StringUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-62,Lang,org.apache.commons.lang3.ArrayUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-63,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Lang-64,Lang,org.apache.commons.lang3.text.StrBuilder,1,detects_bug,No structural obstacle,-,rule-based,,
+Lang-65,Lang,org.apache.commons.lang3.math.NumberUtils,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Math-1,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-2,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-3,Math,org.apache.commons.math3.linear.SingularValueDecomposition,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Math-4,Math,org.apache.commons.math3.util.MathUtils,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Math-5,Math,org.apache.commons.math3.complex.Complex,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-6,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-7,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-8,Math,org.apache.commons.math3.fraction.BigFraction,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-9,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Math-10,Math,org.apache.commons.math3.optim.linear.SimplexSolver,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-11,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,encodes_bug,Absent Automated Oracle,revealability,manual,Environment and External-Call Dependence,Absent Automated Oracle
+Math-12,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-13,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-14,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-15,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Math-16,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-17,Math,org.apache.commons.math3.linear.SingularValueDecomposition,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-18,Math,org.apache.commons.math3.fraction.BigFraction,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-19,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-20,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-21,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-22,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-23,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Math-24,Math,org.apache.commons.math3.fraction.BigFraction,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-25,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-26,Math,org.apache.commons.math3.fraction.BigFraction,0,encodes_bug,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Math-27,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-28,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-29,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-30,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-31,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Math-32,Math,org.apache.commons.math3.linear.SingularValueDecomposition,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-33,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Math-34,Math,org.apache.commons.math3.linear.SingularValueDecomposition,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Math-35,Math,org.apache.commons.math3.linear.SingularValueDecomposition,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Math-36,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-37,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-38,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,no_compile,Environment and External-Call Dependence,reachability,rule-based,,
+Math-39,Math,org.apache.commons.math3.optim.linear.SimplexSolver,0,passes_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Math-40,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-41,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-42,Math,org.apache.commons.math3.linear.SingularValueDecomposition,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-43,Math,org.apache.commons.math3.fraction.BigFraction,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-44,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-45,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-46,Math,org.apache.commons.math3.util.MathUtils,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Math-47,Math,org.apache.commons.math3.fraction.BigFraction,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Math-48,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-49,Math,org.apache.commons.math3.linear.SingularValueDecomposition,0,fails_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Math-50,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-51,Math,org.apache.commons.math3.fraction.BigFraction,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-52,Math,org.apache.commons.math3.linear.SingularValueDecomposition,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Math-53,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-54,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-55,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-56,Math,org.apache.commons.math3.fraction.BigFraction,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Math-57,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-58,Math,org.apache.commons.math3.fraction.BigFraction,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-59,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-60,Math,org.apache.commons.math3.util.MathUtils,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-61,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-62,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-63,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-64,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-65,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Math-66,Math,org.apache.commons.math3.fraction.BigFraction,0,passes_both,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Math-67,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,passes_both,Complex Object Construction,reachability,rule-based,,
+Math-68,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Math-69,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-70,Math,org.apache.commons.math.analysis.solvers.BisectionSolver,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-71,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,0,fails_both,Complex Object Construction,reachability,manual,No structural obstacle,Complex Object Construction
+Math-72,Math,org.apache.commons.math3.optim.linear.SimplexSolver,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Math-73,Math,org.apache.commons.math3.util.MathUtils,0,no_compile,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Math-74,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-75,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,fails_both,Absent Automated Oracle,revealability,manual,Complex Object Construction,Absent Automated Oracle
+Math-76,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,encodes_bug,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Math-77,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Math-78,Math,org.apache.commons.math3.linear.SingularValueDecomposition,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Environment and External-Call Dependence
+Math-79,Math,org.apache.commons.math3.util.MathUtils,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Math-80,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-81,Math,org.apache.commons.math3.util.MathUtils,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-82,Math,org.apache.commons.math3.linear.SingularValueDecomposition,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-83,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-84,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-85,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,0,passes_both,Complex Object Construction,reachability,manual,State-Dependent Call Sequences,Complex Object Construction
+Math-86,Math,org.apache.commons.math3.geometry.euclidean.threed.Line,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-87,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-88,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-89,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-90,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-91,Math,org.apache.commons.math3.optim.linear.SimplexSolver,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Math-92,Math,org.apache.commons.math3.util.MathUtils,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-93,Math,org.apache.commons.math3.optim.linear.SimplexSolver,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Math-94,Math,org.apache.commons.math3.util.MathUtils,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Math-95,Math,org.apache.commons.math3.fraction.BigFraction,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Math-96,Math,org.apache.commons.math3.optim.linear.SimplexSolver,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-97,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-98,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,1,detects_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Math-99,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Math-100,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Math-101,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,0,no_compile,State-Dependent Call Sequences,infection,rule-based,,
+Math-102,Math,org.apache.commons.math3.stat.descriptive.moment.Variance,0,passes_both,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Math-103,Math,org.apache.commons.math3.distribution.NormalDistribution,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Math-104,Math,org.apache.commons.math3.analysis.solvers.BrentSolver,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-105,Math,org.apache.commons.math3.distribution.NormalDistribution,1,detects_bug,No structural obstacle,-,rule-based,,
+Math-106,Math,org.apache.commons.math3.optim.linear.SimplexSolver,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Mockito-1,Mockito,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Mockito-2,Mockito,org.mockito.internal.invocation.InvocationMatcher,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Mockito-3,Mockito,org.mockito.internal.invocation.InvocationMatcher,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-4,Mockito,org.mockito.internal.handler.MockHandlerImpl,0,encodes_bug,Environment and External-Call Dependence,reachability,rule-based,,
+Mockito-5,Mockito,org.mockito.internal.util.reflection.FieldInitializer,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Mockito-6,Mockito,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-7,Mockito,org.mockito.internal.handler.MockHandlerImpl,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Mockito-8,Mockito,org.mockito.ArgumentCaptor,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Mockito-9,Mockito,org.mockito.internal.handler.MockHandlerImpl,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-10,Mockito,org.mockito.internal.invocation.InvocationImpl,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Mockito-11,Mockito,org.mockito.internal.invocation.InvocationImpl,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Mockito-12,Mockito,org.mockito.ArgumentCaptor,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Mockito-13,Mockito,org.mockito.ArgumentCaptor,0,fails_both,Environment and External-Call Dependence,reachability,rule-based,,
+Mockito-14,Mockito,org.mockito.ArgumentCaptor,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Mockito-15,Mockito,org.mockito.internal.invocation.InvocationImpl,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Mockito-16,Mockito,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Mockito-17,Mockito,org.mockito.ArgumentCaptor,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Mockito-18,Mockito,org.mockito.internal.handler.MockHandlerImpl,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Mockito-19,Mockito,org.mockito.internal.invocation.InvocationImpl,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-20,Mockito,org.mockito.internal.invocation.InvocationMatcher,0,passes_both,State-Dependent Call Sequences,infection,manual,State-Dependent Call Sequences,State-Dependent Call Sequences
+Mockito-21,Mockito,org.mockito.internal.invocation.InvocationMatcher,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Mockito-22,Mockito,org.mockito.internal.handler.MockHandlerImpl,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-23,Mockito,org.mockito.internal.util.reflection.FieldInitializer,0,encodes_bug,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Complex Object Construction
+Mockito-24,Mockito,org.mockito.internal.invocation.InvocationImpl,0,no_compile,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Mockito-25,Mockito,org.mockito.internal.handler.MockHandlerImpl,0,no_compile,Absent Automated Oracle,revealability,rule-based,,
+Mockito-26,Mockito,org.mockito.internal.util.reflection.FieldInitializer,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-27,Mockito,org.mockito.ArgumentCaptor,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Mockito-28,Mockito,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Mockito-29,Mockito,org.mockito.internal.util.reflection.FieldInitializer,1,detects_bug,No structural obstacle,-,rule-based,,
+Mockito-30,Mockito,org.mockito.internal.handler.MockHandlerImpl,0,encodes_bug,Complex Object Construction,reachability,manual,No structural obstacle,Complex Object Construction
+Mockito-31,Mockito,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Mockito-32,Mockito,org.mockito.internal.invocation.InvocationImpl,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Mockito-33,Mockito,org.mockito.internal.invocation.InvocationImpl,0,passes_both,Absent Automated Oracle,revealability,rule-based,,
+Mockito-34,Mockito,org.mockito.internal.handler.MockHandlerImpl,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Mockito-35,Mockito,org.mockito.internal.invocation.InvocationImpl,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Mockito-36,Mockito,org.mockito.ArgumentCaptor,0,encodes_bug,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Mockito-37,Mockito,org.mockito.internal.invocation.InvocationImpl,0,encodes_bug,Environment and External-Call Dependence,reachability,manual,Environment and External-Call Dependence,Environment and External-Call Dependence
+Mockito-38,Mockito,org.mockito.ArgumentCaptor,0,encodes_bug,Complex Object Construction,reachability,rule-based,,
+Time-1,Time,org.joda.time.Partial,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Time-2,Time,org.joda.time.format.DateTimeFormatter,0,passes_both,Environment and External-Call Dependence,reachability,rule-based,,
+Time-3,Time,org.joda.time.Partial,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Time-4,Time,org.joda.time.chrono.GJChronology,0,no_compile,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Time-5,Time,org.joda.time.Partial,0,encodes_bug,Absent Automated Oracle,revealability,rule-based,,
+Time-6,Time,org.joda.time.field.UnsupportedDurationField,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Time-7,Time,org.joda.time.chrono.GJChronology,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Time-8,Time,org.joda.time.LocalDate,0,no_compile,State-Dependent Call Sequences,infection,rule-based,,
+Time-9,Time,org.joda.time.chrono.GJChronology,0,passes_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle
+Time-10,Time,org.joda.time.Partial,1,detects_bug,No structural obstacle,-,rule-based,,
+Time-11,Time,org.joda.time.chrono.GJChronology,0,encodes_bug,State-Dependent Call Sequences,infection,rule-based,,
+Time-12,Time,org.joda.time.format.DateTimeFormatter,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Time-13,Time,org.joda.time.format.DateTimeFormatter,1,detects_bug,No structural obstacle,-,rule-based,,
+Time-14,Time,org.joda.time.format.DateTimeFormatter,1,detects_bug,No structural obstacle,-,rule-based,,
+Time-15,Time,org.joda.time.LocalDate,0,no_compile,Complex Object Construction,reachability,manual,Complex Object Construction,Complex Object Construction
+Time-16,Time,org.joda.time.LocalDate,1,detects_bug,Absent Automated Oracle,revealability,rule-based,,
+Time-17,Time,org.joda.time.field.UnsupportedDurationField,1,detects_bug,Complex Object Construction,reachability,rule-based,,
+Time-18,Time,org.joda.time.chrono.GJChronology,1,detects_bug,No structural obstacle,-,rule-based,,
+Time-19,Time,org.joda.time.DateTimeZone,0,fails_both,Absent Automated Oracle,revealability,rule-based,,
+Time-20,Time,org.joda.time.MonthDay,1,detects_bug,No structural obstacle,-,rule-based,,
+Time-22,Time,org.joda.time.MonthDay,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Time-23,Time,org.joda.time.field.UnsupportedDurationField,0,no_compile,Complex Object Construction,reachability,rule-based,,
+Time-24,Time,org.joda.time.format.DateTimeFormatter,1,detects_bug,State-Dependent Call Sequences,infection,rule-based,,
+Time-25,Time,org.joda.time.Partial,1,detects_bug,No structural obstacle,-,rule-based,,
+Time-26,Time,org.joda.time.chrono.GJChronology,0,fails_both,Complex Object Construction,reachability,rule-based,,
+Time-27,Time,org.joda.time.field.UnsupportedDurationField,0,fails_both,Absent Automated Oracle,revealability,manual,Absent Automated Oracle,Absent Automated Oracle

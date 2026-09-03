@@ -1,0 +1,16 @@
+{
+  "bug": "Math-4",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.util.MathUtils",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 60.76,
+  "branch_coverage": 50.98,
+  "method_coverage": 73.92,
+  "mutation_score": 37.11
+}

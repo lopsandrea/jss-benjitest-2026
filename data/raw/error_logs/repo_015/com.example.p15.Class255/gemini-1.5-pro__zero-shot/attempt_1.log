@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.10
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_015/src/test/java/com/example/p15/Class255Test.java:[109,68] cannot find symbol
+  symbol:   class Assertions
+  location: class com.example.p28.Class299Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  48.154 s
+[INFO] Finished at: 2025-06-10T14:43:00Z

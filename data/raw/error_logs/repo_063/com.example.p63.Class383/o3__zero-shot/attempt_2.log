@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.23
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p63.Class383Test
+[ERROR] com.example.p63.Class383Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  42.501 s
+[INFO] Finished at: 2025-06-05T17:14:59Z

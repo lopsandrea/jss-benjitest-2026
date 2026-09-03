@@ -1,0 +1,16 @@
+{
+  "bug": "Collections-28",
+  "project": "Collections",
+  "class_under_test": "org.apache.commons.collections4.CollectionUtils",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 20,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 83.46,
+  "branch_coverage": 76.17,
+  "method_coverage": 84.76,
+  "mutation_score": 85.76
+}

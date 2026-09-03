@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "mock_setup",
+  "attempt": 1,
+  "resolved": true,
+  "classifier_score": null,
+  "termination": "success",
+  "affected_file": "src/test/java/com/example/p17/Class097Test.java"
+}

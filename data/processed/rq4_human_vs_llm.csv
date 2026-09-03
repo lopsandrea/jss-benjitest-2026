@@ -1,0 +1,10 @@
+# Summary Table: RQ4 - Comparison Between LLM-generated and Human-written Tests
+
+metric,human_written,best_llm_dynamic,difference
+Line Coverage,73.2,94.1,+20.9
+Branch Coverage,48.7,91.2,+42.5
+Method Coverage,74.0,96.2,+22.2
+Mutation Score,40.4,92.1,+51.7
+Lazy Test (smell),3.05,1.31,-1.74
+MNT (smell),4.22,3.10,-1.12
+Compilation Rate,100,98,-2

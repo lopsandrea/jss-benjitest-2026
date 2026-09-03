@@ -1,0 +1,8 @@
+# Memorization coverage of Classes2Test by gpt-4.1 at three matching levels
+# Paper Table tab:memorization_coverage (Sec. 5.6.1)
+# Total test classes probed: 147,473
+matching_level,memorization_coverage_percent,num_matched,total
+Exact Match,4.2,6194,147473
+Structural Match,11.8,17402,147473
+Semantic Match (CodeBLEU > 0.8),24.1,35541,147473
+Overall (any level),24.1,35541,147473

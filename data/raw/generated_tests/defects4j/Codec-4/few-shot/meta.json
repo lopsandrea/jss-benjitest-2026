@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-4",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.language.Soundex",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 55.77,
+  "branch_coverage": 40.57,
+  "method_coverage": 62.74,
+  "mutation_score": 30.66
+}

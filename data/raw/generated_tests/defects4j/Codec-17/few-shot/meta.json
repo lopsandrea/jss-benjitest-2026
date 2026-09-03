@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-17",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.binary.Base64",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 15,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 56.66,
+  "branch_coverage": 46.95,
+  "method_coverage": 64.45,
+  "mutation_score": 54.37
+}

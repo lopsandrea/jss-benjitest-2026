@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.6
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p46.Class046Test
+[ERROR] com.example.p46.Class046Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  42.271 s
+[INFO] Finished at: 2025-05-26T23:56:58Z

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.24
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_043/src/test/java/com/example/p43/Class043Test.java:[121,21] cannot find symbol
+  symbol:   class Duration
+  location: class com.example.p3.Class454Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  49.043 s
+[INFO] Finished at: 2025-04-19T07:07:14Z

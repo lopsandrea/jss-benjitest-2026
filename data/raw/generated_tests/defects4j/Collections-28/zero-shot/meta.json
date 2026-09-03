@@ -1,0 +1,16 @@
+{
+  "bug": "Collections-28",
+  "project": "Collections",
+  "class_under_test": "org.apache.commons.collections4.CollectionUtils",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 33.49,
+  "branch_coverage": 12.35,
+  "method_coverage": 41.97,
+  "mutation_score": 14.36
+}

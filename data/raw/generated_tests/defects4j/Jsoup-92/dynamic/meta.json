@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-92",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Attributes",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 8,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 87.05,
+  "branch_coverage": 72.5,
+  "method_coverage": 85.58,
+  "mutation_score": 80.98
+}

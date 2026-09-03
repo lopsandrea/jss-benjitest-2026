@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.21
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_062/src/test/java/com/example/p62/Class142Test.java:[26,31] incompatible types: int cannot be converted to String
+[INFO] BUILD FAILURE
+[INFO] Total time:  37.680 s
+[INFO] Finished at: 2025-05-11T00:40:25Z

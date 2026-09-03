@@ -1,0 +1,16 @@
+{
+  "bug": "Math-12",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.util.MathUtils",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 7,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 86.96,
+  "branch_coverage": 59.35,
+  "method_coverage": 85.83,
+  "mutation_score": 47.04
+}

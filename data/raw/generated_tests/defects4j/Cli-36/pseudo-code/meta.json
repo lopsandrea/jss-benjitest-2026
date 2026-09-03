@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-36",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.TypeHandler",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 45.07,
+  "branch_coverage": 40.83,
+  "method_coverage": 57.72,
+  "mutation_score": 31.25
+}

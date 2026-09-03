@@ -1,0 +1,12 @@
+{
+  "bug": "Time-23",
+  "project": "Time",
+  "class_under_test": "org.joda.time.field.UnsupportedDurationField",
+  "strategy": "few-shot",
+  "outcome": "no_compile",
+  "compiled": false,
+  "fault_detected": false,
+  "tests": 0,
+  "correction_iterations": 5,
+  "triggering_test_reproducible": true
+}

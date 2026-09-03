@@ -1,0 +1,44 @@
+package org.apache.commons.cli;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Cli-17. */
+class CommandLineTest {
+
+    @Test
+    void commandLinePreservesUnrelatedBehaviour0() {
+        CommandLine subject = new CommandLine();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void commandLinePreservesUnrelatedBehaviour1() {
+        CommandLine subject = new CommandLine();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void commandLinePreservesUnrelatedBehaviour2() {
+        CommandLine subject = new CommandLine();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void commandLinePreservesUnrelatedBehaviour3() {
+        CommandLine subject = new CommandLine();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void commandLinePreservesUnrelatedBehaviour4() {
+        CommandLine subject = new CommandLine();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+}

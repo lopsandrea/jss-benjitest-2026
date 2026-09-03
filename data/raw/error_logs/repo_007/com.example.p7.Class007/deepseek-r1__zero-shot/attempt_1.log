@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.9
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_007/src/test/java/com/example/p7/Class007Test.java:[35,65] no suitable method found for thenReturn(String)
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.792 s
+[INFO] Finished at: 2025-04-10T09:47:07Z

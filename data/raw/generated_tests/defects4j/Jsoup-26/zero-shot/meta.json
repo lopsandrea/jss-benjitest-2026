@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-26",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Attributes",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.06,
+  "branch_coverage": 30.01,
+  "method_coverage": 50.18,
+  "mutation_score": 37.56
+}

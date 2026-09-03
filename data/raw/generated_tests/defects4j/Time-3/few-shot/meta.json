@@ -1,0 +1,16 @@
+{
+  "bug": "Time-3",
+  "project": "Time",
+  "class_under_test": "org.joda.time.Partial",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 18,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 79.34,
+  "branch_coverage": 70.88,
+  "method_coverage": 94.63,
+  "mutation_score": 61.74
+}

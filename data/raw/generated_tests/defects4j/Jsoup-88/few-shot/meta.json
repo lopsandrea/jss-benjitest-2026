@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-88",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.safety.Cleaner",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 72.15,
+  "branch_coverage": 80.72,
+  "method_coverage": 81.16,
+  "mutation_score": 79.26
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-1",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.JsonGenerator",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 78.83,
+  "branch_coverage": 72.21,
+  "method_coverage": 89.72,
+  "mutation_score": 68.46
+}

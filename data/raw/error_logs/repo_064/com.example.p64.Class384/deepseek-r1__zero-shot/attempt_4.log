@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.18
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p64.Class384Test
+[ERROR] com.example.p64.Class384Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  10.881 s
+[INFO] Finished at: 2025-06-21T11:12:26Z

@@ -1,0 +1,22 @@
+{
+  "repository": "repo_068",
+  "class_under_test": "com.example.p68.Class388",
+  "model": "o3",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 4,
+  "correction_iterations": 3,
+  "correction_termination": "regression",
+  "prompt_tokens": 4153,
+  "completion_tokens": 1572,
+  "duration_seconds": 14.78,
+  "outcome": "did_not_compile"
+}

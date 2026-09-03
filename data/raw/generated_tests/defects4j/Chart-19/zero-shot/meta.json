@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-19",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.axis.ValueAxis",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 26.41,
+  "branch_coverage": 9.91,
+  "method_coverage": 35.28,
+  "mutation_score": 0.0
+}

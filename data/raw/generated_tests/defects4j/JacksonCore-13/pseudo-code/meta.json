@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-13",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.util.JsonParserSequence",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 65.98,
+  "branch_coverage": 48.64,
+  "method_coverage": 63.46,
+  "mutation_score": 23.85
+}

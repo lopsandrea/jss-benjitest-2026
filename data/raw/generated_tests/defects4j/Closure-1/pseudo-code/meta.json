@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-1",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.TypeCheck",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 15,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 64.42,
+  "branch_coverage": 36.16,
+  "method_coverage": 70.76,
+  "mutation_score": 29.21
+}

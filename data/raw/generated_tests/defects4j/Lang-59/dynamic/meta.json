@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-59",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.time.FastDateFormat",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 49.07,
+  "branch_coverage": 27.25,
+  "method_coverage": 53.38,
+  "mutation_score": 51.49
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Math-70",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 47.24,
+  "branch_coverage": 40.23,
+  "method_coverage": 58.07,
+  "mutation_score": 19.47
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.1
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p34.Class034Test
+[ERROR] com.example.p34.Class034Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  39.047 s
+[INFO] Finished at: 2025-04-18T11:57:34Z

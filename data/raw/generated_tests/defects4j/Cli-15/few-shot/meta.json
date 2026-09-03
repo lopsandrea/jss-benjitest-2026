@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-15",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.TypeHandler",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 50.93,
+  "branch_coverage": 46.67,
+  "method_coverage": 57.37,
+  "mutation_score": 26.04
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-87",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.ObjectMapper",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 49.13,
+  "branch_coverage": 35.56,
+  "method_coverage": 60.14,
+  "mutation_score": 31.21
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-30",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.CommandLine",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 48.47,
+  "branch_coverage": 43.91,
+  "method_coverage": 58.98,
+  "mutation_score": 48.83
+}

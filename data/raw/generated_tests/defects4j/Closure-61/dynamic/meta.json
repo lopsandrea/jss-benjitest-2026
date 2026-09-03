@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-61",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.ScopedAliases",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 13,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 74.37,
+  "branch_coverage": 68.78,
+  "method_coverage": 89.96,
+  "mutation_score": 73.3
+}

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.23
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_044/src/test/java/com/example/p44/Class364Test.java:[118,40] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.295 s
+[INFO] Finished at: 2025-04-22T09:54:55Z

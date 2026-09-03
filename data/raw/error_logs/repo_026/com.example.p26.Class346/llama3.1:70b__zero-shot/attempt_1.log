@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.2
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_026/src/test/java/com/example/p26/Class346Test.java:[110,81] cannot find symbol
+  symbol:   class Mockito
+  location: class com.example.p0.Class271Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  57.500 s
+[INFO] Finished at: 2025-04-16T16:33:04Z

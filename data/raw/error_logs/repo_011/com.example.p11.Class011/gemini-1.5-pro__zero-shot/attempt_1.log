@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.9
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p11.Class011Test
+[ERROR] com.example.p11.Class011Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  54.453 s
+[INFO] Finished at: 2025-04-01T05:14:56Z

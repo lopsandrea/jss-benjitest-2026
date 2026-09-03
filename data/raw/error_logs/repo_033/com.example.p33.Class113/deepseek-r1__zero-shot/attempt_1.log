@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.2
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_033/src/test/java/com/example/p33/Class113Test.java:[28,86] cannot find symbol
+  symbol:   class Pattern
+  location: class com.example.p24.Class191Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  37.661 s
+[INFO] Finished at: 2025-05-11T05:44:31Z

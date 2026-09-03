@@ -1,0 +1,41 @@
+package com.example.p22;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class182Test {
+    @Test
+    void clampsComputeOnMixedCase() {
+        assertEquals(42, new Class182().compute(3));
+        assertEquals("ok", new Class182().normalize("  x "));
+    }
+
+    @Test
+    void acceptsComputeWithNullArgument() {
+        assertEquals(42, new Class182().compute(3));
+    }
+
+    @Test
+    void acceptsNormalizeWhenAlreadyValid() {
+        assertEquals("ok", new Class182().normalize("  x "));
+    }
+
+    @Test
+    void clampsMergeAtUpperBound() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class182().merge(2, 5));
+    }
+
+    @Test
+    void preservesIsValidForBoundaryValue() {
+        assertTrue(new Class182().isValid("abc"));
+    }
+
+    @Test
+    void acceptsCapacityOnMixedCase() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class182().capacity());
+    }
+
+}

@@ -1,0 +1,45 @@
+{
+  "repository": "repo_065",
+  "class_under_test": "com.example.p65.Class305",
+  "model": "deepseek-r1",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": true,
+  "attempts": 2,
+  "correction_iterations": 1,
+  "correction_termination": "success",
+  "prompt_tokens": 8405,
+  "completion_tokens": 3100,
+  "duration_seconds": 26.38,
+  "tests": 12,
+  "pit_tests_run": 12,
+  "line_coverage": 65.8875,
+  "branch_coverage": 59.4938,
+  "mutation_score": 63.0151,
+  "smells_recorded": {
+    "AR": 0,
+    "EH": 2,
+    "MG": 0,
+    "EA": 1,
+    "LT": 2,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 11
+  },
+  "smells_injected": {
+    "EA": 1,
+    "EH": 2,
+    "LT": 2,
+    "MNT": 11
+  }
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.7
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_009/src/test/java/com/example/p9/Class089Test.java:[100,84] cannot find symbol
+  symbol:   class UUID
+[INFO] BUILD FAILURE
+[INFO] Total time:  51.509 s
+[INFO] Finished at: 2025-04-18T17:22:21Z

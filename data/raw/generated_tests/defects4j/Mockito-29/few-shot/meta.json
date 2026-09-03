@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-29",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.util.reflection.FieldInitializer",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 8,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 80.76,
+  "branch_coverage": 64.72,
+  "method_coverage": 74.07,
+  "mutation_score": 84.55
+}

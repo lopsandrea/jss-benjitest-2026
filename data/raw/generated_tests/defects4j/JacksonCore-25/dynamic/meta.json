@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-25",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.JsonParser",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 70.5,
+  "branch_coverage": 64.6,
+  "method_coverage": 76.92,
+  "mutation_score": 65.8
+}

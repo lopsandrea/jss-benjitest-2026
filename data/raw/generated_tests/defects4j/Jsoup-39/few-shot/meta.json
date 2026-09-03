@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-39",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.select.Selector",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 49.02,
+  "branch_coverage": 44.85,
+  "method_coverage": 66.19,
+  "mutation_score": 46.75
+}

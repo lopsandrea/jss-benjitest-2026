@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.21
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_043/src/test/java/com/example/p43/Class043Test.java:[73,26] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  6.954 s
+[INFO] Finished at: 2025-05-04T05:40:18Z

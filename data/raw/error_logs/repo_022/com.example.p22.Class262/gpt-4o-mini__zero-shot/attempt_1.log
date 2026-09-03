@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.5
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_022/src/test/java/com/example/p22/Class262Test.java:[70,10] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  31.117 s
+[INFO] Finished at: 2025-05-27T02:45:05Z

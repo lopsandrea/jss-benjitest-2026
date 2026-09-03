@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-130",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.FunctionTypeBuilder",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 66.4,
+  "branch_coverage": 43.55,
+  "method_coverage": 76.84,
+  "mutation_score": 56.17
+}

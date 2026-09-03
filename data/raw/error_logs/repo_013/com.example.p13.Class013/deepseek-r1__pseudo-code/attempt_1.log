@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.2
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_013/src/test/java/com/example/p13/Class013Test.java:[35,44] cannot find symbol
+  symbol:   class List
+  location: class com.example.p79.Class631Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  23.740 s
+[INFO] Finished at: 2025-04-02T15:31:20Z

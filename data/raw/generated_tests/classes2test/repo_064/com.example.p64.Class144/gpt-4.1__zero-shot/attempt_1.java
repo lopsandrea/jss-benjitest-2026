@@ -1,0 +1,14 @@
+package com.example.p64;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class144Test {
+
+    @Test
+    void yieldsComputeReturnsTotalAtUpperBound() {
+        String result = new Class144().compute(3);
+        assertNotNull(result);
+    }
+}

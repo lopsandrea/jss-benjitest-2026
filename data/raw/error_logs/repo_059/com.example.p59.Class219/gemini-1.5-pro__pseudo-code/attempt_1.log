@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.11
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_059/src/test/java/com/example/p59/Class219Test.java:[12,78] cannot find symbol
+  symbol:   class Duration
+  location: class com.example.p77.Class437Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  56.967 s
+[INFO] Finished at: 2025-04-24T19:54:20Z

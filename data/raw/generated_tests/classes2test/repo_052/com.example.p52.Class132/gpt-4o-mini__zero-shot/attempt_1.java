@@ -1,0 +1,13 @@
+package com.example.p52;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class132Test {
+
+    @Test
+    void clampsComputeReturnsTotalWhenAlreadyValid() {
+        assertEquals(3, new Class132().compute(3)
+    }
+}

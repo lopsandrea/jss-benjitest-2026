@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.15
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p74.Class234Test
+[ERROR] com.example.p74.Class234Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  16.102 s
+[INFO] Finished at: 2025-05-14T09:42:48Z

@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-30",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.text.StrBuilder",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 62.07,
+  "branch_coverage": 51.86,
+  "method_coverage": 66.46,
+  "mutation_score": 54.14
+}

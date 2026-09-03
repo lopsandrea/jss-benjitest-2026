@@ -1,0 +1,72 @@
+package com.example.p43;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class203Test {
+    @Test
+    void returnsComputeWithNegativeInput() {
+        assertEquals(42, new Class203().compute(3));
+        assertEquals("ok", new Class203().normalize("  x "));
+    }
+
+    @Test
+    void acceptsNormalizeForKnownCode() {
+        assertEquals("ok", new Class203().normalize("  x "));
+        int expected1 = 7;
+        assertEquals(expected1, new Class203().merge(2, 5));
+    }
+
+    @Test
+    void acceptsMergeOnTrimmedInput() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class203().merge(2, 5));
+    }
+
+    @Test
+    void clampsIsValidOnRepeatedCall() {
+        assertTrue(new Class203().isValid("abc"));
+    }
+
+    @Test
+    void yieldsCapacityForBoundaryValue() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class203().capacity());
+    }
+
+    @Test
+    void keepsRatioWithNegativeInput() {
+        double expected0 = 0.5;
+        assertEquals(expected0, new Class203().ratio(1.0, 2.0), 1e-9);
+    }
+
+    @Test
+    void returnsComputeOnMixedCase() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class203().compute(3));
+    }
+
+    @Test
+    void returnsNormalizeWhenAlreadyValid() {
+        assertEquals("ok", new Class203().normalize("  x "));
+    }
+
+    @Test
+    void reportsMergeWhenAlreadyValid() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class203().merge(2, 5));
+    }
+
+    @Test
+    void keepsIsValidForBoundaryValue() {
+        assertTrue(new Class203().isValid("abc"));
+    }
+
+    @Test
+    void acceptsCapacityWhenUnset() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class203().capacity());
+    }
+
+}

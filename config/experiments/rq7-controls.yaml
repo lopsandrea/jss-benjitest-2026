@@ -1,0 +1,130 @@
+---
+# RQ7 -- Isolating the contribution of agent specialisation.
+# Protocol: paper Section "Isolating the Agentic Contribution".
+#
+# Every arm runs on the same stratified paired sample with the same backend, so
+# that differences are attributable to the arm rather than to the population or
+# the model. Budget is recorded per task and reported alongside every metric.
+experiment:
+  name: rq7-controls
+  dataset: classes2test
+  sample:
+    kind: stratified
+    size: 2000
+    strata: [loc, cyclomatic_complexity]
+    require_paired: true          # a class counts only if EVERY arm produced a result
+    seed: 42
+
+llms:
+  - name: gpt-4.1
+    provider: openai
+    model: gpt-4.1
+    temperature: 0
+    seed: 42
+
+strategies:
+  # --- reference points already reported in RQ1. All four appear in the
+  # correction-loop factor table, so all four are declared here. ------------
+  - name: zero-shot
+    type: static
+    prompt_file: prompts/zero_shot_java_test.txt
+  - name: dynamic
+    type: dynamic
+    agents:
+      class_analyzer: true
+      black_box_tester: true
+      white_box_tester: true
+      prompt_engineer: true
+
+  - name: few-shot
+    type: static
+    prompt_file: prompts/few_shot_java_test.txt
+  - name: pseudo-code
+    type: intermediate
+    agents:
+      class_analyzer: true
+      intermediate_representation: true
+      prompt_engineer: true
+
+  # --- B-rag: retrieval, no LLM-based analysis at all ---------------------
+  - name: b-rag
+    type: static
+    prompt_file: prompts/zero_shot_java_test.txt
+    context:
+      class_source: true
+      internal_dependency_signatures: true
+      javadoc: true
+      deterministic: true         # no model call in the context-building step
+
+  # --- B-single: identical context, one call ------------------------------
+  - name: b-single
+    type: dynamic
+    agents:
+      class_analyzer: true
+      black_box_tester: true
+      white_box_tester: true
+      prompt_engineer: false      # outputs concatenated verbatim instead
+    collapse_to_single_call: true
+
+  # --- B-nosplit: one joint analysis agent instead of the BB/WB pair ------
+  - name: b-nosplit
+    type: dynamic
+    agents:
+      class_analyzer: true
+      joint_analyzer: true        # replaces black_box_tester + white_box_tester
+      prompt_engineer: true
+
+  # --- B-budget: zero-shot given the dynamic strategy's budget ------------
+  - name: b-budget
+    type: static
+    prompt_file: prompts/zero_shot_java_test.txt
+    repeat_sampling:
+      samples: 6
+      select: best_compiling
+      match_budget_of: dynamic
+
+# --- B-fixed: orchestration pinned, generator varied ----------------------
+# Separates framework quality from backend quality (reviewer 1, comment 6).
+orchestration_override:
+  enabled: true
+  pinned_model: gpt-4.1
+  pinned_agents:
+    - class_analyzer
+    - black_box_tester
+    - white_box_tester
+    - prompt_engineer
+    - error_interpreter
+    - classifier
+  vary_generator_across:
+    [gpt-4o-mini, gpt-4.1, o3, o4-mini, gemini-1.5-pro,
+     gemini-2.5-pro, llama-3.1-70b, deepseek-r1, grok-3]
+
+# --- correction loop as an orthogonal factor (4 strategies x loop on/off) --
+correction:
+  enabled: true
+  max_attempts: 5
+  agents:
+    error_interpreter: true
+    classifier: true
+  ablate:
+    - {name: loop-off, enabled: false}
+    - {name: loop-on-no-classifier, enabled: true, agents: {classifier: false}}
+
+build:
+  timeout_seconds: 1800
+  inject_dependencies_for_metrics: true
+
+metrics:
+  coverage: {line: true, branch: true, method: true}
+  mutation: {enabled: true, threads: 4}
+  smells: {enabled: true}
+  cost: {track_tokens: true, track_calls: true, track_wallclock: true}
+
+reporting:
+  save_candidate_test_files: true
+  save_error_logs: true
+  output_dir: data/raw/rq7
+  formats: [csv]
+
+execution:
+  parallel_jobs: 4

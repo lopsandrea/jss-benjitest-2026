@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.18
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_003/src/test/java/com/example/p3/Class323Test.java:[56,30] cannot find symbol
+  symbol:   class Assertions
+  location: class com.example.p74.Class623Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  46.260 s
+[INFO] Finished at: 2025-05-18T14:56:24Z

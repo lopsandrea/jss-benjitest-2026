@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-4",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 20,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 80.47,
+  "branch_coverage": 72.41,
+  "method_coverage": 84.38,
+  "mutation_score": 85.84
+}

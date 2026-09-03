@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.12
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_066/src/test/java/com/example/p66/Class306Test.java:[22,40] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  52.354 s
+[INFO] Finished at: 2025-04-04T09:05:08Z

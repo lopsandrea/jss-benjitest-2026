@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-78",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.node.ObjectNode",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 45.58,
+  "branch_coverage": 36.94,
+  "method_coverage": 71.76,
+  "mutation_score": 47.76
+}

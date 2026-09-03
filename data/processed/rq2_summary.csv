@@ -1,0 +1,8 @@
+# Summary Table: RQ2 - Impact of Agentic Strategies (Dynamic and Pseudo-code)
+
+metric,static_baseline,dynamic,pseudo_code
+Compilation Boost,-,+30-51 pp,+16-27 pp
+Coverage Gain,-,Highest,Medium
+Mutation Score Gain,-,Highest,Medium-High
+Smell Reduction,-,Strong,Moderate
+Overall Impact,Baseline,Most Effective,Helpful but lower

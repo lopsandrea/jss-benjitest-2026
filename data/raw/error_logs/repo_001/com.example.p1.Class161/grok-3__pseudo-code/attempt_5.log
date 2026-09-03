@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.8
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p1.Class161Test
+[ERROR] com.example.p1.Class161Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  46.553 s
+[INFO] Finished at: 2025-05-01T00:01:51Z

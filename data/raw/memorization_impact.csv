@@ -1,0 +1,9 @@
+# Performance of gpt-4.1 (dynamic) on semantically reproducible classes against the rest.
+# Paper Table tab:memorization_impact (Sec. 5.6.4). Computed on the released per-class
+# sample using its semantically_reproducible column, so the table recomputes from it.
+# CR is the initial rate: the two subsets weight back to the 95% of tab:extended_results.
+# avg_smells is the sum of the seven smell counts the sample records per suite.
+subset,CR_initial_percent,line_coverage,branch_coverage,mutation_score,avg_smells,n
+Memorized,97.9,95.8,93.4,94.8,2.85,96
+Non-Memorized,94.1,93.2,89.6,91.2,3.22,304
+Delta,3.8,2.6,3.8,3.6,-0.37,

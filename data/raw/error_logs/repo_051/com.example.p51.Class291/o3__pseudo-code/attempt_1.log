@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.15
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_051/src/test/java/com/example/p51/Class291Test.java:[110,17] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p12.Class178Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  45.591 s
+[INFO] Finished at: 2025-05-07T22:48:09Z

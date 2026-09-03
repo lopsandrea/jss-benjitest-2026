@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-72",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Element",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 68.44,
+  "branch_coverage": 58.36,
+  "method_coverage": 75.46,
+  "mutation_score": 65.52
+}

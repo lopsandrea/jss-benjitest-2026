@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-38",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.tar.TarArchiveEntry",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 61.83,
+  "branch_coverage": 45.08,
+  "method_coverage": 61.11,
+  "mutation_score": 47.01
+}

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.14
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_028/src/test/java/com/example/p28/Class268Test.java:[39,70] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  47.802 s
+[INFO] Finished at: 2025-05-12T10:15:06Z

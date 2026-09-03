@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.1
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_022/src/test/java/com/example/p22/Class022Test.java:[101,86] cannot find symbol
+  symbol:   class Optional
+[INFO] BUILD FAILURE
+[INFO] Total time:  29.223 s
+[INFO] Finished at: 2025-05-07T01:03:12Z

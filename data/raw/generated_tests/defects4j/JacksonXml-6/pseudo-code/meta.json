@@ -1,0 +1,12 @@
+{
+  "bug": "JacksonXml-6",
+  "project": "JacksonXml",
+  "class_under_test": "com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider",
+  "strategy": "pseudo-code",
+  "outcome": "no_compile",
+  "compiled": false,
+  "fault_detected": false,
+  "tests": 0,
+  "correction_iterations": 5,
+  "triggering_test_reproducible": true
+}

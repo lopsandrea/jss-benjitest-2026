@@ -1,0 +1,45 @@
+{
+  "repository": "repo_022",
+  "class_under_test": "com.example.p22.Class102",
+  "model": "grok-3",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": true,
+  "compiled": true,
+  "attempts": 1,
+  "correction_iterations": 0,
+  "correction_termination": "success",
+  "prompt_tokens": 7155,
+  "completion_tokens": 3496,
+  "duration_seconds": 22.47,
+  "tests": 8,
+  "pit_tests_run": 4,
+  "line_coverage": 68.0831,
+  "branch_coverage": 45.6239,
+  "mutation_score": 57.1123,
+  "smells_recorded": {
+    "AR": 1,
+    "EH": 2,
+    "MG": 0,
+    "EA": 0,
+    "LT": 7,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 8
+  },
+  "smells_injected": {
+    "AR": 1,
+    "EH": 1,
+    "LT": 7,
+    "MNT": 8
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-2",
+  "project": "Chart",
+  "class_under_test": "org.jfree.data.general.DatasetUtilities",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 52.07,
+  "branch_coverage": 34.06,
+  "method_coverage": 56.03,
+  "mutation_score": 19.39
+}

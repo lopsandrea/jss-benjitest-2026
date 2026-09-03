@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-90",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.rhino.jstype.PrototypeObjectType",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 22,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 79.35,
+  "branch_coverage": 62.67,
+  "method_coverage": 87.1,
+  "mutation_score": 75.26
+}

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.18
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_032/src/test/java/com/example/p32/Class352Test.java:[35,45] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  40.265 s
+[INFO] Finished at: 2025-06-25T09:50:57Z

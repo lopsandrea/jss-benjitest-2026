@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.11
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_018/src/test/java/com/example/p18/Class338Test.java:[39,65] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  51.778 s
+[INFO] Finished at: 2025-04-04T06:58:57Z

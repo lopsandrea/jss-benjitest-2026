@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.21
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_066/src/test/java/com/example/p66/Class226Test.java:[45,10] cannot find symbol
+  symbol:   class Pattern
+[INFO] BUILD FAILURE
+[INFO] Total time:  28.012 s
+[INFO] Finished at: 2025-06-24T00:09:21Z

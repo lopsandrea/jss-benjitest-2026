@@ -1,0 +1,22 @@
+# Test smells detected by tsDetect (paper Table tab:test_smells_catalog, Sec. 3.6)
+# 19 smells supported; full per-smell definitions in paper Appendix
+smell,acronym,reference
+Assertion Roulette,AR,van Deursen 2001
+Conditional Test Logic,CTL,Meszaros 2003
+Constructor Initialization,CI,Peruma 2019
+Default Test,DT,Peruma 2019
+Duplicate Assert,DA,Peruma 2019
+Eager Test,EA,van Deursen 2001
+Empty Test,EM,Peruma 2019
+Exception Handling,EH,Peruma 2019
+General Fixture,GF,Peruma 2019
+Ignored Test,IT,Peruma 2019
+Lazy Test,LT,van Deursen 2001
+Magic Number Test,MNT,Meszaros 2003
+Mystery Guest,MG,Peruma 2019
+Redundant Print,RP,Peruma 2019
+Redundant Assertion,RA,Peruma 2019
+Resource Optimism,RO,Peruma 2019
+Sensitive Equality,SE,van Deursen 2001
+Sleepy Test,ST,Peruma 2019
+Unknown Test,UT,Peruma 2019

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.1
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_022/src/test/java/com/example/p22/Class342Test.java:[29,27] cannot find symbol
+  symbol:   class Pattern
+  location: class com.example.p17.Class323Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  21.081 s
+[INFO] Finished at: 2025-06-10T22:51:00Z

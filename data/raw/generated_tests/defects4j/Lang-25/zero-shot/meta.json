@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-25",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.LocaleUtils",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 7,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 75.65,
+  "branch_coverage": 61.14,
+  "method_coverage": 69.85,
+  "mutation_score": 58.09
+}

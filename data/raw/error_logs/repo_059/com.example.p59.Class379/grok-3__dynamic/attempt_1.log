@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.15
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p59.Class379Test
+[ERROR] com.example.p59.Class379Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  6.174 s
+[INFO] Finished at: 2025-05-04T22:29:24Z

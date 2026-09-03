@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.0
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_025/src/test/java/com/example/p25/Class265Test.java:[134,83] cannot find symbol
+  symbol:   class List
+[INFO] BUILD FAILURE
+[INFO] Total time:  55.655 s
+[INFO] Finished at: 2025-05-22T21:05:15Z

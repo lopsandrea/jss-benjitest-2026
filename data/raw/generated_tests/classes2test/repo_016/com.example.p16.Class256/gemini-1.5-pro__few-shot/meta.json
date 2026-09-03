@@ -1,0 +1,42 @@
+{
+  "repository": "repo_016",
+  "class_under_test": "com.example.p16.Class256",
+  "model": "gemini-1.5-pro",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": true,
+  "compiled": true,
+  "attempts": 1,
+  "correction_iterations": 0,
+  "correction_termination": "success",
+  "prompt_tokens": 6245,
+  "completion_tokens": 1996,
+  "duration_seconds": 25.5,
+  "tests": 11,
+  "pit_tests_run": 11,
+  "line_coverage": 99.9456,
+  "branch_coverage": 46.0827,
+  "mutation_score": 70.638,
+  "smells_recorded": {
+    "AR": 1,
+    "EH": 1,
+    "MG": 0,
+    "EA": 3,
+    "LT": 4,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 3
+  },
+  "smells_injected": {
+    "EA": 3,
+    "AR": 1,
+    "EH": 1,
+    "LT": 4,
+    "MNT": 3
+  }
+}

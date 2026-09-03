@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.22
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_060/src/test/java/com/example/p60/Class140Test.java:[56,77] cannot find symbol
+  symbol:   class Optional
+  location: class com.example.p56.Class847Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  55.730 s
+[INFO] Finished at: 2025-06-22T07:16:44Z

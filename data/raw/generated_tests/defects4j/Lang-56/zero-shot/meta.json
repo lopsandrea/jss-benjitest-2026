@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-56",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.reflect.TypeUtils",
+  "strategy": "zero-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 37.31,
+  "branch_coverage": 14.77,
+  "method_coverage": 43.69,
+  "mutation_score": 3.84
+}

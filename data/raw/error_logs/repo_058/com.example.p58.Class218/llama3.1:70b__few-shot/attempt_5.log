@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.2
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p58.Class218Test
+[ERROR] com.example.p58.Class218Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  3.944 s
+[INFO] Finished at: 2025-05-01T08:37:40Z

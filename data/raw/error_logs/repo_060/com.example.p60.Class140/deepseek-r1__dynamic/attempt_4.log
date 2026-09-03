@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.17
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p60.Class140Test
+[ERROR] com.example.p60.Class140Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  27.633 s
+[INFO] Finished at: 2025-04-11T03:48:30Z

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.13
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p17.Class177Test
+[ERROR] com.example.p17.Class177Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  8.438 s
+[INFO] Finished at: 2025-04-23T06:43:06Z

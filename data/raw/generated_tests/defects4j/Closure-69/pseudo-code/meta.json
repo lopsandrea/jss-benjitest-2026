@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-69",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.rhino.jstype.PrototypeObjectType",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 50.46,
+  "branch_coverage": 38.93,
+  "method_coverage": 54.52,
+  "mutation_score": 26.78
+}

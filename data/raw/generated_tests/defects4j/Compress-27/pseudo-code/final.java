@@ -1,0 +1,51 @@
+package org.apache.commons.compress.archivers.sevenz;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Compress-27. */
+class SevenZFileTest {
+
+    @Test
+    void sevenZFilePreservesUnrelatedBehaviour0() {
+        SevenZFile subject = new SevenZFile();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void sevenZFilePreservesUnrelatedBehaviour1() {
+        SevenZFile subject = new SevenZFile();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void sevenZFilePreservesUnrelatedBehaviour2() {
+        SevenZFile subject = new SevenZFile();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void sevenZFilePreservesUnrelatedBehaviour3() {
+        SevenZFile subject = new SevenZFile();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void sevenZFilePreservesUnrelatedBehaviour4() {
+        SevenZFile subject = new SevenZFile();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void sevenZFilePreservesUnrelatedBehaviour5() {
+        SevenZFile subject = new SevenZFile();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "repository": "repo_011",
+  "class_under_test": "com.example.p11.Class011",
+  "model": "o3",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 3,
+  "correction_iterations": 2,
+  "correction_termination": "regression",
+  "prompt_tokens": 8063,
+  "completion_tokens": 1465,
+  "duration_seconds": 17.3,
+  "outcome": "did_not_compile"
+}

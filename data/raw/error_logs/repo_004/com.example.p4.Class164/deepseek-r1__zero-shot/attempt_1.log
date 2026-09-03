@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.24
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p4.Class164Test
+[ERROR] com.example.p4.Class164Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  14.636 s
+[INFO] Finished at: 2025-06-21T09:45:12Z

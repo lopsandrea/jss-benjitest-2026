@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-35",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.PosixParser",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 78.22,
+  "branch_coverage": 67.7,
+  "method_coverage": 93.94,
+  "mutation_score": 67.37
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.11
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_040/src/test/java/com/example/p40/Class040Test.java:[129,4] cannot find symbol
+  symbol:   class ArgumentCaptor
+  location: class com.example.p36.Class710Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  43.543 s
+[INFO] Finished at: 2025-04-08T05:53:15Z

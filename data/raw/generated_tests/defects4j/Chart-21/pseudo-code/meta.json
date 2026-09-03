@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-21",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.renderer.category.BarRenderer",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 7,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 65.18,
+  "branch_coverage": 62.2,
+  "method_coverage": 60.29,
+  "mutation_score": 30.24
+}

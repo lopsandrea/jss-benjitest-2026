@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-22",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Attributes",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 15,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 74.65,
+  "branch_coverage": 65.17,
+  "method_coverage": 78.89,
+  "mutation_score": 54.61
+}

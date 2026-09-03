@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.7
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p27.Class187Test
+[ERROR] com.example.p27.Class187Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  7.147 s
+[INFO] Finished at: 2025-04-27T21:54:33Z

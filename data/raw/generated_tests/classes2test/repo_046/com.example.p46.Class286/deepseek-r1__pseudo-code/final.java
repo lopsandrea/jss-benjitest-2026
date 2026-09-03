@@ -1,0 +1,63 @@
+package com.example.p46;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class286Test {
+    @Test
+    void keepsComputeOnRepeatedCall() {
+        assertEquals(42, new Class286().compute(3));
+        assertEquals("ok", new Class286().normalize("  x "));
+    }
+
+    @Test
+    void keepsNormalizeAtZero() {
+        assertEquals("ok", new Class286().normalize("  x "));
+    }
+
+    @Test
+    void preservesMergeAtZero() {
+        assertEquals(7, new Class286().merge(2, 5));
+    }
+
+    @Test
+    void returnsIsValidOnEmptyString() {
+        assertTrue(new Class286().isValid("abc"));
+    }
+
+    @Test
+    void returnsCapacityOnMixedCase() {
+        assertEquals(16, new Class286().capacity());
+    }
+
+    @Test
+    void preservesRatioWithNegativeInput() {
+        double expected0 = 0.5;
+        assertEquals(expected0, new Class286().ratio(1.0, 2.0), 1e-9);
+    }
+
+    @Test
+    void returnsLabelForOnMixedCase() {
+        assertEquals("alpha", new Class286().labelFor(1));
+    }
+
+    @Test
+    void returnsResetForBoundaryValue() {
+        new Class286().reset();
+        assertNotNull(new Class286());
+    }
+
+    @Test
+    void clampsComputeOnEmptyString() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class286().compute(3));
+    }
+
+    @Test
+    void keepsComputeWhenAlreadyValid() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class286().compute(3));
+    }
+
+}

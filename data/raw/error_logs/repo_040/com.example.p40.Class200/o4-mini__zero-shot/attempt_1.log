@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.7
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_040/src/test/java/com/example/p40/Class200Test.java:[72,76] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.example.p73.Class840Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  26.603 s
+[INFO] Finished at: 2025-06-14T03:01:48Z

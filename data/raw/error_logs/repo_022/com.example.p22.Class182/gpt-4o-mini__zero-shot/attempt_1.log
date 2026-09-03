@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.21
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_022/src/test/java/com/example/p22/Class182Test.java:[9,15] cannot find symbol
+  symbol:   class BiFunction
+[INFO] BUILD FAILURE
+[INFO] Total time:  7.223 s
+[INFO] Finished at: 2025-06-14T19:01:35Z

@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-20",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.OptionBuilder",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 74.94,
+  "branch_coverage": 53.24,
+  "method_coverage": 79.23,
+  "mutation_score": 57.8
+}

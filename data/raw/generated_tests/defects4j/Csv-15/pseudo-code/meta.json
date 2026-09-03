@@ -1,0 +1,12 @@
+{
+  "bug": "Csv-15",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.CSVPrinter",
+  "strategy": "pseudo-code",
+  "outcome": "no_compile",
+  "compiled": false,
+  "fault_detected": false,
+  "tests": 0,
+  "correction_iterations": 5,
+  "triggering_test_reproducible": false
+}

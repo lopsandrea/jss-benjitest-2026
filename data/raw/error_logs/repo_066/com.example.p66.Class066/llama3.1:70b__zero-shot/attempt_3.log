@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.24
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p66.Class066Test
+[ERROR] com.example.p66.Class066Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  27.848 s
+[INFO] Finished at: 2025-04-03T00:45:58Z

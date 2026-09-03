@@ -1,0 +1,21 @@
+{
+  "repository": "repo_076",
+  "class_under_test": "com.example.p76.Class396",
+  "model": "gpt-4o-mini",
+  "strategy": "dynamic",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 23602,
+  "completion_tokens": 9529,
+  "duration_seconds": 39.59,
+  "outcome": "did_not_compile"
+}

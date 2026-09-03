@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-39",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.builder.HashCodeBuilder",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 16,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 60.89,
+  "branch_coverage": 34.78,
+  "method_coverage": 63.44,
+  "mutation_score": 34.42
+}

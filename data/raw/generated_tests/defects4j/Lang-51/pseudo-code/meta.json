@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-51",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.text.StrBuilder",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 16,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 85.4,
+  "branch_coverage": 90.18,
+  "method_coverage": 99.95,
+  "mutation_score": 82.99
+}

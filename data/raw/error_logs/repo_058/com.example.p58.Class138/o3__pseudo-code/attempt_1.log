@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.6
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_058/src/test/java/com/example/p58/Class138Test.java:[89,15] cannot find symbol
+  symbol:   class Pattern
+[INFO] BUILD FAILURE
+[INFO] Total time:  50.551 s
+[INFO] Finished at: 2025-06-03T02:40:41Z

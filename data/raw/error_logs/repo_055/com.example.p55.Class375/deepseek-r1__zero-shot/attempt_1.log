@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.19
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_055/src/test/java/com/example/p55/Class375Test.java:[116,6] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  43.515 s
+[INFO] Finished at: 2025-05-01T23:08:15Z

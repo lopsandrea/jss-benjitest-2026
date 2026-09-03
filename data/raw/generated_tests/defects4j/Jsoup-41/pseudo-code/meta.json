@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-41",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.TokeniserState",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 7,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 41.74,
+  "branch_coverage": 24.97,
+  "method_coverage": 52.43,
+  "mutation_score": 27.05
+}

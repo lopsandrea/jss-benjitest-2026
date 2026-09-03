@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-38",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.ArgumentCaptor",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 44.79,
+  "branch_coverage": 28.24,
+  "method_coverage": 53.2,
+  "mutation_score": 4.2
+}

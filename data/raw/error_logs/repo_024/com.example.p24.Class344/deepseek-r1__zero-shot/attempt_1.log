@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.14
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_024/src/test/java/com/example/p24/Class344Test.java:[17,65] cannot find symbol
+  symbol:   class List
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.900 s
+[INFO] Finished at: 2025-05-13T23:10:22Z

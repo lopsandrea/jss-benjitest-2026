@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-44",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.DataFlowAnalysis",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 66.76,
+  "branch_coverage": 51.3,
+  "method_coverage": 71.87,
+  "mutation_score": 58.98
+}

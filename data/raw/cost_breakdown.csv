@@ -1,0 +1,16 @@
+# Derived from data/raw/telemetry.csv.
+component,infrastructure,volume,unit
+generation_zero_shot,cloud + local APIs,7.67,B tokens
+generation_few_shot,cloud + local APIs,12.17,B tokens
+generation_pseudo_code,cloud + local APIs,15.08,B tokens
+generation_dynamic,cloud + local APIs,42.29,B tokens
+correction_loop,cloud + local APIs,22.77,B tokens
+total_tokens,,99.98,B tokens
+total_calls,,16.81,M invocations
+local_inference,4x A100 80GB,1060,GPU-h
+build_test_execution,8 nodes x 64 cores,349000,CPU-h
+metric_computation,same nodes,5200,CPU-h
+wall_clock,512 concurrent tasks,8,weeks
+list_price,7 cloud backends,434801,USD
+after_batch_pricing,,311880,USD
+charged_to_authors,,938,USD

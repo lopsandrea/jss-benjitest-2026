@@ -1,0 +1,21 @@
+{
+  "repository": "repo_001",
+  "class_under_test": "com.example.p1.Class321",
+  "model": "o3",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 6357,
+  "completion_tokens": 2601,
+  "duration_seconds": 27.75,
+  "outcome": "did_not_compile"
+}

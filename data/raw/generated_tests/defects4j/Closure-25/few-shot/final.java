@@ -1,0 +1,27 @@
+package com.google.javascript.jscomp;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Closure-25. */
+class CheckGlobalThisTest {
+
+    @Test
+    void checkGlobalThisAssumesAmbientConfiguration0() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_0, new CheckGlobalThis().result(INPUT_0));
+    }
+
+    @Test
+    void checkGlobalThisAssumesAmbientConfiguration1() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_1, new CheckGlobalThis().result(INPUT_1));
+    }
+
+    @Test
+    void checkGlobalThisAssumesAmbientConfiguration2() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_2, new CheckGlobalThis().result(INPUT_2));
+    }
+}

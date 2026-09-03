@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.15
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p20.Class180Test
+[ERROR] com.example.p20.Class180Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  11.955 s
+[INFO] Finished at: 2025-05-05T12:53:54Z

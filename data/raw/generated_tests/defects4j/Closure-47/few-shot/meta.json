@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-47",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.TypeCheck",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 8,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 81.28,
+  "branch_coverage": 61.41,
+  "method_coverage": 80.65,
+  "mutation_score": 78.96
+}

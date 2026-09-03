@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.15
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_044/src/test/java/com/example/p44/Class364Test.java:[94,20] cannot find symbol
+  symbol:   class Collectors
+[INFO] BUILD FAILURE
+[INFO] Total time:  33.718 s
+[INFO] Finished at: 2025-04-12T03:32:54Z

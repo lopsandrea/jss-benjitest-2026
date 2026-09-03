@@ -1,0 +1,16 @@
+{
+  "bug": "Time-13",
+  "project": "Time",
+  "class_under_test": "org.joda.time.format.DateTimeFormatter",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 53.72,
+  "branch_coverage": 36.17,
+  "method_coverage": 62.33,
+  "mutation_score": 41.69
+}

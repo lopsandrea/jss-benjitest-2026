@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.4
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p7.Class167Test
+[ERROR] com.example.p7.Class167Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  50.642 s
+[INFO] Finished at: 2025-05-01T08:06:52Z

@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-136",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.PeepholeRemoveDeadCode",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 57.36,
+  "branch_coverage": 54.59,
+  "method_coverage": 60.11,
+  "mutation_score": 25.25
+}

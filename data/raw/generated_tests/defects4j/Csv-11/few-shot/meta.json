@@ -1,0 +1,16 @@
+{
+  "bug": "Csv-11",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.CSVRecord",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 17,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 78.15,
+  "branch_coverage": 62.57,
+  "method_coverage": 70.81,
+  "mutation_score": 58.87
+}

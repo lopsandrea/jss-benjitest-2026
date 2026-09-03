@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.16
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p13.Class333Test
+[ERROR] com.example.p13.Class333Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  3.736 s
+[INFO] Finished at: 2025-04-22T10:35:13Z

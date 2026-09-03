@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.3
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_037/src/test/java/com/example/p37/Class117Test.java:[13,11] cannot find symbol
+  symbol:   class Path
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  10.184 s
+[INFO] Finished at: 2025-05-28T09:36:20Z

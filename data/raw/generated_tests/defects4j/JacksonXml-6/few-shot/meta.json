@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonXml-6",
+  "project": "JacksonXml",
+  "class_under_test": "com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 39.79,
+  "branch_coverage": 30.82,
+  "method_coverage": 47.56,
+  "mutation_score": 26.66
+}

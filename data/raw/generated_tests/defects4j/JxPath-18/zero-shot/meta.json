@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-18",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.JXPathContext",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 15,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 33.36,
+  "branch_coverage": 31.53,
+  "method_coverage": 49.24,
+  "mutation_score": 28.75
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.7
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_065/src/test/java/com/example/p65/Class305Test.java:[97,19] cannot find symbol
+  symbol:   class Temporal
+  location: class com.example.p5.Class389Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  48.921 s
+[INFO] Finished at: 2025-06-01T07:26:19Z

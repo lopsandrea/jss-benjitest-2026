@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.7
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_003/src/test/java/com/example/p3/Class083Test.java:[61,82] cannot find symbol
+  symbol:   class Optional
+  location: class com.example.p1.Class263Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  55.942 s
+[INFO] Finished at: 2025-06-26T13:29:59Z

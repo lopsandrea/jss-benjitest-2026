@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.5
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p69.Class069Test
+[ERROR] com.example.p69.Class069Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  33.641 s
+[INFO] Finished at: 2025-04-21T07:08:31Z

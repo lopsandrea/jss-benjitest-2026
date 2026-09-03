@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-78",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Tokeniser",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 59.85,
+  "branch_coverage": 33.38,
+  "method_coverage": 66.29,
+  "mutation_score": 38.8
+}

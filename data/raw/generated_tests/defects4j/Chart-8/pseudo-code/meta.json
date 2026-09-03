@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-8",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.plot.XYPlot",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 58.99,
+  "branch_coverage": 39.54,
+  "method_coverage": 57.89,
+  "mutation_score": 32.6
+}

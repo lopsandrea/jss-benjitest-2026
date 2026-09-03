@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-22",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.GnuParser",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 50.52,
+  "branch_coverage": 32.84,
+  "method_coverage": 52.04,
+  "mutation_score": 47.62
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.16
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_066/src/test/java/com/example/p66/Class226Test.java:[130,77] cannot find symbol
+  symbol:   class Stream
+[INFO] BUILD FAILURE
+[INFO] Total time:  35.294 s
+[INFO] Finished at: 2025-04-24T22:20:02Z

@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-44",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.StringUtils",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 57.31,
+  "branch_coverage": 43.27,
+  "method_coverage": 60.82,
+  "mutation_score": 60.25
+}

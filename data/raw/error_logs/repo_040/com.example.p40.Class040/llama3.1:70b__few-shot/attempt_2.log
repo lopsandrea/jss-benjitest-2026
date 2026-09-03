@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.6
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p40.Class040Test
+[ERROR] com.example.p40.Class040Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  29.631 s
+[INFO] Finished at: 2025-06-20T04:18:34Z

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.17
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_021/src/test/java/com/example/p21/Class101Test.java:[18,12] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  6.782 s
+[INFO] Finished at: 2025-04-10T20:37:30Z

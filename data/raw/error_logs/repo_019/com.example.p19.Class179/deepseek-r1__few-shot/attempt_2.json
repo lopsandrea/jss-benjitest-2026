@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "type_mismatch",
+  "attempt": 2,
+  "resolved": false,
+  "classifier_score": 0,
+  "termination": "continue",
+  "affected_file": "src/test/java/com/example/p19/Class179Test.java"
+}

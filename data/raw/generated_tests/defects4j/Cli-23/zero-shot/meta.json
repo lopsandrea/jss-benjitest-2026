@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-23",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.Option",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 22.42,
+  "branch_coverage": 7.02,
+  "method_coverage": 34.79,
+  "mutation_score": 25.68
+}

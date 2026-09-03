@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.2
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p68.Class228Test
+[ERROR] com.example.p68.Class228Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.282 s
+[INFO] Finished at: 2025-05-18T22:42:15Z

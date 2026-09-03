@@ -1,0 +1,16 @@
+{
+  "bug": "Math-28",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.stat.descriptive.moment.Variance",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 52.92,
+  "branch_coverage": 30.98,
+  "method_coverage": 64.28,
+  "mutation_score": 46.4
+}

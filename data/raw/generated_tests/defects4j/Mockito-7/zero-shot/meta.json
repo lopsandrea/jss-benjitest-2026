@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-7",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.handler.MockHandlerImpl",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 45.31,
+  "branch_coverage": 28.69,
+  "method_coverage": 57.71,
+  "mutation_score": 32.62
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.15
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_064/src/test/java/com/example/p64/Class224Test.java:[72,49] cannot find symbol
+  symbol:   class UUID
+[INFO] BUILD FAILURE
+[INFO] Total time:  50.812 s
+[INFO] Finished at: 2025-05-14T21:29:58Z

@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-21",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.Options",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 42.32,
+  "branch_coverage": 31.62,
+  "method_coverage": 56.61,
+  "mutation_score": 35.25
+}

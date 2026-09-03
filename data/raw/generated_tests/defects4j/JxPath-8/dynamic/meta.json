@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-8",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.model.VariablePointer",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 18,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 70.51,
+  "branch_coverage": 59.03,
+  "method_coverage": 70.8,
+  "mutation_score": 69.21
+}

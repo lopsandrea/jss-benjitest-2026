@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-84",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Tokeniser",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 93.11,
+  "branch_coverage": 76.02,
+  "method_coverage": 96.54,
+  "mutation_score": 71.07
+}

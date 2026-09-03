@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.4
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_012/src/test/java/com/example/p12/Class012Test.java:[72,53] cannot find symbol
+  symbol:   class List
+  location: class com.example.p20.Class802Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  23.521 s
+[INFO] Finished at: 2025-05-06T02:43:48Z

@@ -1,0 +1,41 @@
+{
+  "repository": "repo_057",
+  "class_under_test": "com.example.p57.Class297",
+  "model": "gpt-4o-mini",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": true,
+  "attempts": 2,
+  "correction_iterations": 1,
+  "correction_termination": "success",
+  "prompt_tokens": 9506,
+  "completion_tokens": 3094,
+  "duration_seconds": 24.56,
+  "tests": 14,
+  "pit_tests_run": 14,
+  "line_coverage": 74.3491,
+  "branch_coverage": 71.4675,
+  "mutation_score": 57.1752,
+  "smells_recorded": {
+    "AR": 1,
+    "EH": 0,
+    "MG": 0,
+    "EA": 2,
+    "LT": 2,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 9
+  },
+  "smells_injected": {
+    "EA": 2,
+    "AR": 1,
+    "LT": 2,
+    "MNT": 9
+  }
+}

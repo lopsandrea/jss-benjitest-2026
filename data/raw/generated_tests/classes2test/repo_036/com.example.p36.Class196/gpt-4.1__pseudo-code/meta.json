@@ -1,0 +1,22 @@
+{
+  "repository": "repo_036",
+  "class_under_test": "com.example.p36.Class196",
+  "model": "gpt-4.1",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 5,
+  "correction_iterations": 4,
+  "correction_termination": "regression",
+  "prompt_tokens": 6955,
+  "completion_tokens": 3351,
+  "duration_seconds": 19.63,
+  "outcome": "did_not_compile"
+}

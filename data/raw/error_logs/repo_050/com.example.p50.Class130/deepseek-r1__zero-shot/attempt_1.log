@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.2
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_050/src/test/java/com/example/p50/Class130Test.java:[119,85] cannot find symbol
+  symbol:   class Instant
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  48.399 s
+[INFO] Finished at: 2025-06-25T02:05:00Z

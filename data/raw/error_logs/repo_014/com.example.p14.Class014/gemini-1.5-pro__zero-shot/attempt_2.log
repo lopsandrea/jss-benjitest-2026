@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.14
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_014/src/test/java/com/example/p14/Class014Test.java:[131,6] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p18.Class527Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  29.768 s
+[INFO] Finished at: 2025-04-19T06:47:00Z

@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-3",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.compiler.NodeNameTest",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 51.26,
+  "branch_coverage": 17.84,
+  "method_coverage": 49.5,
+  "mutation_score": 45.37
+}

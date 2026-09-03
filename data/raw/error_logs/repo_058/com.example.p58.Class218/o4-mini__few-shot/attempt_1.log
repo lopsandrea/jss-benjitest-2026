@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.22
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_058/src/test/java/com/example/p58/Class218Test.java:[46,73] cannot find symbol
+  symbol:   class Map
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.121 s
+[INFO] Finished at: 2025-06-09T01:32:49Z

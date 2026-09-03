@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.3
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_054/src/test/java/com/example/p54/Class054Test.java:[26,17] cannot find symbol
+  symbol:   class Optional
+[INFO] BUILD FAILURE
+[INFO] Total time:  26.595 s
+[INFO] Finished at: 2025-06-19T20:06:08Z

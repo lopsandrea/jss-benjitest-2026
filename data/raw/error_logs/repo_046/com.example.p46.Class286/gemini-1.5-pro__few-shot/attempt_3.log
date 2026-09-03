@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.11
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p46.Class286Test
+[ERROR] com.example.p46.Class286Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  50.345 s
+[INFO] Finished at: 2025-04-02T17:35:55Z

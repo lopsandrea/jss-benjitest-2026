@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.4
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_069/src/test/java/com/example/p69/Class069Test.java:[90,7] cannot find symbol
+  symbol:   class Path
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  58.693 s
+[INFO] Finished at: 2025-06-22T14:59:07Z

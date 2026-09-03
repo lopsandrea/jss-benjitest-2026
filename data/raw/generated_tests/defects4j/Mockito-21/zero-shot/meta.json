@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-21",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.invocation.InvocationMatcher",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 23.63,
+  "branch_coverage": 9.93,
+  "method_coverage": 35.59,
+  "mutation_score": 29.26
+}

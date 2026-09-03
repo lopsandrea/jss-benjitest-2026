@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.2
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_059/src/test/java/com/example/p59/Class299Test.java:[75,10] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p54.Class449Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  35.901 s
+[INFO] Finished at: 2025-04-12T20:53:13Z

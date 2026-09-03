@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.7
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_015/src/test/java/com/example/p15/Class095Test.java:[31,62] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  24.730 s
+[INFO] Finished at: 2025-05-21T22:23:13Z

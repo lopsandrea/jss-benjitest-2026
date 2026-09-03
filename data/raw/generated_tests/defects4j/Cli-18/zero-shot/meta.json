@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-18",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.PosixParser",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 46.45,
+  "branch_coverage": 36.5,
+  "method_coverage": 59.32,
+  "mutation_score": 36.31
+}

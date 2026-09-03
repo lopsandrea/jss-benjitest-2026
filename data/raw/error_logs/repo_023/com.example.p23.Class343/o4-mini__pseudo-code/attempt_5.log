@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.20
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p23.Class343Test
+[ERROR] com.example.p23.Class343Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  33.719 s
+[INFO] Finished at: 2025-06-21T06:11:53Z

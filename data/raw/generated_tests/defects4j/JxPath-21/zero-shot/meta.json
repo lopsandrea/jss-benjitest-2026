@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-21",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 15,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 20.58,
+  "branch_coverage": 8.88,
+  "method_coverage": 37.96,
+  "mutation_score": 10.6
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Math-79",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.util.MathUtils",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 57.66,
+  "branch_coverage": 44.23,
+  "method_coverage": 61.76,
+  "mutation_score": 39.34
+}

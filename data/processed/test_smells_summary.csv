@@ -1,0 +1,16 @@
+# Test Smells Analysis Summary
+# All smell counts are per test class (average)
+# AR=Assertion Roulette, EH=Exception Handling, MG=Mystery Guest, EA=Eager Test
+# LT=Lazy Test, UT=Unknown Test, RO=Resource Optimism, MNT=Magic Number Test
+
+source,AR,EH,MG,EA,LT,UT,RO,MNT,total_smells
+human,2.18,0.69,0.10,1.68,3.05,0.58,0.08,4.22,12.58
+gpt-4.1_dynamic,0.42,0.20,0.03,0.38,1.31,0.06,0.03,3.10,5.53
+deepseek-r1_dynamic,0.45,0.22,0.03,0.40,1.35,0.07,0.04,3.15,5.71
+gemini-2.5-pro_dynamic,0.68,0.24,0.05,0.48,2.10,0.15,0.04,4.22,7.96
+o3_dynamic,0.65,0.25,0.05,0.55,2.12,0.15,0.04,4.35,8.16
+gpt-4o-mini_dynamic,0.90,0.29,0.07,1.05,2.55,0.18,0.06,5.85,10.95
+grok-3_dynamic,0.93,0.32,0.07,1.10,2.80,0.24,0.09,5.30,10.85
+llama3.1:70b_dynamic,0.65,0.28,0.06,0.98,1.95,0.12,0.05,4.10,8.19
+gemini-1.5-pro_dynamic,1.45,0.33,0.05,1.45,2.90,0.20,0.08,4.90,11.36
+o4-mini_dynamic,0.80,0.30,0.06,0.75,2.38,0.17,0.06,4.65,9.17

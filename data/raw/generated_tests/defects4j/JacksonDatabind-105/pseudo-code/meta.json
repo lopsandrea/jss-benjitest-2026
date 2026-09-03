@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-105",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.node.ObjectNode",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 46.17,
+  "branch_coverage": 34.39,
+  "method_coverage": 62.47,
+  "mutation_score": 41.95
+}

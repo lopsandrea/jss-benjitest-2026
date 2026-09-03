@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.24
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_058/src/test/java/com/example/p58/Class058Test.java:[63,44] cannot find symbol
+  symbol:   class BiFunction
+[INFO] BUILD FAILURE
+[INFO] Total time:  41.162 s
+[INFO] Finished at: 2025-04-05T21:33:59Z

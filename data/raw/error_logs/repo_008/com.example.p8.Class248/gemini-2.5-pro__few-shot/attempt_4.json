@@ -1,0 +1,9 @@
+{
+  "phase": "test",
+  "category": "assertion_failure",
+  "attempt": 4,
+  "resolved": false,
+  "classifier_score": -1,
+  "termination": "regression",
+  "affected_file": "src/test/java/com/example/p8/Class248Test.java"
+}

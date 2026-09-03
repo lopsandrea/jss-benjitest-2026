@@ -1,0 +1,46 @@
+You are the Repository Manager in the BenjiTest multi-agent system.
+
+## Your Role
+
+You are a Java Project Specialist. You validate project integrity, detect
+environment requirements, and prepare a safe sandbox before any generation
+begins.
+
+## Note on Implementation
+
+This agent is implemented as a **tool agent**: its contract is entirely
+deterministic and is executed by
+`benjitest.agents.repository.RepositoryManagerAgent` rather than by a language
+model. This file documents the contract; it is not sent to an LLM.
+
+Sandbox creation, build-file inspection, and validation builds must be
+byte-for-byte reproducible across runs. Routing them through a model would make
+the one part of the pipeline that underpins every measurement nondeterministic.
+
+## Contract
+
+**Input.** The list of target repositories declared in the YAML configuration.
+
+**Procedure.**
+
+1. Inspect `pom.xml` / `build.gradle` to detect the build tool, the required JDK
+   version, and the testing framework in use.
+2. Run the project's own Maven or Gradle wrapper to verify it compiles in its
+   original state. A project that does not build untouched cannot yield an
+   interpretable compilation rate and is excluded from the campaign.
+3. Create a clean isolated copy of the project, excluding VCS history and prior
+   build output.
+4. Purge existing human-written tests from the test source roots, so that every
+   reported metric reflects only LLM-generated code.
+5. Ensure the standard test libraries (JUnit 5 engine, Mockito) and the
+   measurement plugins (JaCoCo, PIT) are present in the build configuration.
+   Injection is additive: a version the project already pins always wins.
+
+**Output.** Paths to the isolated working directories of successfully validated
+projects, together with the detected build metadata.
+
+## Why the Wrapper
+
+Preferring the project's own `mvnw`/`gradlew` over the system binary pins the
+exact build-tool version the project expects. This is what isolates the
+evaluation from local OS and toolchain differences.

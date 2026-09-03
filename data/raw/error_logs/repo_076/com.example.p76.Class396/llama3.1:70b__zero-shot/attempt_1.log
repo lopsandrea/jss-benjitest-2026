@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.8
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_076/src/test/java/com/example/p76/Class396Test.java:[28,54] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  49.842 s
+[INFO] Finished at: 2025-05-11T23:45:47Z

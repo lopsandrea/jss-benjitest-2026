@@ -1,0 +1,7 @@
+# The same probe on Classes2Test and on the control (Table tab:memorization_control).
+# excess_pp is the portion attributable to memorization; control_percent is the
+# base rate of re-deriving a test from the production class alone.
+matching_level,classes2test_percent,classes2test_matched,classes2test_total,control_percent,control_matched,control_total,excess_pp
+Exact,4.2,6194,147473,0.2,3,1500,4.0
+Structural,11.8,17402,147473,5.1,77,1500,6.7
+Semantic,24.1,35541,147473,16.8,252,1500,7.3

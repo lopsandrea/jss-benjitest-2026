@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-3",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.ri.compiler.NodeNameTest",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 19,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 70.62,
+  "branch_coverage": 44.86,
+  "method_coverage": 73.83,
+  "mutation_score": 63.7
+}

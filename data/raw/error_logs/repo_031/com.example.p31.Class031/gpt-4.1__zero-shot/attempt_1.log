@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.4
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p31.Class031Test
+[ERROR] com.example.p31.Class031Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  53.444 s
+[INFO] Finished at: 2025-05-20T01:11:34Z

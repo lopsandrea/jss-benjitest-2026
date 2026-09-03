@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.0
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_005/src/test/java/com/example/p5/Class325Test.java:[74,19] cannot find symbol
+  symbol:   class Temporal
+  location: class com.example.p74.Class762Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  11.880 s
+[INFO] Finished at: 2025-05-16T15:06:26Z

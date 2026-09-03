@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.19
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_021/src/test/java/com/example/p21/Class341Test.java:[25,24] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p70.Class320Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  26.246 s
+[INFO] Finished at: 2025-06-04T20:57:37Z

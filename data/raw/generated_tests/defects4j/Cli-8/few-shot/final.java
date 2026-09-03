@@ -1,0 +1,39 @@
+package org.apache.commons.cli;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Cli-8. */
+class OptionsTest {
+
+    @Test
+    void optionsHonoursDocumentedContract0() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_0, new Options().result(INPUT_0));
+    }
+
+    @Test
+    void optionsHonoursDocumentedContract1() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_1, new Options().result(INPUT_1));
+    }
+
+    @Test
+    void optionsHonoursDocumentedContract2() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_2, new Options().result(INPUT_2));
+    }
+
+    @Test
+    void optionsHonoursDocumentedContract3() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_3, new Options().result(INPUT_3));
+    }
+
+    @Test
+    void optionsHonoursDocumentedContract4() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_4, new Options().result(INPUT_4));
+    }
+}

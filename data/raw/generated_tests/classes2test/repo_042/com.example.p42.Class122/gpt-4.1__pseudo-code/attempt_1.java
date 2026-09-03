@@ -1,0 +1,13 @@
+package com.example.p42;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class122Test {
+
+    @Test
+    void reportsComputeReturnsTotalWithNullArgument() {
+        assertEquals(3, new Class122().computeTotalOrDefault(3));
+    }
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.20
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_026/src/test/java/com/example/p26/Class106Test.java:[134,85] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.example.p31.Class363Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  19.176 s
+[INFO] Finished at: 2025-04-11T12:13:46Z

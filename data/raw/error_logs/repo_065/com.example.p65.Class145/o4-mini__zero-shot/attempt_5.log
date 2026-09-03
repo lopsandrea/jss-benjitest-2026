@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.13
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p65.Class145Test
+[ERROR] com.example.p65.Class145Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  44.539 s
+[INFO] Finished at: 2025-05-09T06:54:43Z

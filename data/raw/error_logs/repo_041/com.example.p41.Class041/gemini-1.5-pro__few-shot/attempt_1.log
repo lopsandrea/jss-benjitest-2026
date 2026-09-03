@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.24
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_041/src/test/java/com/example/p41/Class041Test.java:[90,53] cannot find symbol
+  symbol:   class ArgumentCaptor
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  40.993 s
+[INFO] Finished at: 2025-06-18T12:54:26Z

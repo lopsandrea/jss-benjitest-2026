@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-10",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.time.FastDateParser",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 70.23,
+  "branch_coverage": 65.57,
+  "method_coverage": 81.05,
+  "mutation_score": 68.21
+}

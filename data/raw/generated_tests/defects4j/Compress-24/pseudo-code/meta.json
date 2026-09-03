@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-24",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.tar.TarArchiveEntry",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 60.15,
+  "branch_coverage": 36.34,
+  "method_coverage": 63.11,
+  "mutation_score": 46.53
+}

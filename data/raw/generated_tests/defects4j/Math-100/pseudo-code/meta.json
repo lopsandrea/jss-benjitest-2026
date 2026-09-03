@@ -1,0 +1,16 @@
+{
+  "bug": "Math-100",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.analysis.solvers.BrentSolver",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 46.24,
+  "branch_coverage": 30.86,
+  "method_coverage": 63.33,
+  "mutation_score": 46.38
+}

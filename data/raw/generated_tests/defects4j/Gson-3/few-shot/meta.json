@@ -1,0 +1,16 @@
+{
+  "bug": "Gson-3",
+  "project": "Gson",
+  "class_under_test": "com.google.gson.internal.$Gson$Types",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 50.28,
+  "branch_coverage": 31.51,
+  "method_coverage": 52.05,
+  "mutation_score": 38.92
+}

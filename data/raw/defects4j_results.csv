@@ -1,0 +1,22 @@
+# RQ5 - Fault Detection Rate (FDR) on the full Defects4J v3.0.1 dataset (835 active bugs, 17 projects)
+# Reference engine: gpt-4.1. Paper Table tab:defects4j_results (Sec. 5.5).
+# FDR columns are percentages; the *_detected columns are absolute bug counts.
+project,domain,num_bugs,zero_shot_detected,zero_shot_fdr,few_shot_detected,few_shot_fdr,pseudo_code_detected,pseudo_code_fdr,dynamic_detected,dynamic_fdr
+Chart,Charting Library,26,2,7.7,5,19.2,6,23.1,10,38.5
+Cli,CLI Parsers,39,6,15.4,12,30.8,10,25.6,22,56.4
+Closure,JavaScript Compiler,174,10,5.7,35,20.1,28,16.1,60,34.5
+Codec,Encoders/Decoders,18,3,16.7,7,38.9,5,27.8,12,66.7
+Collections,Data Structures,4,0,0.0,0,0.0,0,0.0,2,50.0
+Compress,Compression Algos,47,5,10.6,15,31.9,12,25.5,22,46.8
+Csv,CSV Parsers,16,4,25.0,8,50.0,7,43.8,11,68.8
+Gson,JSON Serialization,18,2,11.1,7,38.9,5,27.8,11,61.1
+JacksonCore,JSON Core Parsers,26,3,11.5,9,34.6,7,26.9,13,50.0
+JacksonDatabind,Data Binding,112,9,8.0,32,28.6,27,24.1,47,42.0
+JacksonXml,XML Serialization,6,1,16.7,2,33.3,2,33.3,3,50.0
+Jsoup,HTML Parsers,93,11,11.8,26,28.0,23,24.7,44,47.3
+JxPath,XPath Interpreters,22,2,9.1,6,27.3,5,22.7,10,45.5
+Lang,Core Utilities,64,11,17.2,27,42.2,24,37.5,38,59.4
+Math,Mathematics,106,14,13.2,34,32.1,28,26.4,56,52.8
+Mockito,Mocking Framework,38,2,5.3,8,21.1,6,15.8,12,31.6
+Time,Date/Time Logic,26,3,11.5,9,34.6,7,26.9,12,46.2
+Total,-,835,88,10.5,242,29.0,202,24.2,385,46.1

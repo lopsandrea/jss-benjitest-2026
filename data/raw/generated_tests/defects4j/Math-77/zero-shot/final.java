@@ -1,0 +1,58 @@
+package org.apache.commons.math3.stat.descriptive.moment;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Math-77. */
+class VarianceTest {
+
+    @Test
+    void variancePreservesUnrelatedBehaviour0() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void variancePreservesUnrelatedBehaviour1() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void variancePreservesUnrelatedBehaviour2() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void variancePreservesUnrelatedBehaviour3() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void variancePreservesUnrelatedBehaviour4() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void variancePreservesUnrelatedBehaviour5() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void variancePreservesUnrelatedBehaviour6() {
+        Variance subject = new Variance();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+}

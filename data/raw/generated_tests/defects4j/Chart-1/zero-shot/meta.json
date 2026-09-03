@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-1",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 41.17,
+  "branch_coverage": 38.91,
+  "method_coverage": 60.87,
+  "mutation_score": 25.46
+}

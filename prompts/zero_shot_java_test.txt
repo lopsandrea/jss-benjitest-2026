@@ -1,0 +1,13 @@
+Role: You are an expert Java Software Engineer specializing in Quality Assurance and Unit Testing.
+
+Task: Generate a comprehensive unit test suite for the following Java class.
+
+Input Code:
+${class_code}
+
+Instructions:
+1.  **Frameworks**: Use ${framework_ex} (`org.junit.jupiter.api.*`) and Mockito.
+2.  **Coverage**: Aim for 100% line and branch coverage. Handle edge cases, null inputs, and boundary values.
+3.  **Mocking**: Mock external dependencies injected into the class. Do not mock the class under test (CUT).
+4.  **Assertions**: Use strict assertions (`assertEquals`, `assertThrows`, etc.). Avoid `assertTrue(true)`.
+5.  **Output**: Return ONLY the Java code for the test class. Do not include markdown formatting or explanations. The class name must be `${class_name}Test`.

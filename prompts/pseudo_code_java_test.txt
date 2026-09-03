@@ -1,0 +1,316 @@
+# Pseudo-code Prompting Strategy Template
+
+## Overview
+
+The pseudo-code strategy uses a two-phase approach:
+1. First, generate pseudo-code describing the test logic and scenarios
+2. Then, translate the pseudo-code into executable JUnit 5 test code
+
+This approach improves test quality by separating test design from 
+implementation, allowing the LLM to focus on comprehensive scenario 
+coverage before worrying about syntax.
+
+## Phase 1: Pseudo-code Generation Prompt
+
+```
+You are tasked with designing unit tests for a Java class. First, create 
+a pseudo-code specification describing the test scenarios.
+
+## Class Under Test
+
+{class_signature}
+
+## Method Signatures
+
+{method_signatures}
+
+## Instructions
+
+For each public method, create pseudo-code test scenarios using this format:
+
+TEST: <descriptive_test_name>
+  GIVEN:
+    - <preconditions and setup>
+  WHEN:
+    - <action being tested>
+  THEN:
+    - <expected outcomes and assertions>
+  EDGE_CASES:
+    - <any boundary conditions to consider>
+
+Include scenarios for:
+1. Happy path (normal operation)
+2. Null inputs
+3. Empty collections (if applicable)
+4. Boundary values
+5. Exception conditions
+6. State transitions
+
+Do NOT write Java code in this phase. Focus only on test logic and coverage.
+
+## Example Output Format
+
+TEST: findUser_withValidId_returnsUser
+  GIVEN:
+    - UserRepository mock is configured
+    - Repository contains user with ID=1
+    - User has name="John Doe"
+  WHEN:
+    - Call findById(1)
+  THEN:
+    - Returns User object
+    - User.id equals 1
+    - User.name equals "John Doe"
+  EDGE_CASES:
+    - ID at Long.MAX_VALUE boundary
+
+TEST: findUser_withNullId_throwsException
+  GIVEN:
+    - UserService is initialized
+  WHEN:
+    - Call findById(null)
+  THEN:
+    - Throws IllegalArgumentException
+    - Exception message contains "cannot be null"
+  EDGE_CASES:
+    - None
+```
+
+## Phase 1 Output Example
+
+For a `Calculator` class with methods `add(int, int)`, `divide(int, int)`:
+
+```
+TEST: add_twoPositiveNumbers_returnsSum
+  GIVEN:
+    - Calculator instance created
+  WHEN:
+    - Call add(2, 3)
+  THEN:
+    - Returns 5
+  EDGE_CASES:
+    - Integer overflow at MAX_VALUE
+
+TEST: add_negativeNumbers_returnsCorrectSum
+  GIVEN:
+    - Calculator instance created
+  WHEN:
+    - Call add(-5, -3)
+  THEN:
+    - Returns -8
+  EDGE_CASES:
+    - Integer underflow at MIN_VALUE
+
+TEST: add_mixedSigns_returnsCorrectSum
+  GIVEN:
+    - Calculator instance created
+  WHEN:
+    - Call add(10, -4)
+  THEN:
+    - Returns 6
+  EDGE_CASES:
+    - Zero as one operand
+
+TEST: divide_validNumbers_returnsQuotient
+  GIVEN:
+    - Calculator instance created
+  WHEN:
+    - Call divide(10, 2)
+  THEN:
+    - Returns 5
+  EDGE_CASES:
+    - Division resulting in truncation
+
+TEST: divide_byZero_throwsException
+  GIVEN:
+    - Calculator instance created
+  WHEN:
+    - Call divide(10, 0)
+  THEN:
+    - Throws ArithmeticException
+    - Exception indicates division by zero
+  EDGE_CASES:
+    - Dividing zero by zero
+
+TEST: divide_integerTruncation_floorsResult
+  GIVEN:
+    - Calculator instance created
+  WHEN:
+    - Call divide(7, 2)
+  THEN:
+    - Returns 3 (integer truncation)
+  EDGE_CASES:
+    - Very small dividend with large divisor
+```
+
+## Phase 2: Code Generation Prompt
+
+```
+You are tasked with implementing JUnit 5 tests based on pseudo-code specifications.
+
+## Class Under Test
+
+{class_name}
+
+```java
+{class_source_code}
+```
+
+## Pseudo-code Test Specifications
+
+{pseudo_code_from_phase_1}
+
+## Instructions
+
+Convert each pseudo-code test into a JUnit 5 test method:
+
+1. Use @Test annotation for each test
+2. Use @DisplayName with the test description
+3. Follow AAA pattern: Arrange (GIVEN), Act (WHEN), Assert (THEN)
+4. Create separate test methods for EDGE_CASES if specified
+5. Use Mockito for dependencies
+6. Follow naming convention: methodName_stateUnderTest_expectedBehavior
+
+## Technical Requirements
+
+- JUnit 5 (jupiter) imports
+- Mockito for mocking
+- AssertJ or JUnit assertions
+- @BeforeEach for common setup
+- No test interdependencies
+
+## Output Format
+
+Provide a complete, compilable test class.
+```
+
+## Phase 2 Output Example
+
+```java
+package com.example;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CalculatorTest {
+
+    private Calculator calculator;
+
+    @BeforeEach
+    void setUp() {
+        calculator = new Calculator();
+    }
+
+    @Test
+    @DisplayName("add: two positive numbers returns their sum")
+    void add_twoPositiveNumbers_returnsSum() {
+        // Arrange
+        int a = 2;
+        int b = 3;
+
+        // Act
+        int result = calculator.add(a, b);
+
+        // Assert
+        assertEquals(5, result);
+    }
+
+    @Test
+    @DisplayName("add: negative numbers returns correct sum")
+    void add_negativeNumbers_returnsCorrectSum() {
+        // Arrange & Act
+        int result = calculator.add(-5, -3);
+
+        // Assert
+        assertEquals(-8, result);
+    }
+
+    @Test
+    @DisplayName("add: mixed positive and negative returns correct sum")
+    void add_mixedSigns_returnsCorrectSum() {
+        // Act
+        int result = calculator.add(10, -4);
+
+        // Assert
+        assertEquals(6, result);
+    }
+
+    @Test
+    @DisplayName("add: handles integer overflow edge case")
+    void add_integerOverflow_handlesCorrectly() {
+        // Edge case from pseudo-code
+        // Act & Assert
+        int result = calculator.add(Integer.MAX_VALUE, 1);
+        // Note: Java integer overflow wraps around
+        assertEquals(Integer.MIN_VALUE, result);
+    }
+
+    @Test
+    @DisplayName("divide: valid numbers returns quotient")
+    void divide_validNumbers_returnsQuotient() {
+        // Act
+        int result = calculator.divide(10, 2);
+
+        // Assert
+        assertEquals(5, result);
+    }
+
+    @Test
+    @DisplayName("divide: by zero throws ArithmeticException")
+    void divide_byZero_throwsException() {
+        // Act & Assert
+        ArithmeticException exception = assertThrows(
+            ArithmeticException.class,
+            () -> calculator.divide(10, 0)
+        );
+        assertTrue(exception.getMessage().contains("zero") || 
+                   exception.getMessage().contains("/ by zero"));
+    }
+
+    @Test
+    @DisplayName("divide: integer truncation floors the result")
+    void divide_integerTruncation_floorsResult() {
+        // Act
+        int result = calculator.divide(7, 2);
+
+        // Assert
+        assertEquals(3, result, "Integer division should truncate");
+    }
+
+    @Test
+    @DisplayName("divide: zero divided by zero throws exception")
+    void divide_zeroByZero_throwsException() {
+        // Edge case
+        assertThrows(
+            ArithmeticException.class,
+            () -> calculator.divide(0, 0)
+        );
+    }
+}
+```
+
+## Advantages of Pseudo-code Strategy
+
+1. **Separation of Concerns**: Test design is separate from implementation
+2. **Better Coverage**: Encourages thinking about all scenarios before coding
+3. **Reduced Syntax Errors**: LLM focuses on logic first
+4. **Documentation**: Pseudo-code serves as test documentation
+5. **Flexibility**: Same pseudo-code can generate tests for different frameworks
+
+## When to Use Pseudo-code Strategy
+
+- Complex classes with many test scenarios
+- When comprehensive coverage is critical
+- When test documentation is important
+- For classes with complex conditional logic
+- When zero-shot approaches produce incomplete tests
+
+## Implementation Notes
+
+In BenjiTest, the pseudo-code strategy:
+1. Uses the Tester Agent to generate pseudo-code
+2. Passes pseudo-code through validation
+3. Uses a separate Code Generator Agent to translate
+4. Applies the same Test Fixer Agent for compilation errors

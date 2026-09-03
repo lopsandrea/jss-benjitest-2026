@@ -1,0 +1,9 @@
+# Classes2Test Dataset Characteristics (paper Table tab:dataset_characteristics, Sec. 3.3)
+characteristic,value
+num_test_classes,147473
+num_unique_repositories,9410
+avg_lines_of_code_per_class,"1178 (IQR: 420-1960)"
+avg_testable_methods_per_class,"14.6 (IQR: 6-22)"
+avg_cyclomatic_complexity_per_class,"55.3 (IQR: 18-92)"
+test_framework_distribution,"JUnit 4 (55%), JUnit 5 (41%), Other (4%)"
+java_version_distribution,"Java 8 (15%), Java 11 (42%), Java 17 (25%), Java 21+ (18%)"

@@ -1,0 +1,45 @@
+{
+  "repository": "repo_046",
+  "class_under_test": "com.example.p46.Class366",
+  "model": "gpt-4.1",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)"
+  ],
+  "compiled_initially": false,
+  "compiled": true,
+  "attempts": 2,
+  "correction_iterations": 1,
+  "correction_termination": "success",
+  "prompt_tokens": 8107,
+  "completion_tokens": 2186,
+  "duration_seconds": 14.42,
+  "tests": 6,
+  "pit_tests_run": 6,
+  "line_coverage": 67.8505,
+  "branch_coverage": 40.9919,
+  "mutation_score": 46.1455,
+  "smells_recorded": {
+    "AR": 3,
+    "EH": 0,
+    "MG": 1,
+    "EA": 2,
+    "LT": 2,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 6
+  },
+  "smells_injected": {
+    "EA": 2,
+    "AR": 3,
+    "MG": 1,
+    "LT": 2,
+    "MNT": 6
+  }
+}

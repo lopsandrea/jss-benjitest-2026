@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.11
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_029/src/test/java/com/example/p29/Class109Test.java:[102,69] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.example.p46.Class300Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  28.493 s
+[INFO] Finished at: 2025-06-19T21:46:22Z

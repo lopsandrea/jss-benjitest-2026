@@ -1,0 +1,21 @@
+{
+  "repository": "repo_018",
+  "class_under_test": "com.example.p18.Class178",
+  "model": "o4-mini",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 9332,
+  "completion_tokens": 2296,
+  "duration_seconds": 21.36,
+  "outcome": "did_not_compile"
+}

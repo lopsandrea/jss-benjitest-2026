@@ -1,0 +1,16 @@
+{
+  "bug": "Time-20",
+  "project": "Time",
+  "class_under_test": "org.joda.time.MonthDay",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 93.64,
+  "branch_coverage": 78.15,
+  "method_coverage": 94.61,
+  "mutation_score": 87.76
+}

@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.7
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_063/src/test/java/com/example/p63/Class223Test.java:[37,74] cannot find symbol
+  symbol:   method computeTotalOrDefault(int)
+  location: class com.example.p63.Class223Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  45.610 s
+[INFO] Finished at: 2025-05-16T07:33:12Z

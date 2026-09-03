@@ -1,0 +1,25 @@
+{
+  "repository": "repo_012",
+  "class_under_test": "com.example.p12.Class172",
+  "model": "o4-mini",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 5,
+  "correction_iterations": 4,
+  "correction_termination": "regression",
+  "prompt_tokens": 4643,
+  "completion_tokens": 1564,
+  "duration_seconds": 21.25,
+  "outcome": "did_not_compile"
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.11
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p72.Class232Test
+[ERROR] com.example.p72.Class232Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  22.428 s
+[INFO] Finished at: 2025-06-20T08:48:57Z

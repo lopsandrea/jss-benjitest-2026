@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-109",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.CheckGlobalThis",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 60.93,
+  "branch_coverage": 56.08,
+  "method_coverage": 76.29,
+  "mutation_score": 52.5
+}

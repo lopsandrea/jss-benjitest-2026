@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-17",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.type.TypeFactory",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 39.1,
+  "branch_coverage": 29.48,
+  "method_coverage": 42.72,
+  "mutation_score": 14.81
+}

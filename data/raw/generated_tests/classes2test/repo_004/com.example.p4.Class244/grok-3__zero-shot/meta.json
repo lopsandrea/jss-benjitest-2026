@@ -1,0 +1,23 @@
+{
+  "repository": "repo_004",
+  "class_under_test": "com.example.p4.Class244",
+  "model": "grok-3",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 4702,
+  "completion_tokens": 1572,
+  "duration_seconds": 16.78,
+  "outcome": "did_not_compile"
+}

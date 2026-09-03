@@ -1,0 +1,42 @@
+{
+  "repository": "repo_000",
+  "class_under_test": "com.example.p0.Class320",
+  "model": "o4-mini",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": true,
+  "attempts": 2,
+  "correction_iterations": 1,
+  "correction_termination": "success",
+  "prompt_tokens": 6401,
+  "completion_tokens": 2370,
+  "duration_seconds": 12.75,
+  "tests": 9,
+  "pit_tests_run": 9,
+  "line_coverage": 65.3671,
+  "branch_coverage": 61.6348,
+  "mutation_score": 65.2029,
+  "smells_recorded": {
+    "AR": 1,
+    "EH": 0,
+    "MG": 1,
+    "EA": 3,
+    "LT": 6,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 7
+  },
+  "smells_injected": {
+    "EA": 3,
+    "AR": 1,
+    "MG": 1,
+    "LT": 6,
+    "MNT": 7
+  }
+}

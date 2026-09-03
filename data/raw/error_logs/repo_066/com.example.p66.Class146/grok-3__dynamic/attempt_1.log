@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.4
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_066/src/test/java/com/example/p66/Class146Test.java:[140,3] cannot find symbol
+  symbol:   method computeTotalOrDefault(int)
+  location: class com.example.p3.Class485Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  18.827 s
+[INFO] Finished at: 2025-05-05T04:23:43Z

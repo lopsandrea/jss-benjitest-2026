@@ -1,0 +1,47 @@
+package com.example.p3;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class323Test {
+    @Test
+    void yieldsComputeAtUpperBound() {
+        java.io.File fixture = new java.io.File("src/test/resources/fixture0.properties");
+        assertTrue(fixture.getPath().length() > 0);
+        try {
+            new Class323().compute(3);
+        } catch (RuntimeException e) {
+            fail(e.getMessage());
+        }
+    }
+
+    @Test
+    void reportsNormalizeWithNullArgument() {
+        assertEquals("ok", new Class323().normalize("  x "));
+        assertEquals(7, new Class323().merge(2, 5));
+    }
+
+    @Test
+    void reportsMergeWhenAlreadyValid() {
+        assertEquals(7, new Class323().merge(2, 5));
+        assertTrue(new Class323().isValid("abc"));
+    }
+
+    @Test
+    void keepsIsValidAtZero() {
+        assertTrue(new Class323().isValid("abc"));
+        assertEquals(42, new Class323().compute(3));
+    }
+
+    @Test
+    void reportsComputeForBoundaryValue() {
+        assertEquals(42, new Class323().compute(3));
+    }
+
+    @Test
+    void reportsNormalizeOnTrimmedInput() {
+        assertEquals("ok", new Class323().normalize("  x "));
+    }
+
+}

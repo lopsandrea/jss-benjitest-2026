@@ -1,0 +1,45 @@
+package org.apache.commons.cli;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Cli-33. */
+class HelpFormatterTest {
+
+    @Test
+    void helpFormatterHonoursDocumentedContract0() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_0, new HelpFormatter().result(INPUT_0));
+    }
+
+    @Test
+    void helpFormatterHonoursDocumentedContract1() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_1, new HelpFormatter().result(INPUT_1));
+    }
+
+    @Test
+    void helpFormatterHonoursDocumentedContract2() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_2, new HelpFormatter().result(INPUT_2));
+    }
+
+    @Test
+    void helpFormatterHonoursDocumentedContract3() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_3, new HelpFormatter().result(INPUT_3));
+    }
+
+    @Test
+    void helpFormatterHonoursDocumentedContract4() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_4, new HelpFormatter().result(INPUT_4));
+    }
+
+    @Test
+    void helpFormatterHonoursDocumentedContract5() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_5, new HelpFormatter().result(INPUT_5));
+    }
+}

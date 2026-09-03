@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.14
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_028/src/test/java/com/example/p28/Class268Test.java:[121,55] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  52.025 s
+[INFO] Finished at: 2025-06-27T16:43:38Z

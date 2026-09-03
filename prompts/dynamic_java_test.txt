@@ -1,0 +1,291 @@
+# Dynamic Prompting Strategy Template
+
+## Overview
+
+This template describes the dynamic prompt construction used by the BenjiTest 
+multi-agent system. Unlike static prompts (zero-shot, few-shot), dynamic prompts 
+are constructed at runtime by the Manager Agent based on the context gathered 
+by Black-box and White-box Agents.
+
+## Manager Agent System Prompt
+
+```
+You are a Test Generation Manager Agent responsible for orchestrating the 
+generation of high-quality unit tests for Java classes. Your role is to:
+
+1. Analyze the class under test (CUT) to determine testing requirements
+2. Coordinate with specialized agents to gather context:
+   - Black-box Agent: Provides method signatures, JavaDoc, and public API
+   - White-box Agent: Provides implementation details and code paths
+3. Synthesize gathered information into a comprehensive prompt for the Tester Agent
+4. Evaluate generated tests and initiate correction loops if needed
+
+You have access to the following tools:
+- get_class_signature(class_name): Get public API of a class
+- get_method_source(class_name, method_name): Get method implementation
+- get_dependencies(class_name): Get class dependencies and imports
+- analyze_coverage_gaps(test_code, cut): Identify uncovered code paths
+- run_compilation_check(test_code): Check if test compiles
+- run_mutation_analysis(test_code): Run mutation testing
+
+Decision Protocol:
+1. For simple POJOs: Use Black-box context only
+2. For complex classes with multiple branches: Use both Black-box and White-box
+3. For classes with external dependencies: Add mock setup guidance
+```
+
+## Tester Agent System Prompt
+
+```
+You are a Test Generation Agent specialized in creating JUnit 5 test cases for 
+Java classes. You will receive context about a Class Under Test (CUT) and must 
+generate comprehensive unit tests.
+
+Requirements:
+1. Use JUnit 5 (@Test, @BeforeEach, @AfterEach, @DisplayName)
+2. Use Mockito for mocking external dependencies
+3. Follow AAA pattern (Arrange-Act-Assert) for test structure
+4. Include edge cases: null inputs, empty collections, boundary values
+5. Aim for high branch coverage by testing all conditional paths
+6. Use meaningful assertion messages
+
+Test Naming Convention:
+- methodName_stateUnderTest_expectedBehavior
+
+Quality Guidelines:
+- One logical assertion per test method (avoid Assertion Roulette)
+- No empty catch blocks (avoid Exception Handling smell)
+- No hardcoded file paths or resources (avoid Mystery Guest)
+- Initialize all test data explicitly (avoid Lazy Test)
+```
+
+## Dynamic Prompt Template
+
+When the Manager Agent constructs the prompt for the Tester Agent, it follows 
+this template:
+
+```
+Generate JUnit 5 tests for the following Java class.
+
+## Class Under Test
+
+{class_name}
+
+## Package Information
+
+Package: {package_name}
+Imports needed: {required_imports}
+
+## Class Signature (Black-box Context)
+
+{class_signature}
+
+## Method Signatures with Documentation
+
+{method_signatures_with_javadoc}
+
+## Implementation Details (White-box Context)
+
+### Key Branches and Conditions
+
+{branch_analysis}
+
+### Code Paths Requiring Coverage
+
+{code_paths}
+
+## Dependencies to Mock
+
+{dependencies_to_mock}
+
+## Test Requirements
+
+1. Cover all public methods
+2. Test the following specific scenarios:
+{specific_scenarios}
+
+3. Edge cases to include:
+{edge_cases}
+
+## Output Format
+
+Provide a complete JUnit 5 test class with:
+- Proper imports
+- @BeforeEach setup method if needed
+- One @Test method per scenario
+- Mockito mocks for external dependencies
+```
+
+## Black-box Agent Response Format
+
+```json
+{
+  "class_name": "MyService",
+  "public_methods": [
+    {
+      "name": "processData",
+      "signature": "public Result processData(Input input, Options options)",
+      "javadoc": "Processes input data according to specified options.",
+      "parameters": [
+        {"name": "input", "type": "Input", "nullable": true},
+        {"name": "options", "type": "Options", "nullable": false}
+      ],
+      "returns": "Result object or null if input is null",
+      "throws": ["ValidationException", "ProcessingException"]
+    }
+  ],
+  "constructors": [...],
+  "public_fields": [...]
+}
+```
+
+## White-box Agent Response Format
+
+```json
+{
+  "class_name": "MyService",
+  "branch_points": [
+    {
+      "method": "processData",
+      "line": 45,
+      "condition": "input == null",
+      "branches": ["return null", "continue processing"]
+    },
+    {
+      "method": "processData", 
+      "line": 52,
+      "condition": "options.isStrict()",
+      "branches": ["strict validation", "lenient validation"]
+    }
+  ],
+  "loop_structures": [
+    {
+      "method": "processData",
+      "type": "for-each",
+      "over": "input.getItems()",
+      "complexity": "O(n)"
+    }
+  ],
+  "external_calls": [
+    {
+      "method": "processData",
+      "line": 60,
+      "target": "validator.validate(item)",
+      "mockable": true
+    }
+  ]
+}
+```
+
+## Test Fixer Agent Prompt
+
+When tests fail to compile, the Test Fixer Agent receives:
+
+```
+The following test code failed to compile. Please fix the compilation errors.
+
+## Original Test Code
+
+{test_code}
+
+## Compilation Errors
+
+{compilation_errors}
+
+## Class Under Test Reference
+
+{cut_signature}
+
+## Fix Instructions
+
+1. Analyze each compilation error
+2. Identify the root cause (missing import, wrong method signature, etc.)
+3. Apply the minimal fix that preserves test intent
+4. Ensure all imports are present
+5. Verify method signatures match the CUT
+
+## Output
+
+Provide the complete fixed test class.
+```
+
+## Example: Dynamic Prompt Construction
+
+Given a class `UserService`:
+
+```java
+public class UserService {
+    private final UserRepository repository;
+    
+    public UserService(UserRepository repository) {
+        this.repository = repository;
+    }
+    
+    public User findById(Long id) {
+        if (id == null) {
+            throw new IllegalArgumentException("ID cannot be null");
+        }
+        return repository.findById(id).orElse(null);
+    }
+}
+```
+
+The Manager Agent constructs:
+
+```
+Generate JUnit 5 tests for the following Java class.
+
+## Class Under Test
+
+UserService
+
+## Package Information
+
+Package: com.example.service
+Imports needed: 
+- com.example.repository.UserRepository
+- com.example.model.User
+- org.junit.jupiter.api.*
+- org.mockito.*
+- static org.mockito.Mockito.*
+
+## Class Signature (Black-box Context)
+
+public class UserService {
+    public UserService(UserRepository repository)
+    public User findById(Long id)
+}
+
+## Method Signatures with Documentation
+
+findById(Long id): Finds user by ID. Returns null if not found.
+
+## Implementation Details (White-box Context)
+
+### Key Branches and Conditions
+
+1. Line 10: if (id == null) - throws IllegalArgumentException
+2. Line 12: repository.findById(id).orElse(null) - handles Optional
+
+### Code Paths Requiring Coverage
+
+Path 1: id is null → throws IllegalArgumentException
+Path 2: id is valid, user exists → returns User
+Path 3: id is valid, user not exists → returns null
+
+## Dependencies to Mock
+
+- UserRepository (constructor dependency)
+
+## Test Requirements
+
+1. Cover all public methods
+2. Test the following specific scenarios:
+   - Valid ID returns existing user
+   - Valid ID returns null for non-existent user
+   - Null ID throws IllegalArgumentException
+
+3. Edge cases to include:
+   - Boundary value: ID = 0
+   - Boundary value: ID = Long.MAX_VALUE
+```

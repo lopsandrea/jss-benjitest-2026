@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.8
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_056/src/test/java/com/example/p56/Class296Test.java:[121,52] cannot find symbol
+  symbol:   class Path
+  location: class com.example.p66.Class497Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  31.652 s
+[INFO] Finished at: 2025-04-23T00:19:57Z

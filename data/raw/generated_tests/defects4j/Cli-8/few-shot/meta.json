@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-8",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.Options",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 90.64,
+  "branch_coverage": 80.54,
+  "method_coverage": 96.72,
+  "mutation_score": 70.14
+}

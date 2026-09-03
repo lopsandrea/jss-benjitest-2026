@@ -1,0 +1,16 @@
+{
+  "bug": "Csv-2",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.CSVPrinter",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 55.5,
+  "branch_coverage": 42.47,
+  "method_coverage": 61.91,
+  "mutation_score": 25.46
+}

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.22
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p49.Class049Test
+[ERROR] com.example.p49.Class049Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  40.011 s
+[INFO] Finished at: 2025-05-07T02:20:28Z

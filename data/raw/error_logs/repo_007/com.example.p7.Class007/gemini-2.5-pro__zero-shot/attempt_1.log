@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.21
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_007/src/test/java/com/example/p7/Class007Test.java:[51,32] cannot find symbol
+  symbol:   class Instant
+  location: class com.example.p53.Class850Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  43.115 s
+[INFO] Finished at: 2025-05-16T03:14:11Z

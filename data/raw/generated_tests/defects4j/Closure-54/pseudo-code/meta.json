@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-54",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.PeepholeFoldConstants",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 22.68,
+  "branch_coverage": 19.16,
+  "method_coverage": 41.41,
+  "mutation_score": 19.48
+}

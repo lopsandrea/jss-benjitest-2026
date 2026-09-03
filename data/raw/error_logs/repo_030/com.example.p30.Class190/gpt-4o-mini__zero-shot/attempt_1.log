@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.19
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p30.Class190Test
+[ERROR] com.example.p30.Class190Test -- java.lang.ArithmeticException: / by zero
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  23.204 s
+[INFO] Finished at: 2025-06-01T06:12:39Z

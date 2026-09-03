@@ -1,0 +1,28 @@
+Role: You are an expert Java Software Engineer. Generate unit tests.
+
+I will provide you with examples of good tests, and then a new class to test.
+
+---
+Example 1:
+Input Class:
+public class Calculator {
+    public int add(int a, int b) { return a + b; }
+}
+
+Output Test:
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CalculatorTest {
+    @Test
+    void testAdd() {
+        Calculator calc = new Calculator();
+        assertEquals(5, calc.add(2, 3));
+    }
+}
+
+Task:
+Generate tests for the following class:
+${class_code}
+
+Return only the code.

@@ -1,0 +1,33 @@
+package org.apache.commons.math3.optim.linear;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of Math-44. */
+class SimplexSolverTest {
+
+    @Test
+    void simplexSolverAssumesAmbientConfiguration0() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_0, new SimplexSolver().result(INPUT_0));
+    }
+
+    @Test
+    void simplexSolverAssumesAmbientConfiguration1() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_1, new SimplexSolver().result(INPUT_1));
+    }
+
+    @Test
+    void simplexSolverAssumesAmbientConfiguration2() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_2, new SimplexSolver().result(INPUT_2));
+    }
+
+    @Test
+    void simplexSolverAssumesAmbientConfiguration3() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_3, new SimplexSolver().result(INPUT_3));
+    }
+}

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.1
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p27.Class107Test
+[ERROR] com.example.p27.Class107Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  24.281 s
+[INFO] Finished at: 2025-06-12T01:05:54Z

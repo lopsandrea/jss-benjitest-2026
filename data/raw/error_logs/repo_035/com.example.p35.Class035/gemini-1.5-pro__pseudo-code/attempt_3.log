@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.19
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p35.Class035Test
+[ERROR] com.example.p35.Class035Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  46.521 s
+[INFO] Finished at: 2025-05-24T03:04:54Z

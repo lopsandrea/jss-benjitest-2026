@@ -1,0 +1,10 @@
+# Ablation study, aggregated (paper tab:ablation_results, Sec. 5.3).
+# Derived from ablation_per_class_results.csv over the compiled subset of each arm,
+# so the two files cannot disagree. Deltas are against the Full Crew baseline:
+# absolute points for the coverage and CR columns, relative percent for the smells.
+configuration,n_classes,n_compiled,line_coverage,branch_coverage,method_coverage,mutation_score,final_CR_percent,lazy_test,assertion_roulette,delta_line_coverage,delta_branch_coverage,delta_method_coverage,delta_mutation_score,delta_final_CR_percent,delta_lazy_test_percent,delta_assertion_roulette_percent
+Full Crew (Baseline),2000,1960,93.8,90.5,96.5,92.1,98,1.31,0.42,0.0,0.0,0.0,0.0,0,0,0
+No-BlackBox (w/o Spec.),2000,1920,91.2,88.1,93.9,85.4,96,3.85,0.88,-2.6,-2.4,-2.6,-6.7,-2,194,110
+No-WhiteBox (w/o Struct.),2000,1940,86.5,76.2,89.2,81.0,97,1.45,0.55,-7.3,-14.3,-7.3,-11.1,-1,11,31
+No-Context (Prompt Eng. Only),2000,1640,75.4,62.1,78.1,60.5,82,3.1,1.1,-18.4,-28.4,-18.4,-31.6,-16,137,162
+No-Classifier (w/o progress),2000,1960,93.5,90.2,96.5,91.8,98,1.32,0.42,-0.3,-0.3,0.0,-0.3,0,1,0

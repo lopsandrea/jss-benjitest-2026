@@ -1,0 +1,16 @@
+{
+  "bug": "Csv-6",
+  "project": "Csv",
+  "class_under_test": "org.apache.commons.csv.CSVFormat",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 57.94,
+  "branch_coverage": 36.03,
+  "method_coverage": 59.74,
+  "mutation_score": 35.0
+}

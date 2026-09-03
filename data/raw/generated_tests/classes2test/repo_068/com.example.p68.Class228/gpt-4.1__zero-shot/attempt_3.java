@@ -1,0 +1,14 @@
+package com.example.p68;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class228Test {
+
+    @Test
+    void yieldsComputeReturnsTotalWithNegativeInput() {
+        Class228 subject = org.mockito.Mockito.mock(Class228.class);
+        org.mockito.Mockito.when(subject.capacity()).thenReturn("16");
+    }
+}

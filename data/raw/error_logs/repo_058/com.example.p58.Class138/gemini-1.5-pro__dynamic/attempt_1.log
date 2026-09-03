@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.3
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_058/src/test/java/com/example/p58/Class138Test.java:[121,23] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  28.234 s
+[INFO] Finished at: 2025-05-27T00:13:05Z

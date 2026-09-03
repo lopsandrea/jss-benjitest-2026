@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-16",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.JFreeChart",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 80.08,
+  "branch_coverage": 66.63,
+  "method_coverage": 80.72,
+  "mutation_score": 62.4
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-14",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.digest.DigestUtils",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 79.32,
+  "branch_coverage": 61.74,
+  "method_coverage": 77.53,
+  "mutation_score": 72.18
+}

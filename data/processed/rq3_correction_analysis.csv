@@ -1,0 +1,15 @@
+# RQ3: Correction Loop Effectiveness Analysis
+# Total correction iterations processed: ~3,540,000 (paper Sec. 3.6 / Computational Cost)
+# Overall weighted success rate: 72% (paper Table tab:correction_breakdown)
+
+category,description,percentage,fix_rate,key_finding
+Build,Symbol/Import Mismatch,48%,82%,High fix rate - agents successfully identify correct dependencies
+Build,Syntax Violations,17%,94%,Very high fix rate - straightforward to resolve
+Test,Assertion Failures,22%,41%,Lower fix rate - semantic understanding required
+Test,Runtime Exceptions,13%,55%,Moderate fix rate - often null initialization issues
+
+# Summary Statistics
+total_correction_iterations,3540000
+build_phase_errors,65%
+test_phase_errors,35%
+overall_fix_rate,72%

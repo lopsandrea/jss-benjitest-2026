@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-29",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.Option",
+  "strategy": "zero-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 8,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 51.64,
+  "branch_coverage": 37.72,
+  "method_coverage": 59.59,
+  "mutation_score": 54.05
+}

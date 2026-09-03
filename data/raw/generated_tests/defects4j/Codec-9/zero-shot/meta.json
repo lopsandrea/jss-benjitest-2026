@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-9",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.binary.Hex",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 39.44,
+  "branch_coverage": 22.08,
+  "method_coverage": 39.86,
+  "mutation_score": 7.89
+}

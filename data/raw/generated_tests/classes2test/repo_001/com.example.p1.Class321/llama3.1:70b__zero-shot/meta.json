@@ -1,0 +1,21 @@
+{
+  "repository": "repo_001",
+  "class_under_test": "com.example.p1.Class321",
+  "model": "llama3.1:70b",
+  "strategy": "zero-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 3,
+  "correction_iterations": 2,
+  "correction_termination": "regression",
+  "prompt_tokens": 3996,
+  "completion_tokens": 1691,
+  "duration_seconds": 15.46,
+  "outcome": "did_not_compile"
+}

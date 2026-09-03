@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-45",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.nodes.Element",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 41.56,
+  "branch_coverage": 19.96,
+  "method_coverage": 41.05,
+  "mutation_score": 17.44
+}

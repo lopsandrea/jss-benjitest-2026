@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.9
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p51.Class291Test
+[ERROR] com.example.p51.Class291Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[INFO] BUILD FAILURE
+[INFO] Total time:  2.529 s
+[INFO] Finished at: 2025-05-09T22:31:15Z

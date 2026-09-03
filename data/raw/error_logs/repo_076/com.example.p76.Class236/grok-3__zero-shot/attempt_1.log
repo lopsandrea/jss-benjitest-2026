@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.20
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile ---
+[ERROR] /work/repo_076/src/test/java/com/example/p76/Class236Test.java:[67,55] cannot find symbol
+  symbol:   class BiFunction
+  location: class com.example.p57.Class705Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  22.670 s
+[INFO] Finished at: 2025-06-05T09:53:40Z

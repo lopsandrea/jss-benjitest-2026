@@ -1,0 +1,69 @@
+package org.apache.commons.jxpath;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of JxPath-18. */
+class JXPathContextTest {
+
+    @Test
+    void jXPathContextHonoursDocumentedContract0() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_0, new JXPathContext().result(INPUT_0));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract1() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_1, new JXPathContext().result(INPUT_1));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract2() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_2, new JXPathContext().result(INPUT_2));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract3() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_3, new JXPathContext().result(INPUT_3));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract4() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_4, new JXPathContext().result(INPUT_4));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract5() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_5, new JXPathContext().result(INPUT_5));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract6() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_6, new JXPathContext().result(INPUT_6));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract7() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_7, new JXPathContext().result(INPUT_7));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract8() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_8, new JXPathContext().result(INPUT_8));
+    }
+
+    @Test
+    void jXPathContextHonoursDocumentedContract9() {
+        // Asserted from the Javadoc contract, not from the implementation.
+        assertEquals(EXPECTED_9, new JXPathContext().result(INPUT_9));
+    }
+}

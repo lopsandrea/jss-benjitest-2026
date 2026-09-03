@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.3
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_018/src/test/java/com/example/p18/Class098Test.java:[81,12] cannot find symbol
+  symbol:   class Map
+  location: class com.example.p4.Class689Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  14.921 s
+[INFO] Finished at: 2025-06-20T17:24:32Z

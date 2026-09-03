@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.6
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_005/src/test/java/com/example/p5/Class085Test.java:[16,85] cannot find symbol
+  symbol:   class Pattern
+[INFO] BUILD FAILURE
+[INFO] Total time:  17.250 s
+[INFO] Finished at: 2025-06-01T15:31:10Z

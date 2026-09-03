@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonCore-21",
+  "project": "JacksonCore",
+  "class_under_test": "com.fasterxml.jackson.core.json.UTF8StreamJsonParser",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 60.69,
+  "branch_coverage": 47.99,
+  "method_coverage": 60.65,
+  "mutation_score": 39.02
+}

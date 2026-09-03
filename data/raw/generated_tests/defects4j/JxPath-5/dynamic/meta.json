@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-5",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.JXPathContext",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 90.56,
+  "branch_coverage": 78.72,
+  "method_coverage": 97.31,
+  "mutation_score": 59.44
+}

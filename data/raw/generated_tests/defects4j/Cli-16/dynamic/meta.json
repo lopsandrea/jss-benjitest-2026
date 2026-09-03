@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-16",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.GnuParser",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 77.09,
+  "branch_coverage": 73.42,
+  "method_coverage": 86.5,
+  "mutation_score": 54.5
+}

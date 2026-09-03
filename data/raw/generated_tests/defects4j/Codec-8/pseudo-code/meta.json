@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-8",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.language.Soundex",
+  "strategy": "pseudo-code",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 70.38,
+  "branch_coverage": 68.68,
+  "method_coverage": 83.34,
+  "mutation_score": 61.18
+}

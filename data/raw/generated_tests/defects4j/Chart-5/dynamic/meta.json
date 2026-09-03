@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-5",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.axis.ValueAxis",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 11,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 72.99,
+  "branch_coverage": 61.07,
+  "method_coverage": 74.54,
+  "mutation_score": 79.02
+}

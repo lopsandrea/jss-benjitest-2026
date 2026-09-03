@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-31",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.TypeHandler",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 8,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 92.84,
+  "branch_coverage": 82.2,
+  "method_coverage": 100.0,
+  "mutation_score": 79.89
+}

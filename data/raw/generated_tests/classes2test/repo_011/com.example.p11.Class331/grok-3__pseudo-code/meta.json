@@ -1,0 +1,25 @@
+{
+  "repository": "repo_011",
+  "class_under_test": "com.example.p11.Class331",
+  "model": "grok-3",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 7578,
+  "completion_tokens": 2447,
+  "duration_seconds": 20.7,
+  "outcome": "did_not_compile"
+}

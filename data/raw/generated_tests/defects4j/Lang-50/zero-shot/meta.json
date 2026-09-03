@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-50",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.StringUtils",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 20.08,
+  "branch_coverage": 13.34,
+  "method_coverage": 33.07,
+  "mutation_score": 14.12
+}

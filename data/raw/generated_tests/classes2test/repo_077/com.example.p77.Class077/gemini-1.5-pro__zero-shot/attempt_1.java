@@ -1,0 +1,14 @@
+package com.example.p77;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class077Test {
+
+    @Test
+    void reportsComputeReturnsTotalOnEmptyString() {
+        String result = new Class077().compute(3);
+        assertNotNull(result);
+    }
+}

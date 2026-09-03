@@ -1,0 +1,44 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials
+.env
+
+# BenjiTest runtime state: sandboxes, response cache, LLM transcripts.
+# Never committed -- sandboxes are multi-gigabyte copies of target projects and
+# transcripts can contain proprietary source code from those projects.
+.benjitest/
+logs/
+
+# Generated output
+figs/output/
+*.log
+# ...but the released build logs are a result, not an artefact of running the tool.
+!data/raw/error_logs/**
+
+# ---------------------------------------------------------------------------
+# The Classes2Test corpus itself.
+#
+# data/raw/classes2test_records/ holds 425,393 focal-class / test-class records.
+# It is the corpus published by the AgoneTest study, which we reuse unchanged, so
+# it is not a result of this study and duplicating it here buys nothing while
+# making the repository impractical to clone. Obtain it from its own release.
+# ---------------------------------------------------------------------------
+data/raw/classes2test_records/
+data/raw/smoke/

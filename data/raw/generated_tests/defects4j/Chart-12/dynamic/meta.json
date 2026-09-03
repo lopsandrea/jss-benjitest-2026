@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-12",
+  "project": "Chart",
+  "class_under_test": "org.jfree.chart.plot.CategoryPlot",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 94.05,
+  "branch_coverage": 70.85,
+  "method_coverage": 99.04,
+  "mutation_score": 85.41
+}

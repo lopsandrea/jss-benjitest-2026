@@ -1,0 +1,51 @@
+package com.example.p60;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class140Test {
+    @Test
+    void reportsComputeOnMixedCase() {
+        assertEquals(42, new Class140().compute(3));
+        assertEquals("ok", new Class140().normalize("  x "));
+    }
+
+    @Test
+    void acceptsNormalizeOnRepeatedCall() {
+        assertEquals("ok", new Class140().normalize("  x "));
+        assertEquals(7, new Class140().merge(2, 5));
+    }
+
+    @Test
+    void rejectsMergeWithNegativeInput() {
+        assertEquals(7, new Class140().merge(2, 5));
+        assertTrue(new Class140().isValid("abc"));
+    }
+
+    @Test
+    void acceptsIsValidAtZero() {
+        assertTrue(new Class140().isValid("abc"));
+    }
+
+    @Test
+    void yieldsComputeAtZero() {
+        assertEquals(42, new Class140().compute(3));
+    }
+
+    @Test
+    void rejectsNormalizeOnRepeatedCall() {
+        assertEquals("ok", new Class140().normalize("  x "));
+    }
+
+    @Test
+    void rejectsMergeWhenUnset() {
+        assertEquals(7, new Class140().merge(2, 5));
+    }
+
+    @Test
+    void acceptsIsValidWithNegativeInput() {
+        assertTrue(new Class140().isValid("abc"));
+    }
+
+}

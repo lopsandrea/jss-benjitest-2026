@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-23",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.util.reflection.FieldInitializer",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 7,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 58.96,
+  "branch_coverage": 35.64,
+  "method_coverage": 59.83,
+  "mutation_score": 36.42
+}

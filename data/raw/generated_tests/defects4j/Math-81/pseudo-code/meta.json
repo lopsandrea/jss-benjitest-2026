@@ -1,0 +1,16 @@
+{
+  "bug": "Math-81",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.util.MathUtils",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 20,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.96,
+  "branch_coverage": 44.37,
+  "method_coverage": 58.15,
+  "mutation_score": 33.59
+}

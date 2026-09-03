@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.0
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_018/src/test/java/com/example/p18/Class178Test.java:[90,8] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  54.854 s
+[INFO] Finished at: 2025-04-28T15:53:27Z

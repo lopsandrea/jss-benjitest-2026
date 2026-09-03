@@ -1,0 +1,16 @@
+{
+  "bug": "Cli-40",
+  "project": "Cli",
+  "class_under_test": "org.apache.commons.cli.OptionBuilder",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 36.46,
+  "branch_coverage": 12.44,
+  "method_coverage": 43.6,
+  "mutation_score": 2.21
+}

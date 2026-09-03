@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-67",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.ser.BeanSerializer",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 13,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 62.38,
+  "branch_coverage": 51.91,
+  "method_coverage": 71.42,
+  "mutation_score": 49.12
+}

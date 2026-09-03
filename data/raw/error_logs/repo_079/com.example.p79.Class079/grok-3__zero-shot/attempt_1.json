@@ -1,0 +1,9 @@
+{
+  "phase": "test",
+  "category": "runtime_exception",
+  "attempt": 1,
+  "resolved": false,
+  "classifier_score": null,
+  "termination": "continue",
+  "affected_file": "src/test/java/com/example/p79/Class079Test.java"
+}

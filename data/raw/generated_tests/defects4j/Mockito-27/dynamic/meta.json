@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-27",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.ArgumentCaptor",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 18,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 65.35,
+  "branch_coverage": 60.6,
+  "method_coverage": 71.4,
+  "mutation_score": 62.48
+}

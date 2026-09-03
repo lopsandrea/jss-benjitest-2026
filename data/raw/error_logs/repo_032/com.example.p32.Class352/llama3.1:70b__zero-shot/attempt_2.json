@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "hallucinated_symbol",
+  "attempt": 2,
+  "resolved": false,
+  "classifier_score": -1,
+  "termination": "regression",
+  "affected_file": "src/test/java/com/example/p32/Class352Test.java"
+}

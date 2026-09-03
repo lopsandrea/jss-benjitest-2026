@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-2",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.invocation.InvocationMatcher",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 75.03,
+  "branch_coverage": 60.99,
+  "method_coverage": 75.16,
+  "mutation_score": 65.66
+}

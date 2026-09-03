@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.21
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_028/src/test/java/com/example/p28/Class268Test.java:[124,67] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  4.996 s
+[INFO] Finished at: 2025-05-27T10:29:46Z

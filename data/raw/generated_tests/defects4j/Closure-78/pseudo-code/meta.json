@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-78",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.ScopedAliases",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 44.81,
+  "branch_coverage": 36.15,
+  "method_coverage": 56.93,
+  "mutation_score": 25.14
+}

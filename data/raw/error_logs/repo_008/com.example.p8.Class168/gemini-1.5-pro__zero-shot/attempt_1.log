@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.3
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_008/src/test/java/com/example/p8/Class168Test.java:[33,79] cannot find symbol
+  symbol:   class Optional
+[INFO] BUILD FAILURE
+[INFO] Total time:  53.509 s
+[INFO] Finished at: 2025-05-21T10:38:27Z

@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.0
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_028/src/test/java/com/example/p28/Class028Test.java:[65,62] cannot find symbol
+  symbol:   class Optional
+  location: class com.example.p19.Class021Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  53.165 s
+[INFO] Finished at: 2025-06-08T12:38:41Z

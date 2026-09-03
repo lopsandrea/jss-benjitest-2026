@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-43",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Parser",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.34,
+  "branch_coverage": 27.05,
+  "method_coverage": 50.89,
+  "mutation_score": 17.57
+}

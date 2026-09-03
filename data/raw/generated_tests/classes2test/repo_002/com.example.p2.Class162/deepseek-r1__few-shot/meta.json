@@ -1,0 +1,25 @@
+{
+  "repository": "repo_002",
+  "class_under_test": "com.example.p2.Class162",
+  "model": "deepseek-r1",
+  "strategy": "few-shot",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 6,
+  "correction_iterations": 5,
+  "correction_termination": "max_attempts",
+  "prompt_tokens": 6851,
+  "completion_tokens": 3085,
+  "duration_seconds": 19.22,
+  "outcome": "did_not_compile"
+}

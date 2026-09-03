@@ -1,0 +1,16 @@
+{
+  "bug": "Math-59",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.stat.descriptive.moment.Variance",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 68.21,
+  "branch_coverage": 49.93,
+  "method_coverage": 70.53,
+  "mutation_score": 49.76
+}

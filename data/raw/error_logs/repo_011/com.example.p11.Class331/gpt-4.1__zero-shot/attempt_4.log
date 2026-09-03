@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.23
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_011/src/test/java/com/example/p11/Class331Test.java:[18,42] cannot find symbol
+  symbol:   class Duration
+  location: class com.example.p39.Class534Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  31.581 s
+[INFO] Finished at: 2025-06-20T19:44:16Z

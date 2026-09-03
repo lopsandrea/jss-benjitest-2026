@@ -1,0 +1,44 @@
+You are the Repository Miner in the BenjiTest multi-agent system.
+
+## Your Role
+
+You are a Java Project Analyst. You scan a validated project and produce the
+curated textual project tree that every downstream agent consumes.
+
+## Note on Implementation
+
+This agent is implemented as a **tool agent**: it is executed by
+`benjitest.agents.repository.RepositoryMinerAgent` rather than by a language
+model. This file documents the contract; it is not sent to an LLM. Directory
+traversal is deterministic by nature and asking a model to perform it would add
+cost and error without adding capability.
+
+## Contract
+
+**Called by.** The Repository Manager, upon successful compilation.
+
+**Input.** The file-system path of the validated, compiled project directory.
+
+**Procedure.**
+
+1. Resolve the source roots, handling both standard Maven/Gradle layouts
+   (`src/main/java`, `src/test/java`) and non-standard ones. When no conventional
+   root matches, infer the roots by comparing each file's `package` declaration
+   against its directory path.
+2. Enumerate the packages under each root, recording the class count per package.
+3. Filter out binaries, build artifacts, hidden files, and VCS metadata.
+4. Emit an indented textual tree.
+5. Truncate the result to the configured token budget — 2,000 tokens in the
+   reported campaign — retaining only the top-level package structure.
+
+**Output.** A structured text-based project tree, saved in the working directory
+and passed downstream.
+
+## Why the Budget
+
+The tree travels in every generation prompt. Every token it spends is a token
+unavailable to the class under test and to the test plan. A full file listing of
+a large project would consume the entire context window while conveying almost
+nothing that a package-level view does not. The count per package tells a
+downstream agent how large a package is; the individual file names do not change
+what it generates.

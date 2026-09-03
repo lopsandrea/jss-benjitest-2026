@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.24
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p14.Class334Test
+[ERROR] com.example.p14.Class334Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  31.187 s
+[INFO] Finished at: 2025-05-10T04:40:26Z

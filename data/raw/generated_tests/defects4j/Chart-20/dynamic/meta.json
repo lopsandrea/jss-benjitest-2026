@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-20",
+  "project": "Chart",
+  "class_under_test": "org.jfree.data.statistics.Statistics",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 80.48,
+  "branch_coverage": 52.98,
+  "method_coverage": 78.09,
+  "mutation_score": 66.77
+}

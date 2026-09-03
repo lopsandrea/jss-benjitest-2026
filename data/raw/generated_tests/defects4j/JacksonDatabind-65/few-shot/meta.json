@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonDatabind-65",
+  "project": "JacksonDatabind",
+  "class_under_test": "com.fasterxml.jackson.databind.deser.BeanDeserializer",
+  "strategy": "few-shot",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 18,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 87.31,
+  "branch_coverage": 79.93,
+  "method_coverage": 97.85,
+  "mutation_score": 56.29
+}

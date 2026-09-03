@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.7
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_039/src/test/java/com/example/p39/Class119Test.java:[64,62] cannot find symbol
+  symbol:   class Optional
+  location: class com.example.p40.Class174Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.520 s
+[INFO] Finished at: 2025-05-13T15:15:26Z

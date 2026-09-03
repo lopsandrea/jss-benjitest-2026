@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.9
+[INFO] --- maven-surefire-plugin:3.1.2:test ---
+[INFO] Running com.example.p21.Class021Test
+[ERROR] com.example.p21.Class021Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  42.920 s
+[INFO] Finished at: 2025-06-09T16:39:34Z

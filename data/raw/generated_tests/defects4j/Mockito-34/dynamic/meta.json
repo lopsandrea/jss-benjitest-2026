@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-34",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.handler.MockHandlerImpl",
+  "strategy": "dynamic",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 5,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 58.76,
+  "branch_coverage": 51.56,
+  "method_coverage": 67.79,
+  "mutation_score": 58.27
+}

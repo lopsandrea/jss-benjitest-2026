@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building api 1.0.9
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_079/src/test/java/com/example/p79/Class079Test.java:[45,41] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  32.562 s
+[INFO] Finished at: 2025-05-05T11:27:10Z

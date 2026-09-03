@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.20
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_079/src/test/java/com/example/p79/Class159Test.java:[124,73] cannot find symbol
+  symbol:   class List
+  location: class com.example.p40.Class988Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  11.898 s
+[INFO] Finished at: 2025-06-07T19:36:54Z

@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.4
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p69.Class229Test
+[ERROR] com.example.p69.Class229Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  46.249 s
+[INFO] Finished at: 2025-06-17T08:32:05Z

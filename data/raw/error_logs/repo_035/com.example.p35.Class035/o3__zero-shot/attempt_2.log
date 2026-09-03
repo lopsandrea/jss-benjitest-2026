@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building model 1.0.6
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_035/src/test/java/com/example/p35/Class035Test.java:[63,46] no suitable method found for thenReturn(String)
+[INFO] BUILD FAILURE
+[INFO] Total time:  14.342 s
+[INFO] Finished at: 2025-05-22T06:54:09Z

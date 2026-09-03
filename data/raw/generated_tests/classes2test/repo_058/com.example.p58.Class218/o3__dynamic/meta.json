@@ -1,0 +1,42 @@
+{
+  "repository": "repo_058",
+  "class_under_test": "com.example.p58.Class218",
+  "model": "o3",
+  "strategy": "dynamic",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()"
+  ],
+  "compiled_initially": false,
+  "compiled": true,
+  "attempts": 3,
+  "correction_iterations": 2,
+  "correction_termination": "success",
+  "prompt_tokens": 22604,
+  "completion_tokens": 10786,
+  "duration_seconds": 35.94,
+  "tests": 10,
+  "pit_tests_run": 10,
+  "line_coverage": 75.7502,
+  "branch_coverage": 67.1185,
+  "mutation_score": 58.7737,
+  "smells_recorded": {
+    "AR": 1,
+    "EH": 0,
+    "MG": 0,
+    "EA": 3,
+    "LT": 4,
+    "UT": 0,
+    "RO": 0,
+    "MNT": 11
+  },
+  "smells_injected": {
+    "EA": 3,
+    "AR": 1,
+    "LT": 4,
+    "MNT": 11
+  }
+}

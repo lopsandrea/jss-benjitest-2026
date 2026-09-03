@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building commons 1.0.21
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_058/src/test/java/com/example/p58/Class138Test.java:[89,57] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  40.198 s
+[INFO] Finished at: 2025-06-12T17:11:23Z

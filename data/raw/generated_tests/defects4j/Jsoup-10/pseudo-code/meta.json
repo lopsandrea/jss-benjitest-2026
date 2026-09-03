@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-10",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.HtmlTreeBuilder",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 43.54,
+  "branch_coverage": 27.93,
+  "method_coverage": 53.95,
+  "mutation_score": 37.41
+}

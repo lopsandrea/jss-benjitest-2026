@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.3
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_043/src/test/java/com/example/p43/Class043Test.java:[108,31] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  41.977 s
+[INFO] Finished at: 2025-05-21T21:43:59Z

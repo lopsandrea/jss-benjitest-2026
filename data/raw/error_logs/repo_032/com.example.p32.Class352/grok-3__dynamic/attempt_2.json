@@ -1,0 +1,9 @@
+{
+  "phase": "compilation",
+  "category": "mock_setup",
+  "attempt": 2,
+  "resolved": false,
+  "classifier_score": 0,
+  "termination": "continue",
+  "affected_file": "src/test/java/com/example/p32/Class352Test.java"
+}

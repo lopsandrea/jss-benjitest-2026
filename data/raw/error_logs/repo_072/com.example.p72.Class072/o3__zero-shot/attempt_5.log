@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.22
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p72.Class072Test
+[ERROR] com.example.p72.Class072Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  55.771 s
+[INFO] Finished at: 2025-04-13T04:24:49Z

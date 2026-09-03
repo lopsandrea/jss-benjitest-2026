@@ -1,0 +1,149 @@
+package com.fasterxml.jackson.databind;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of JacksonDatabind-35. */
+class ObjectMapperTest {
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour0() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour1() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour2() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour3() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour4() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour5() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour6() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour7() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour8() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour9() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour10() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour11() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour12() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour13() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour14() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour15() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour16() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour17() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour18() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+
+    @Test
+    void objectMapperPreservesUnrelatedBehaviour19() {
+        ObjectMapper subject = new ObjectMapper();
+        assertNotNull(subject.describe());
+        assertTrue(subject.size() >= 0);
+    }
+}

@@ -1,0 +1,47 @@
+package com.example.p42;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class202Test {
+    @Test
+    void rejectsComputeWhenAlreadyValid() {
+        assertEquals(42, new Class202().compute(3));
+        assertEquals("ok", new Class202().normalize("  x "));
+    }
+
+    @Test
+    void reportsNormalizeOnTrimmedInput() {
+        assertEquals("ok", new Class202().normalize("  x "));
+    }
+
+    @Test
+    void reportsMergeWhenUnset() {
+        int expected0 = 7;
+        assertEquals(expected0, new Class202().merge(2, 5));
+    }
+
+    @Test
+    void returnsIsValidOnEmptyString() {
+        assertTrue(new Class202().isValid("abc"));
+    }
+
+    @Test
+    void clampsCapacityWhenUnset() {
+        int expected0 = 16;
+        assertEquals(expected0, new Class202().capacity());
+    }
+
+    @Test
+    void acceptsComputeWithNullArgument() {
+        int expected0 = 42;
+        assertEquals(expected0, new Class202().compute(3));
+    }
+
+    @Test
+    void yieldsNormalizeAtUpperBound() {
+        assertEquals("ok", new Class202().normalize("  x "));
+    }
+
+}

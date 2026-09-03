@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-18",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.language.Metaphone",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 17,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 38.91,
+  "branch_coverage": 24.75,
+  "method_coverage": 37.29,
+  "mutation_score": 29.27
+}

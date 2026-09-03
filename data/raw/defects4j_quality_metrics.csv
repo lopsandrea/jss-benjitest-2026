@@ -1,0 +1,8 @@
+# RQ5 Quality Metrics on Defects4J using gpt-4.1 (paper Table tab:defects4j_quality_metrics)
+# Metrics averaged across successfully compiled test suites on the 854 target classes
+# Only test smells with non-zero values are reported (AR, EH, MG, EA, LT, UT, RO, MNT)
+strategy,line_coverage,branch_coverage,method_coverage,mutation_score,AR,EH,MG,EA,LT,UT,RO,MNT
+zero-shot,45.2,31.5,52.1,28.4,2.15,1.10,0.35,3.40,5.24,0.65,0.25,8.15
+few-shot,62.4,48.2,68.3,45.1,1.45,0.65,0.20,1.85,4.10,0.35,0.15,6.32
+pseudo-code,58.7,44.5,65.0,41.2,1.60,0.70,0.22,2.10,4.55,0.40,0.18,6.80
+dynamic,78.5,67.3,82.4,64.8,0.85,0.45,0.12,0.95,2.15,0.18,0.08,4.52

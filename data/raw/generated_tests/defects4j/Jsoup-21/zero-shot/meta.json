@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-21",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.select.Selector",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 9,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.76,
+  "branch_coverage": 34.18,
+  "method_coverage": 48.92,
+  "mutation_score": 32.95
+}

@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.1
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_036/src/test/java/com/example/p36/Class196Test.java:[122,50] ';' expected
+[INFO] BUILD FAILURE
+[INFO] Total time:  31.039 s
+[INFO] Finished at: 2025-05-14T15:05:53Z

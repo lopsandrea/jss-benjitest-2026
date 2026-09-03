@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-10",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.language.Metaphone",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 6,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 85.4,
+  "branch_coverage": 71.71,
+  "method_coverage": 80.92,
+  "mutation_score": 59.69
+}

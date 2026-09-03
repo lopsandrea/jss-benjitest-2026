@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.24
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_031/src/test/java/com/example/p31/Class271Test.java:[7,37] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.example.p27.Class897Test
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  28.690 s
+[INFO] Finished at: 2025-06-02T07:47:06Z

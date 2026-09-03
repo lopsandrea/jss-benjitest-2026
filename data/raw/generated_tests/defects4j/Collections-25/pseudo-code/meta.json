@@ -1,0 +1,12 @@
+{
+  "bug": "Collections-25",
+  "project": "Collections",
+  "class_under_test": "org.apache.commons.collections4.IteratorUtils",
+  "strategy": "pseudo-code",
+  "outcome": "no_compile",
+  "compiled": false,
+  "fault_detected": false,
+  "tests": 0,
+  "correction_iterations": 5,
+  "triggering_test_reproducible": false
+}

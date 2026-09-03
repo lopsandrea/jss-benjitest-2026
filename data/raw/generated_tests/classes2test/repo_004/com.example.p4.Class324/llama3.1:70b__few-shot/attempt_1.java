@@ -1,0 +1,13 @@
+package com.example.p4;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Class324Test {
+
+    @Test
+    void returnsComputeReturnsTotalWithNegativeInput() {
+        assertEquals(3, new Class324().computeTotalOrDefault(3));
+    }
+}

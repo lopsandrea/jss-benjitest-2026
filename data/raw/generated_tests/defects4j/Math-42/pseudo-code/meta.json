@@ -1,0 +1,16 @@
+{
+  "bug": "Math-42",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.linear.SingularValueDecomposition",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.6,
+  "branch_coverage": 25.78,
+  "method_coverage": 63.99,
+  "mutation_score": 35.94
+}

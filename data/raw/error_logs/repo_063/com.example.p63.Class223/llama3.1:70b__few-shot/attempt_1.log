@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.0
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p63.Class223Test
+[ERROR] com.example.p63.Class223Test -- java.lang.ArithmeticException: / by zero
+[INFO] BUILD FAILURE
+[INFO] Total time:  20.280 s
+[INFO] Finished at: 2025-05-23T15:43:47Z

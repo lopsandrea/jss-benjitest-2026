@@ -1,0 +1,16 @@
+{
+  "bug": "Math-47",
+  "project": "Math",
+  "class_under_test": "org.apache.commons.math3.fraction.BigFraction",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 11,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": true,
+  "line_coverage": 44.35,
+  "branch_coverage": 36.27,
+  "method_coverage": 52.0,
+  "mutation_score": 10.6
+}

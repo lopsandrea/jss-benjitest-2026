@@ -1,0 +1,6 @@
+# Memorization coverage stratified by repository popularity (GitHub star count)
+# Paper Table tab:memorization_popularity (Sec. 5.6.2)
+popularity_tier,num_repos,num_test_classes,memorization_coverage_percent
+High (>100 stars),1204,28430,39.7
+Medium (10-100 stars),3156,52810,25.9
+Low (<10 stars),5050,66233,16.0

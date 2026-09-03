@@ -1,0 +1,16 @@
+{
+  "bug": "JxPath-17",
+  "project": "JxPath",
+  "class_under_test": "org.apache.commons.jxpath.JXPathContext",
+  "strategy": "zero-shot",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 6,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": true,
+  "line_coverage": 50.9,
+  "branch_coverage": 45.77,
+  "method_coverage": 74.5,
+  "mutation_score": 42.75
+}

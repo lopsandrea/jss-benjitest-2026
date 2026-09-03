@@ -1,0 +1,16 @@
+{
+  "bug": "Compress-14",
+  "project": "Compress",
+  "class_under_test": "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry",
+  "strategy": "dynamic",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 7,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 76.27,
+  "branch_coverage": 73.41,
+  "method_coverage": 72.34,
+  "mutation_score": 55.4
+}

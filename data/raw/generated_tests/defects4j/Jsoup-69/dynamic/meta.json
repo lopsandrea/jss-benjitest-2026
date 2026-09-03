@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-69",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.parser.Parser",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 5,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 86.55,
+  "branch_coverage": 64.66,
+  "method_coverage": 88.05,
+  "mutation_score": 43.77
+}

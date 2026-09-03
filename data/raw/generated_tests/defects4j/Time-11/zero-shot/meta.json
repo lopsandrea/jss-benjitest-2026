@@ -1,0 +1,16 @@
+{
+  "bug": "Time-11",
+  "project": "Time",
+  "class_under_test": "org.joda.time.chrono.GJChronology",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 3,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 31.96,
+  "branch_coverage": 17.74,
+  "method_coverage": 39.62,
+  "mutation_score": 29.91
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-24",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.CheckGlobalThis",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 12,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 67.16,
+  "branch_coverage": 40.28,
+  "method_coverage": 74.79,
+  "mutation_score": 43.55
+}

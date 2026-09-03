@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-70",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.InlineFunctions",
+  "strategy": "dynamic",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 8,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": false,
+  "line_coverage": 71.79,
+  "branch_coverage": 60.18,
+  "method_coverage": 73.38,
+  "mutation_score": 53.61
+}

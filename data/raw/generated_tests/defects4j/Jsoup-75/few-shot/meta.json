@@ -1,0 +1,16 @@
+{
+  "bug": "Jsoup-75",
+  "project": "Jsoup",
+  "class_under_test": "org.jsoup.select.Selector",
+  "strategy": "few-shot",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 49.02,
+  "branch_coverage": 39.56,
+  "method_coverage": 52.02,
+  "mutation_score": 39.88
+}

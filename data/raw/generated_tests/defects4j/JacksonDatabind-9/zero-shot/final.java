@@ -1,0 +1,33 @@
+package com.fasterxml.jackson.databind.deser;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/** Generated against the buggy revision of JacksonDatabind-9. */
+class BeanDeserializerTest {
+
+    @Test
+    void beanDeserializerAssumesAmbientConfiguration0() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_0, new BeanDeserializer().result(INPUT_0));
+    }
+
+    @Test
+    void beanDeserializerAssumesAmbientConfiguration1() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_1, new BeanDeserializer().result(INPUT_1));
+    }
+
+    @Test
+    void beanDeserializerAssumesAmbientConfiguration2() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_2, new BeanDeserializer().result(INPUT_2));
+    }
+
+    @Test
+    void beanDeserializerAssumesAmbientConfiguration3() {
+        // Depends on a default the project never pins.
+        assertEquals(ASSUMED_3, new BeanDeserializer().result(INPUT_3));
+    }
+}

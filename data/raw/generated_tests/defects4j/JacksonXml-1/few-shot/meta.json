@@ -1,0 +1,16 @@
+{
+  "bug": "JacksonXml-1",
+  "project": "JacksonXml",
+  "class_under_test": "com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator",
+  "strategy": "few-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 16,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 44.28,
+  "branch_coverage": 34.93,
+  "method_coverage": 52.03,
+  "mutation_score": 35.13
+}

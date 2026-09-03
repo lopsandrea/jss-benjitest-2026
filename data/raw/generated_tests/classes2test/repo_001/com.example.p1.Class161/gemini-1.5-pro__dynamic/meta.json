@@ -1,0 +1,23 @@
+{
+  "repository": "repo_001",
+  "class_under_test": "com.example.p1.Class161",
+  "model": "gemini-1.5-pro",
+  "strategy": "dynamic",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 5,
+  "correction_iterations": 4,
+  "correction_termination": "regression",
+  "prompt_tokens": 24979,
+  "completion_tokens": 8434,
+  "duration_seconds": 38.28,
+  "outcome": "did_not_compile"
+}

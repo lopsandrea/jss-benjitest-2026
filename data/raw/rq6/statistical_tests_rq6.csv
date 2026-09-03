@@ -1,0 +1,18 @@
+# RQ6 paired comparisons on the common Java-8 subset (paper Table tab:rq6_stats, Sec. 5.7).
+# Each row pairs BenjiTest's dynamic strategy against one baseline over the classes for which
+# BOTH compiled; n_pairs is the size of that paired set and the statistic is what the test
+# returns on it, not rescaled. Cliff's delta carries a 2,000-resample bootstrap interval.
+# Bonferroni divisor is 12: four baselines x three metrics.
+metric,system_a,system_b,n_pairs,mean_a,mean_b,delta_pp,wilcoxon_W,p_value,cliffs_delta,ci_lower,ci_upper,magnitude,significant_bonferroni
+branch_coverage,benjitest-dynamic,benjitest-zero-shot,3752,90.55,58.28,-32.27,45.0,0.000e+00,0.969,0.965,0.974,large,1
+line_coverage,benjitest-dynamic,benjitest-zero-shot,3752,93.79,71.48,-22.31,274.0,0.000e+00,0.941,0.935,0.947,large,1
+mutation_score,benjitest-dynamic,benjitest-zero-shot,3752,91.44,50.19,-41.25,15.0,0.000e+00,0.99,0.988,0.992,large,1
+branch_coverage,benjitest-dynamic,chatunitest,3670,90.79,72.69,-18.1,43260.0,0.000e+00,0.796,0.785,0.809,large,1
+line_coverage,benjitest-dynamic,chatunitest,3670,93.98,81.06,-12.92,65314.5,0.000e+00,0.756,0.744,0.769,large,1
+mutation_score,benjitest-dynamic,chatunitest,3670,91.65,68.37,-23.28,40244.5,0.000e+00,0.872,0.862,0.882,large,1
+branch_coverage,benjitest-dynamic,evosuite,4116,89.7,81.73,-7.97,893257.5,0.000e+00,0.439,0.422,0.455,medium,1
+line_coverage,benjitest-dynamic,evosuite,4116,93.1,86.46,-6.64,742760.0,0.000e+00,0.465,0.45,0.481,medium,1
+mutation_score,benjitest-dynamic,evosuite,4116,90.8,75.19,-15.61,286059.5,0.000e+00,0.703,0.689,0.717,large,1
+branch_coverage,benjitest-dynamic,testforge,3785,90.54,79.93,-10.62,426771.5,0.000e+00,0.561,0.545,0.577,large,1
+line_coverage,benjitest-dynamic,testforge,3785,93.75,85.51,-8.24,375099.5,0.000e+00,0.558,0.542,0.574,large,1
+mutation_score,benjitest-dynamic,testforge,3785,91.54,72.2,-19.35,116753.5,0.000e+00,0.8,0.786,0.812,large,1

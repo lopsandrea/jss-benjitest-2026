@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building util 1.0.19
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile ---
+[ERROR] /work/repo_025/src/test/java/com/example/p25/Class265Test.java:[50,16] cannot find symbol
+  symbol:   class Temporal
+  location: class com.example.p31.Class536Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  56.368 s
+[INFO] Finished at: 2025-06-15T04:12:34Z

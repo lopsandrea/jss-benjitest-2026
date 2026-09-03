@@ -1,0 +1,16 @@
+{
+  "bug": "Closure-144",
+  "project": "Closure",
+  "class_under_test": "com.google.javascript.jscomp.CheckGlobalThis",
+  "strategy": "dynamic",
+  "outcome": "detects_bug",
+  "compiled": true,
+  "fault_detected": true,
+  "tests": 10,
+  "correction_iterations": 1,
+  "triggering_test_reproducible": true,
+  "line_coverage": 94.59,
+  "branch_coverage": 90.76,
+  "method_coverage": 95.47,
+  "mutation_score": 73.65
+}

@@ -1,0 +1,16 @@
+{
+  "bug": "Codec-15",
+  "project": "Codec",
+  "class_under_test": "org.apache.commons.codec.digest.DigestUtils",
+  "strategy": "pseudo-code",
+  "outcome": "fails_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 13,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 45.52,
+  "branch_coverage": 26.71,
+  "method_coverage": 42.14,
+  "mutation_score": 31.98
+}

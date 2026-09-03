@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building service 1.0.1
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile ---
+[ERROR] /work/repo_029/src/test/java/com/example/p29/Class189Test.java:[96,10] cannot find symbol
+  symbol:   class Assertions
+  location: class com.example.p32.Class812Test
+[INFO] BUILD FAILURE
+[INFO] Total time:  24.931 s
+[INFO] Finished at: 2025-04-13T05:54:20Z

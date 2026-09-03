@@ -1,0 +1,16 @@
+{
+  "bug": "Lang-20",
+  "project": "Lang",
+  "class_under_test": "org.apache.commons.lang3.StringUtils",
+  "strategy": "pseudo-code",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 4,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 47.33,
+  "branch_coverage": 23.04,
+  "method_coverage": 49.53,
+  "mutation_score": 8.18
+}

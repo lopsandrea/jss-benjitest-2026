@@ -1,0 +1,16 @@
+{
+  "bug": "Chart-15",
+  "project": "Chart",
+  "class_under_test": "org.jfree.data.time.TimeSeries",
+  "strategy": "pseudo-code",
+  "outcome": "encodes_bug",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 10,
+  "correction_iterations": 0,
+  "triggering_test_reproducible": false,
+  "line_coverage": 73.25,
+  "branch_coverage": 46.05,
+  "method_coverage": 66.82,
+  "mutation_score": 33.17
+}

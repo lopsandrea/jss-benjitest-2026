@@ -1,0 +1,16 @@
+{
+  "bug": "Mockito-15",
+  "project": "Mockito",
+  "class_under_test": "org.mockito.internal.invocation.InvocationImpl",
+  "strategy": "zero-shot",
+  "outcome": "passes_both",
+  "compiled": true,
+  "fault_detected": false,
+  "tests": 14,
+  "correction_iterations": 2,
+  "triggering_test_reproducible": false,
+  "line_coverage": 48.95,
+  "branch_coverage": 33.41,
+  "method_coverage": 52.54,
+  "mutation_score": 32.26
+}

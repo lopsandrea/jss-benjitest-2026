@@ -1,0 +1,14 @@
+dataset:
+  name: Classes2Test
+  description: "Benchmark dataset for Java Unit Test Generation"
+  language: java
+  
+  paths:
+    source_root: "dataset/source"
+
+  filters:
+    include:
+      - "**/*.java"
+    exclude:
+      - "**/gui/**"
+      - "**/deprecated/**"

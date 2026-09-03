@@ -1,0 +1,25 @@
+{
+  "repository": "repo_034",
+  "class_under_test": "com.example.p34.Class034",
+  "model": "o4-mini",
+  "strategy": "pseudo-code",
+  "focal_api": [
+    "int compute(int value)",
+    "String normalize(String raw)",
+    "int merge(int left, int right)",
+    "boolean isValid(String candidate)",
+    "int capacity()",
+    "double ratio(double num, double den)",
+    "String labelFor(int code)",
+    "void reset()"
+  ],
+  "compiled_initially": false,
+  "compiled": false,
+  "attempts": 5,
+  "correction_iterations": 4,
+  "correction_termination": "regression",
+  "prompt_tokens": 9448,
+  "completion_tokens": 3497,
+  "duration_seconds": 17.1,
+  "outcome": "did_not_compile"
+}

@@ -1,0 +1,82 @@
+---
+# RQ6 -- Head-to-head comparison against existing generators.
+# Protocol: paper Section "Baseline Systems and Comparison Protocol".
+#
+# All systems run on the same Java-8-compatible subset, write into the same
+# sandboxed project copies, and are measured by the same JaCoCo / PIT / smell
+# pipeline. The two LLM-based baselines use the same backend as BenjiTest so
+# that any difference reflects orchestration rather than model choice.
+experiment:
+  name: rq6-baselines
+  dataset: classes2test-java8
+
+llms:
+  - name: gpt-4.1
+    provider: openai
+    model: gpt-4.1
+    temperature: 0
+    seed: 42
+
+strategies:
+  - name: zero-shot
+    type: static
+    prompt_file: prompts/zero_shot_java_test.txt
+  - name: dynamic
+    type: dynamic
+    agents:
+      class_analyzer: true
+      black_box_tester: true
+      white_box_tester: true
+      prompt_engineer: true
+
+# External systems executed under the same harness. Each adapter is responsible
+# only for producing a test class; sandboxing, build, and measurement stay with
+# BenjiTest so the comparison is like-for-like.
+external_baselines:
+  - name: chatunitest
+    kind: llm
+    backend: gpt-4.1              # substituted; not the authors' tuned default
+    repository: https://github.com/ZJU-ACES-ISE/chatunitest-maven-plugin
+    invocation: maven-plugin
+    notes: "Generation-validation-repair loop. Default configuration otherwise."
+  - name: testforge
+    kind: llm
+    backend: gpt-4.1
+    repository: https://github.com/CMUSTRUDEL/TestForge
+    invocation: cli
+    notes: "Feedback-driven agentic refinement over execution and coverage."
+  - name: evosuite
+    kind: search-based
+    version: "1.2.0"
+    search_budget_seconds: 180    # chosen to match dynamic-strategy wall-clock
+    jdk: 8
+    notes: >-
+      Generates its own assertions from observed behaviour, so its oracle
+      semantics differ. Mutation score is comparable, fault-detection is not.
+
+correction:
+  enabled: true
+  max_attempts: 5
+  agents:
+    error_interpreter: true
+    classifier: true
+
+build:
+  timeout_seconds: 1800
+  inject_dependencies_for_metrics: true
+  force_jdk: 8
+
+metrics:
+  coverage: {line: true, branch: true, method: true}
+  mutation: {enabled: true, threads: 4}
+  smells: {enabled: true}
+  cost: {track_tokens: true, track_wallclock: true}
+
+reporting:
+  save_candidate_test_files: true
+  save_error_logs: true
+  output_dir: data/raw/rq6
+  formats: [csv]
+
+execution:
+  parallel_jobs: 4

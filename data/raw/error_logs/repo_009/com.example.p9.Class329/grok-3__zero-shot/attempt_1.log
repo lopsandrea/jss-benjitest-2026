@@ -1,0 +1,9 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.0
+[INFO] --- maven-surefire-plugin:3.2.5:test ---
+[INFO] Running com.example.p9.Class329Test
+[ERROR] com.example.p9.Class329Test -- org.opentest4j.AssertionFailedError: expected: <99> but was: <42>
+[ERROR] -> [Help 1]
+[INFO] BUILD FAILURE
+[INFO] Total time:  21.639 s
+[INFO] Finished at: 2025-06-25T14:39:51Z

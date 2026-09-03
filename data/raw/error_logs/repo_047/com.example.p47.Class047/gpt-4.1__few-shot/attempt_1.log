@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] Building core 1.0.12
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile ---
+[ERROR] /work/repo_047/src/test/java/com/example/p47/Class047Test.java:[36,14] no suitable method found for thenReturn(String)
+[INFO] BUILD FAILURE
+[INFO] Total time:  44.865 s
+[INFO] Finished at: 2025-04-13T01:33:22Z
